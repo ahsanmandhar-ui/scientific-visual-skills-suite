@@ -1,0 +1,121 @@
+{
+  "source_files": [
+    "/home/user/research-poster-maker/tests/case_04_epidemiology/inputs/epi_surveillance.docx",
+    "/home/user/research-poster-maker/tests/case_04_epidemiology/inputs/pm25_incidence.csv"
+  ],
+  "source_word_count": 171,
+  "extracted_fields": {
+    "title": "Long-Term Fine Particulate Matter (PM2.5), Urban Heat Islands, and Incident Adult-Onset Asthma Across 14 Metropolitan Cohorts (2016–2025): A Synthetic Surveillance Study",
+    "authors_affiliations": "Mateo Alvarez, ScD; Amina Darwish, PhD; Kenji Takahashi, MD, MPH | Affiliations: Global Environmental Epidemiology Consortium (SYNTHETIC DEMONSTRATION DATA)",
+    "background": "Ambient PM2.5 and intensifying urban heat islands (UHI) co-occur in rapidly growing cities, yet synergistic effects on adult-onset asthma incidence remain poorly quantified.",
+    "research_gap": null,
+    "objectives": null,
+    "study_design": null,
+    "methods": "We linked 1-km satellite spatiotemporal PM2.5 and land-surface temperature anomalies to 218,400 asthma-free adults aged 25–74 followed over 1.84 million person-years (2016–2025).",
+    "study_population": null,
+    "sample_size": null,
+    "statistical_methods": null,
+    "primary_outcome": null,
+    "secondary_outcomes": null,
+    "important_findings": "Overall 8,912 incident asthma cases occurred (4.84 per 1,000 person-years). Each 10 ug/m3 higher 3-year rolling PM2.5 was associated with IRR 1.24 (95% CI 1.18–1.31, p = 0.0001); in high-UHI quartiles (+3.0 C anomaly), IRR reached 1.38 (95% CI 1.29–1.48; additive interaction RERI = 0.21, p = 0.003).",
+    "tables_and_figures": {
+      "manuscript_tables": [],
+      "datasets": [
+        {
+          "file": "/home/user/research-poster-maker/tests/case_04_epidemiology/inputs/pm25_incidence.csv",
+          "format": "csv",
+          "row_count": 6,
+          "columns": [
+            "pm25_ug_m3",
+            "high_uhi_rate",
+            "low_uhi_rate"
+          ],
+          "preview_rows": [
+            [
+              "5",
+              "3.1",
+              "2.9"
+            ],
+            [
+              "10",
+              "3.8",
+              "3.3"
+            ],
+            [
+              "15",
+              "4.7",
+              "3.8"
+            ],
+            [
+              "20",
+              "5.8",
+              "4.4"
+            ],
+            [
+              "25",
+              "7.1",
+              "5.0"
+            ],
+            [
+              "30",
+              "8.6",
+              "5.7"
+            ]
+          ]
+        }
+      ],
+      "images": []
+    },
+    "limitations": "Residential address linkage did not capture occupational indoor filtration or commuting microenvironments.",
+    "conclusion": "Combined PM2.5 reduction and urban tree-canopy cooling offer supra-additive potential for preventing adult-onset respiratory disease.",
+    "references": null,
+    "funding_acknowledgements": null
+  },
+  "verbatim_statistics": [
+    "IRR 1.24",
+    "95% CI 1.18–1.31",
+    "p = 0.0001",
+    "95% CI 1.29–1.48",
+    "p = 0.003"
+  ],
+  "completeness": {
+    "present_count": 8,
+    "total_canonical_fields": 18,
+    "present_fields": [
+      "1. Research title",
+      "2. Authors and affiliations",
+      "3. Background",
+      "7. Methods",
+      "13. Important findings",
+      "14. Tables and figures",
+      "15. Limitations",
+      "16. Conclusion"
+    ],
+    "missing_essential": [
+      "5. Objectives",
+      "6. Study design",
+      "8. Study population",
+      "9. Sample size",
+      "11. Primary outcome"
+    ],
+    "missing_optional": [
+      "4. Research gap",
+      "10. Statistical methods",
+      "12. Secondary outcomes",
+      "17. References",
+      "18. Funding and acknowledgements"
+    ]
+  },
+  "clarification_needed": [
+    "Essential study metadata missing from source files (never fabricated): 5. Objectives, 6. Study design, 8. Study population, 9. Sample size, 11. Primary outcome. Please supply these if available or confirm omission.",
+    "Confirm conference poster dimensions & orientation (e.g., 48 × 36 in landscape or ISO A0 portrait) if specified by the venue."
+  ],
+  "design_recommendation": {
+    "template_id": "epidemiology",
+    "layout_recipe": "timeline_flow",
+    "palette": "forest_cream",
+    "font_pairing": "classic_symposium",
+    "rationale": "Detected population-level epidemiological / surveillance indicators."
+  },
+  "raw_corpus_excerpt": "# Long-Term Fine Particulate Matter (PM2.5), Urban Heat Islands, and Incident Adult-Onset Asthma Across 14 Metropolitan Cohorts (2016–2025): A Synthetic Surveillance Study\n\nAuthors: Mateo Alvarez, ScD; Amina Darwish, PhD; Kenji Takahashi, MD, MPH\n\nAffiliations: Global Environmental Epidemiology Consortium (SYNTHETIC DEMONSTRATION DATA)\n\n## Background\n\nAmbient PM2.5 and intensifying urban heat islands (UHI) co-occur in rapidly growing cities, yet synergistic effects on adult-onset asthma incidence remain poorly quantified.\n\n## Methods\n\nWe linked 1-km satellite spatiotemporal PM2.5 and land-surface temperature anomalies to 218,400 asthma-free adults aged 25–74 followed over 1.84 million person-years (2016–2025).\n\n## Results\n\nOverall 8,912 incident asthma cases occurred (4.84 per 1,000 person-years). Each 10 ug/m3 higher 3-year rolling PM2.5 was associated with IRR 1.24 (95% CI 1.18–1.31, p = 0.0001); in high-UHI quartiles (+3.0 C anomaly), IRR reached 1.38 (95% CI 1.29–1.48; additive interaction RERI = 0.21, p = 0.003).\n\n## Limitations\n\nResidential address linkage did not capture occupational indoor filtration or commuting microenvironments.\n\n## Conclusions\n\nCombined PM2.5 reduction and urban tree-canopy cooling offer supra-additive potential for preventing adult-onset respiratory disease."
+}

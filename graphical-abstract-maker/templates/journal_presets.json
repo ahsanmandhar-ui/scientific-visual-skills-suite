@@ -1,0 +1,64 @@
+{
+  "presets": {
+    "elsevier-landscape": {
+      "label": "Elsevier Standard Landscape (2.5:1)",
+      "width_in": 12.5,
+      "height_in": 5.0,
+      "orientation": "horizontal_3panel",
+      "dpi": 300,
+      "show_header": true,
+      "max_words": 85
+    },
+    "cell-press-square": {
+      "label": "Cell Press Square Graphical Abstract (1:1)",
+      "width_in": 10.0,
+      "height_in": 10.0,
+      "orientation": "vertical_3tier",
+      "dpi": 300,
+      "show_header": false,
+      "max_words": 80
+    },
+    "bmj-visual-abstract": {
+      "label": "Clinical Visual Abstract (16:9 BMJ/JAMA Style)",
+      "width_in": 16.0,
+      "height_in": 9.0,
+      "orientation": "horizontal_3panel",
+      "dpi": 300,
+      "show_header": true,
+      "max_words": 95
+    },
+    "springer-nature-compact": {
+      "label": "Springer Nature Double-Column (180 x 90 mm)",
+      "width_in": 7.0866,
+      "height_in": 3.5433,
+      "orientation": "horizontal_3panel",
+      "dpi": 300,
+      "show_header": true,
+      "max_words": 70
+    }
+  },
+  "palettes": {
+    "oxford_clinical": {
+      "canvas": "#FFFFFF",
+      "panel_tint": "#F4F7FA",
+      "dominant": "#0F2742",
+      "secondary": "#0072B2",
+      "accent": "#D55E00",
+      "positive": "#009E73",
+      "ink": "#15202B",
+      "muted": "#475569",
+      "border": "#CBD5E1"
+    },
+    "cell_editorial": {
+      "canvas": "#FAF9F6",
+      "panel_tint": "#F1EFE8",
+      "dominant": "#1E293B",
+      "secondary": "#0D4A52",
+      "accent": "#C85A17",
+      "positive": "#009E73",
+      "ink": "#18181B",
+      "muted": "#52525B",
+      "border": "#D4D4D8"
+    }
+  }
+}

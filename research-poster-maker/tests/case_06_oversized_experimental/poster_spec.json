@@ -1,0 +1,181 @@
+{
+  "template_id": "experimental-research",
+  "width": 64.0,
+  "height": 36.0,
+  "units": "in",
+  "layout_recipe": "results_focused",
+  "palette": "charcoal_ivory",
+  "heading_font": "Helvetica",
+  "body_font": "Georgia",
+  "study_badge": "TRANSLATIONAL BIOMARKER VALIDATION · OVERSIZED 64×36 IN STRESS TEST · SYNTHETIC DATA",
+  "title": "Cell-Free Methylation Fragmentomics for Stage I–II Pancreatic Cancer Triage in High-Risk Cyst Surveillance",
+  "authors_line": "Victor K. Sato, PhD¹; Miriam Alverez, MD¹",
+  "affiliations_line": "¹Synthetic Translational Oncology Laboratory (Synthetic Demonstration Study)",
+  "headline_takeaway": "Locked plasma cfDNA fragmentomic score achieved 87.3% sensitivity (96/110) and 92.5% specificity (185/200) in blinded external validation (N = 310).",
+  "items": [
+    {
+      "id": "rationale",
+      "column": 0,
+      "item_type": "text",
+      "style": "editorial_rule",
+      "title": "01  Translational Rationale",
+      "paragraphs": [
+        "CA19-9 lacks sensitivity for early-stage pancreatic ductal adenocarcinoma (PDAC) and Lewis-antigen-negative patients."
+      ],
+      "bullets": [
+        "Assay: Targeted bisulfite-free methylation + 5'-end motif fragmentomics from 4 mL peripheral plasma.",
+        "Blinded External Validation: N = 310 prospective biobank samples (110 Stage I–II PDAC; 200 mucinous/serous cysts & healthy controls)."
+      ]
+    },
+    {
+      "id": "limitations",
+      "column": 0,
+      "item_type": "text",
+      "style": "editorial_rule",
+      "title": "02  Controls & Limitations",
+      "bullets": [
+        "Pre-analytical hemolysis and acute pancreatitis spikes can elevate background cfDNA yield.",
+        "Prospective asymptomatic screening positive-predictive-value requires longitudinal cohort follow-up."
+      ]
+    },
+    {
+      "id": "violin_fig",
+      "column": 1,
+      "item_type": "figure",
+      "title": "03  Fragmentomic Risk Score Distribution Across Stages",
+      "chart_spec": {
+        "id": "cfdna_violin",
+        "chart_type": "violin_plot",
+        "width_in": 24.0,
+        "height_in": 11.2,
+        "y_label": "Locked Fragmentomic Methylation Score (0–1)",
+        "annotation": "Kruskal-Wallis p = 0.0001  |  Pre-locked cutoff = 0.48",
+        "data": {
+          "groups": [
+            {
+              "name": "Healthy / Benign Cyst",
+              "values": [
+                0.12,
+                0.18,
+                0.21,
+                0.24,
+                0.19,
+                0.28,
+                0.31,
+                0.15,
+                0.22,
+                0.35,
+                0.41,
+                0.17,
+                0.26,
+                0.29,
+                0.52,
+                0.2,
+                0.23,
+                0.14,
+                0.33,
+                0.25
+              ]
+            },
+            {
+              "name": "Stage I PDAC",
+              "values": [
+                0.51,
+                0.62,
+                0.68,
+                0.74,
+                0.58,
+                0.44,
+                0.79,
+                0.66,
+                0.71,
+                0.55,
+                0.82,
+                0.63,
+                0.46,
+                0.69,
+                0.75,
+                0.6,
+                0.67,
+                0.73,
+                0.59,
+                0.77
+              ]
+            },
+            {
+              "name": "Stage II PDAC",
+              "values": [
+                0.64,
+                0.78,
+                0.84,
+                0.89,
+                0.72,
+                0.91,
+                0.69,
+                0.81,
+                0.86,
+                0.45,
+                0.79,
+                0.88,
+                0.93,
+                0.76,
+                0.83,
+                0.74,
+                0.85,
+                0.9,
+                0.8,
+                0.87
+              ]
+            }
+          ]
+        }
+      },
+      "caption": "Figure 1. Distribution of locked plasma fragmentomic scores across benign controls and Stage I–II PDAC (synthetic sample distributions)."
+    },
+    {
+      "id": "cm_fig",
+      "column": 2,
+      "item_type": "figure",
+      "title": "04  Blinded Validation Contingency Matrix",
+      "chart_spec": {
+        "id": "cfdna_cm",
+        "chart_type": "confusion_matrix",
+        "width_in": 14.0,
+        "height_in": 9.8,
+        "data": {
+          "labels": [
+            "Stage I–II PDAC",
+            "Benign / Control"
+          ],
+          "x_label": "Assay Call (Cutoff ≥ 0.48)",
+          "y_label": "Histopathology Reference",
+          "matrix": [
+            [
+              96,
+              14
+            ],
+            [
+              15,
+              185
+            ]
+          ]
+        }
+      },
+      "caption": "Figure 2. Blinded validation matrix (N = 310): Sensitivity 87.3% (96/110), Specificity 92.5% (185/200)."
+    },
+    {
+      "id": "conclusion",
+      "column": 2,
+      "item_type": "callout",
+      "style": "focal_callout_subtle",
+      "title": "05  Conclusions",
+      "paragraphs": [
+        "Combined cfDNA methylation and end-motif profiling distinguishes early-stage resectable PDAC from benign pancreatic cysts with >92% specificity."
+      ]
+    }
+  ],
+  "colophon": {
+    "references": [],
+    "funding": "SYNTHETIC STRESS TEST: Verifies >56-in PowerPoint 50% scale mode + 1:1 full-size 64×36 in PDF + font-fallback audit."
+  }
+}

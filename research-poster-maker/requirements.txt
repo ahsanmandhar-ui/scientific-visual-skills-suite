@@ -1,0 +1,17 @@
+# Core dependencies (cross-platform CPU-only, Windows / macOS / Linux)
+python-pptx>=0.6.23
+matplotlib>=3.7.0
+numpy>=1.24.0
+Pillow>=10.0.0
+reportlab>=4.0.0
+svglib>=1.5.1
+pypdf>=4.0.0
+fonttools>=4.40.0
+pymupdf>=1.23.0
+
+# Optional input-parsing & enhancement dependencies
+pandas>=2.0.0
+python-docx>=1.1.0
+openpyxl>=3.1.0
+pdfplumber>=0.10.0
+qrcode>=7.4.2

@@ -1,0 +1,70 @@
+{
+  "source_files": [
+    "/home/user/research-poster-maker/tests/case_06_oversized_experimental/inputs/experimental_note.md"
+  ],
+  "source_word_count": 51,
+  "extracted_fields": {
+    "title": "Cell-Free Methylation Fragmentomics for Early Pancreatic Ductal Adenocarcinoma Triage: A Synthetic Translational Study",
+    "authors_affiliations": "Victor K. Sato, PhD; Miriam Alverez, MD | Affiliations: Synthetic Translational Oncology Lab",
+    "background": null,
+    "research_gap": null,
+    "objectives": null,
+    "study_design": null,
+    "methods": null,
+    "study_population": null,
+    "sample_size": "N = 310",
+    "statistical_methods": null,
+    "primary_outcome": null,
+    "secondary_outcomes": null,
+    "important_findings": "Locked assay validated on N = 310 plasma samples (110 Stage I-II PDAC, 200 benign pancreatic cysts/controls), sensitivity 87.3% (96/110), specificity 92.5% (185/200).",
+    "tables_and_figures": null,
+    "limitations": null,
+    "conclusion": null,
+    "references": null,
+    "funding_acknowledgements": null
+  },
+  "verbatim_statistics": [
+    "87.3%",
+    "92.5%"
+  ],
+  "completeness": {
+    "present_count": 4,
+    "total_canonical_fields": 18,
+    "present_fields": [
+      "1. Research title",
+      "2. Authors and affiliations",
+      "9. Sample size",
+      "13. Important findings"
+    ],
+    "missing_essential": [
+      "3. Background",
+      "5. Objectives",
+      "6. Study design",
+      "7. Methods",
+      "8. Study population",
+      "11. Primary outcome",
+      "16. Conclusion"
+    ],
+    "missing_optional": [
+      "4. Research gap",
+      "10. Statistical methods",
+      "12. Secondary outcomes",
+      "14. Tables and figures",
+      "15. Limitations",
+      "17. References",
+      "18. Funding and acknowledgements"
+    ]
+  },
+  "clarification_needed": [
+    "Essential study metadata missing from source files (never fabricated): 3. Background, 5. Objectives, 6. Study design, 7. Methods, 8. Study population, 11. Primary outcome, 16. Conclusion. Please supply these if available or confirm omission.",
+    "Confirm conference poster dimensions & orientation (e.g., 48 × 36 in landscape or ISO A0 portrait) if specified by the venue."
+  ],
+  "design_recommendation": {
+    "template_id": "minimalist-editorial",
+    "layout_recipe": "two_column_editorial",
+    "palette": "monochrome_editorial",
+    "font_pairing": "editorial_modern",
+    "rationale": "Concise abstract-only input without external datasets; minimalist two-column editorial layout prevents artificial padding."
+  },
+  "raw_corpus_excerpt": "# Cell-Free Methylation Fragmentomics for Early Pancreatic Ductal Adenocarcinoma Triage: A Synthetic Translational Study\nAuthors: Victor K. Sato, PhD; Miriam Alverez, MD\nAffiliations: Synthetic Translational Oncology Lab\nResults: Locked assay validated on N = 310 plasma samples (110 Stage I-II PDAC, 200 benign pancreatic cysts/controls), sensitivity 87.3% (96/110), specificity 92.5% (185/200)."
+}

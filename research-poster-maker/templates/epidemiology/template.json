@@ -1,0 +1,25 @@
+{
+  "template_id": "epidemiology",
+  "name": "Epidemiology, Surveillance & Public Health Cohort Poster",
+  "description": "Tailored for population-scale cohorts, infectious/chronic disease surveillance, and environmental epidemiology. Highlights person-years follow-up, standardized incidence trends, multivariable adjusted rate/hazard ratios, and policy implications.",
+  "reporting_standard": "STROBE / RECORD",
+  "default_dimensions": "48x36",
+  "default_layout_recipe": "timeline_flow",
+  "portrait_layout_recipe": "three_column_classic",
+  "default_palette": "forest_cream",
+  "default_font_pairing": "classic_symposium",
+  "masthead_style": "solid_banner",
+  "section_numbering": true,
+  "word_budget_target": 520,
+  "recommended_charts": ["workflow_diagram", "scatter_plot", "bar_chart", "forest_plot", "flow_diagram", "statistical_table"],
+  "section_blueprint": [
+    {"id": "background", "title": "Public Health Burden & Objective", "column_hint": 0, "style": "editorial_rule", "essential": true},
+    {"id": "methods", "title": "Cohort Ascertainment & Statistical Modeling", "column_hint": 0, "style": "editorial_rule", "essential": true},
+    {"id": "primary_outcome", "title": "Population-Level Risk Findings", "column_hint": 1, "style": "focal_callout", "essential": true},
+    {"id": "primary_figure", "title": "Incidence & Adjusted Risk Estimates", "column_hint": 1, "style": "figure_well", "essential": true},
+    {"id": "statistical_table", "title": "Multivariable Stratified Models", "column_hint": 2, "style": "booktabs_table", "essential": false},
+    {"id": "limitations", "title": "Bias Mitigation & Study Limitations", "column_hint": 2, "style": "editorial_rule", "essential": true},
+    {"id": "conclusion", "title": "Public Health & Policy Implications", "column_hint": 2, "style": "focal_callout_subtle", "essential": true},
+    {"id": "references_funding", "title": "Surveillance Sources, Funding & References", "column_hint": 2, "style": "colophon", "essential": false}
+  ]
+}

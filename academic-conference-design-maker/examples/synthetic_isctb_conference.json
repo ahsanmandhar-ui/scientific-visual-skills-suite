@@ -1,0 +1,34 @@
+{
+  "theme": "geneva_symposium",
+  "acronym": "ISCTB 2027 (SYNTHETIC)",
+  "host_society": "International Society for Computational & Translational Biomedicine",
+  "conference_title": "14th Annual Congress on Precision Biomarkers & Clinical AI",
+  "dates": "14–17 September 2027",
+  "location": "CICG Congress Centre · Geneva, Switzerland",
+  "registration_url": "https://example.org/isctb2027-synthetic",
+  "proceedings_id": "ISSN 2999-014X · Vol. 14 (Synthetic Demo)",
+  "tracks": [
+    "Single-Cell & Spatial Multi-Omics",
+    "Liquid Biopsy & Minimal Residual Disease",
+    "Federated Clinical Trial Biostatistics",
+    "Regulatory Validation of Medical AI"
+  ],
+  "deadlines": [
+    {"milestone": "Oral & Poster Abstract Submission", "date": "15 May 2027 (23:59 CET)"},
+    {"milestone": "Author Acceptance Notification", "date": "30 June 2027"},
+    {"milestone": "Early-Bird Congress Registration", "date": "20 July 2027"}
+  ],
+  "keynotes": [
+    {"name": "Prof. Elena Rostova, MD PhD", "affiliation": "University Hospital Zurich (Synthetic)", "talk": "Spatial Transcriptomics of Tumor-Immune Niches"},
+    {"name": "Prof. Kenji Takahashi, PhD", "affiliation": "Kyoto Institute of Quantitative Medicine (Synthetic)", "talk": "Causal Inference Across Adaptive Platform Trials"}
+  ],
+  "certificate": {
+    "recipient": "Dr. Amina Farooq, MBBS MSc",
+    "role": "Oral Research Presentation",
+    "presentation_title": "Circulating Tumor Methylation Kinetics Predict Adjuvant Response",
+    "serial_id": "SYN-ISCTB27-00419",
+    "signatory_1": {"name": "Prof. Elena Rostova", "title": "Congress Scientific Chair"},
+    "signatory_2": {"name": "Prof. Marc Delacroix", "title": "ISCTB Secretary-General"}
+  },
+  "disclaimer": "SYNTHETIC CONFERENCE VISUAL IDENTITY EXAMPLE FOR SKILL VALIDATION ONLY"
+}

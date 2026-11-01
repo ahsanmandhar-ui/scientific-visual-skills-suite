@@ -1,0 +1,25 @@
+{
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "id": "OUTPUT_FILES",
+      "status": "PASS",
+      "msg": "SVG, PDF, PNG, PPTX verified."
+    },
+    {
+      "id": "PDF_FONTS_AND_GEOMETRY",
+      "status": "PASS",
+      "msg": "PDF 8.5\u00d714.0 in with 2 embedded TrueType font(s)."
+    },
+    {
+      "id": "PRINT_RESOLUTION",
+      "status": "PASS",
+      "msg": "PNG 2550\u00d74200 px (300 DPI)."
+    },
+    {
+      "id": "EDITORIAL_STRUCTURE",
+      "status": "PASS",
+      "msg": "Epidemiology, mechanism, and clinical pathway bands populated."
+    }
+  ]
+}

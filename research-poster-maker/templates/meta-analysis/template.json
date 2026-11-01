@@ -1,0 +1,26 @@
+{
+  "template_id": "meta-analysis",
+  "name": "Quantitative Meta-Analysis & Evidence Synthesis Poster",
+  "description": "Designed around quantitative pooled effect estimation. Features a wide central stage for multi-study forest plots with inverse-variance weights, pooled diamonds, prediction intervals, I-squared/tau-squared heterogeneity metrics, and publication-bias funnel plots.",
+  "reporting_standard": "PRISMA 2020 / MOOSE",
+  "default_dimensions": "48x36",
+  "default_layout_recipe": "systematic_review_prisma",
+  "portrait_layout_recipe": "central_visual",
+  "default_palette": "burgundy_offwhite",
+  "default_font_pairing": "editorial_modern",
+  "masthead_style": "solid_banner",
+  "section_numbering": true,
+  "word_budget_target": 500,
+  "recommended_charts": ["forest_plot", "funnel_plot", "prisma_diagram", "statistical_table"],
+  "section_blueprint": [
+    {"id": "background", "title": "Clinical Context & Evidence Gap", "column_hint": 0, "style": "editorial_rule", "essential": true},
+    {"id": "methods", "title": "Data Sources & Quantitative Synthesis", "column_hint": 0, "style": "editorial_rule", "essential": true},
+    {"id": "prisma_or_summary", "title": "Study Identification & Selection", "column_hint": 0, "style": "figure_well", "essential": false},
+    {"id": "primary_outcome", "title": "Pooled Effect Estimate & Heterogeneity", "column_hint": 1, "style": "focal_callout", "essential": true},
+    {"id": "forest_plot", "title": "Random-Effects Forest Plot", "column_hint": 1, "style": "figure_well", "essential": true},
+    {"id": "funnel_or_subgroup", "title": "Small-Study Effects & Subgroup Sensitivity", "column_hint": 2, "style": "figure_well", "essential": false},
+    {"id": "limitations", "title": "Heterogeneity & Methodological Limitations", "column_hint": 2, "style": "editorial_rule", "essential": true},
+    {"id": "conclusion", "title": "Summary of Quantitative Evidence", "column_hint": 2, "style": "focal_callout_subtle", "essential": true},
+    {"id": "references_funding", "title": "Protocol Registration, Funding & Key Citations", "column_hint": 2, "style": "colophon", "essential": false}
+  ]
+}

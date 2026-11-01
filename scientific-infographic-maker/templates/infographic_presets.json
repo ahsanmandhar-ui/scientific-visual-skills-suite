@@ -1,0 +1,53 @@
+{
+  "presets": {
+    "editorial-legal": {"width_in": 8.5, "height_in": 14.0, "dpi": 300},
+    "a3-clinical-sheet": {"width_in": 11.69, "height_in": 16.54, "dpi": 300},
+    "digital-vertical": {"width_in": 9.0, "height_in": 16.0, "dpi": 300}
+  },
+  "palettes": {
+    "emerald_public_health": {
+      "dominant": "#114B3E",
+      "secondary": "#1F7A63",
+      "accent": "#C85A17",
+      "canvas": "#FAFBF9",
+      "card": "#FFFFFF",
+      "tint": "#EEF5F2",
+      "ink": "#142420",
+      "muted": "#4E635D",
+      "border": "#CBDCD5"
+    },
+    "burgundy_pathology": {
+      "dominant": "#5A1827",
+      "secondary": "#8C2D42",
+      "accent": "#B46509",
+      "canvas": "#FCFAFA",
+      "card": "#FFFFFF",
+      "tint": "#F7EEF0",
+      "ink": "#231418",
+      "muted": "#665056",
+      "border": "#E2CDD2"
+    },
+    "terracotta_epidemiology": {
+      "dominant": "#2D3142",
+      "secondary": "#4F5D75",
+      "accent": "#B84A27",
+      "canvas": "#FBF9F6",
+      "card": "#FFFFFF",
+      "tint": "#F4EFEA",
+      "ink": "#1C1E26",
+      "muted": "#595E70",
+      "border": "#DCD6CE"
+    },
+    "slate_clinical": {
+      "dominant": "#1E293B",
+      "secondary": "#0F766E",
+      "accent": "#B45309",
+      "canvas": "#F8FAFC",
+      "card": "#FFFFFF",
+      "tint": "#F1F5F9",
+      "ink": "#0F172A",
+      "muted": "#475569",
+      "border": "#CBD5E1"
+    }
+  }
+}

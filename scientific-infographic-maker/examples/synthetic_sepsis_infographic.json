@@ -1,0 +1,39 @@
+{
+  "preset": "editorial-legal",
+  "palette": "emerald_public_health",
+  "category_tag": "SYNTHETIC CLINICAL & EPIDEMIOLOGICAL EVIDENCE BRIEF",
+  "title": "Early Lactate-Guided Sepsis Resuscitation in Emergency Care",
+  "subtitle": "Synthetic Teaching Summary of Burden, Endothelial Pathophysiology, and Hour-1 Bundle Protocol",
+  "epidemiology_kpis": [
+    {"metric": "48.9M", "label": "Global annual sepsis cases (synthetic teaching ref)"},
+    {"metric": "22.4%", "label": "In-hospital septic shock mortality"},
+    {"metric": "+7.6% / hr", "label": "Relative mortality rise per hour antimicrobial delay"},
+    {"metric": "ARR 6.4%", "label": "28-day survival gain with <1h bundle (NNT = 16)"}
+  ],
+  "mechanism_steps": [
+    {"stage": "PAMPs / DAMPs", "detail": "Pathogen recognition triggers TLR4/NF-kB innate cytokine surge (IL-1b, TNF-a, IL-6)."},
+    {"stage": "Glycocalyx Shedding", "detail": "Endothelial barrier breakdown causes capillary leak, nitric oxide vasoplegia, and microthrombi."},
+    {"stage": "Cytopathic Hypoxia", "detail": "Impaired microvascular O2 extraction shifts pyruvate toward lactate >= 2.0 mmol/L."},
+    {"stage": "Organ Dysfunction", "detail": "SOFA rise >= 2 points across renal, pulmonary, hepatic, and circulatory systems."}
+  ],
+  "clinical_pathway": [
+    {"time_or_step": "0–15 min", "action": "Screen & Obtain Cultures", "criteria": "qSOFA / NEWS2 trigger; draw 2 sets blood cultures + venous/arterial lactate prior to antimicrobials."},
+    {"time_or_step": "15–45 min", "action": "Empiric Broad-Spectrum Antimicrobials", "criteria": "Administer IV antimicrobials tailored to suspected focus and local resistance antibiogram."},
+    {"time_or_step": "0–60 min", "action": "Balanced Crystalloid Challenge", "criteria": "Infuse 30 mL/kg balanced crystalloid for hypotension (MAP < 65 mmHg) or lactate >= 4.0 mmol/L."},
+    {"time_or_step": "60–120 min", "action": "Vasopressor & Serial Lactate Reassessment", "criteria": "Initiate norepinephrine to target MAP >= 65 mmHg; repeat serum lactate at 2 hours (target >= 20% clearance)."}
+  ],
+  "evidence_chart": {
+    "title": "Synthetic 28-Day Mortality by Bundle Completion",
+    "labels": ["< 1 Hour Bundle", "1–3 Hours", "> 3 Hours Delay"],
+    "values": [18.2, 24.6, 31.5],
+    "unit": "%",
+    "x_label": "28-Day All-Cause Mortality (%)"
+  },
+  "education_pearls": [
+    "Normal blood pressure does NOT exclude cryptic septic shock when serum lactate is >= 4.0 mmol/L.",
+    "Never delay empiric IV antimicrobials > 45 minutes while awaiting imaging or lumbar puncture.",
+    "Prefer balanced crystalloids (lactated Ringer's / Plasma-Lyte) over high-chloride 0.9% saline to reduce AKI risk.",
+    "Reassess dynamic fluid responsiveness (capillary refill, passive leg raise) before additional boluses."
+  ],
+  "source_footer": "SYNTHETIC EDUCATIONAL EXAMPLE FOR SKILL VALIDATION ONLY · No clinical decisions should rely on synthetic benchmark numbers."
+}

@@ -1,0 +1,7 @@
+Title: Point-of-Care Capillary Toe-to-Finger Lactate Gradient During Early Emergency Department Sepsis Resuscitation: A Synthetic Pilot Study
+Authors: Nadia Karim, MD; Owen Brooks, RN, MSN
+Background: Macrohemodynamic normalization during early septic shock resuscitation frequently masks persistent peripheral microcirculatory hypoperfusion.
+Objectives: Evaluate whether serial bedside capillary toe-to-finger lactate gradient (delta-Lac) at 2 hours predicts 72-hour vasopressor dependency.
+Methods: Prospective single-ED observational pilot cohort of N = 164 adults with suspected septic shock receiving initial crystalloid resuscitation. Simultaneous fingertip and hallux capillary lactate were measured at 0 h and 2 h.
+Results: At 2 hours, persistent delta-Lac >= 1.2 mmol/L occurred in 58/164 (35.4%) patients and was associated with higher 72-hour vasopressor dependency: 62.1% vs 21.7% for delta-Lac < 1.2 mmol/L (unadjusted RR 2.86, 95% CI 1.98–4.13, p = 0.0001). Arterial lactate clearance alone showed weaker discrimination.
+Conclusion: Bedside 2-hour capillary toe-to-finger lactate gradient identifies occult microcirculatory failure during early ED sepsis resuscitation and warrants multicenter validation. (SYNTHETIC PILOT ABSTRACT)

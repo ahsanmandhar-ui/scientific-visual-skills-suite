@@ -1,0 +1,11 @@
+{
+  "sizes": {
+    "skills-lab-24x36": {"width_in": 24.0, "height_in": 36.0, "dpi": 180},
+    "iso-a1-portrait": {"width_in": 23.39, "height_in": 33.11, "dpi": 180},
+    "iso-a2-portrait": {"width_in": 16.54, "height_in": 23.39, "dpi": 220}
+  },
+  "palettes": {
+    "sage_pharmacology": {"dominant": "#1B4332", "secondary": "#2D6A4F", "accent": "#BC4749", "canvas": "#FAFBF9", "tint": "#EDF4F0", "ink": "#14241D", "muted": "#4A6156", "border": "#C5D9CE"},
+    "plum_pathology": {"dominant": "#3C1642", "secondary": "#6A2E73", "accent": "#C85A17", "canvas": "#FCFAFD", "tint": "#F5EEF7", "ink": "#211024", "muted": "#5E4B63", "border": "#DECFE3"}
+  }
+}

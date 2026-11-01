@@ -1,0 +1,71 @@
+{
+  "preset": "analytical-dashboard-4panel",
+  "data_file": "synthetic_cardiac_cohort.csv",
+  "title": "Synthetic Cohort Statistical Analysis (N = 108): Myocardial Fibrosis, LVEF & Multivariable Regression",
+  "subtitle": "Automated CSV Dataset Profiling + OLS 95% CI Fit + Correlation Matrix + R/SPSS Multivariable Linear Model Coefficients",
+  "panel_distribution": {
+    "group_col": "regimen",
+    "value_col": "lvef_pct",
+    "group_order": [
+      "Placebo",
+      "Low-Dose",
+      "High-Dose"
+    ],
+    "title": "LVEF Distribution by Regimen",
+    "y_label": "Left Ventricular Ejection Fraction (%)"
+  },
+  "panel_regression": {
+    "x_col": "myocardial_fibrosis_pct",
+    "y_col": "lvef_pct",
+    "title": "Myocardial Fibrosis vs LVEF",
+    "x_label": "CMR Extracellular Fibrosis (%)",
+    "y_label": "LVEF (%)"
+  },
+  "panel_correlation": {
+    "title": "Biomarker & Functional Correlation Matrix",
+    "columns": [
+      "myocardial_fibrosis_pct",
+      "lvef_pct",
+      "peak_vo2_ml_kg_min",
+      "ntprobnp_pg_ml"
+    ],
+    "labels": [
+      "CMR Fibrosis %",
+      "LVEF %",
+      "Peak VO2",
+      "NT-proBNP"
+    ]
+  },
+  "panel_model_outputs": {
+    "title": "Multivariable OLS Model (Adjusted Beta, 95% CI)",
+    "null_value": 0.0,
+    "x_label": "Adjusted LVEF Change (% points, 95% CI)",
+    "terms": [
+      {
+        "term": "High-Dose vs Placebo",
+        "estimate": 11.2,
+        "ci_low": 9.4,
+        "ci_high": 13.0
+      },
+      {
+        "term": "Low-Dose vs Placebo",
+        "estimate": 5.4,
+        "ci_low": 3.6,
+        "ci_high": 7.2
+      },
+      {
+        "term": "CMR Fibrosis (per +5%)",
+        "estimate": -1.15,
+        "ci_low": -1.65,
+        "ci_high": -0.65
+      },
+      {
+        "term": "Age (per +10 yr)",
+        "estimate": -0.42,
+        "ci_low": -1.18,
+        "ci_high": 0.34
+      }
+    ]
+  },
+  "footer_note": "SYNTHETIC COHORT DATASET (synthetic_cardiac_cohort.csv, N=108) FOR REPRODUCIBLE DATA VISUALIZATION SKILL VALIDATION"
+}

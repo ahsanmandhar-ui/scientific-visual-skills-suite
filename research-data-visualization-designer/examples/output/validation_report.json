@@ -1,0 +1,25 @@
+{
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "id": "OUTPUT_ARTIFACTS",
+      "status": "PASS",
+      "msg": "Vector/raster figures, reproduce_figure.py, and SHA-256 manifest present."
+    },
+    {
+      "id": "SHA256_DATA_PROVENANCE",
+      "status": "PASS",
+      "msg": "Dataset SHA-256 checksum recorded (cf88257c92c043dc...)."
+    },
+    {
+      "id": "REPRODUCIBLE_CODE_EXECUTION",
+      "status": "PASS",
+      "msg": "reproduce_figure.py executed cleanly (exit code 0)."
+    },
+    {
+      "id": "HIGH_DPI_RASTER",
+      "status": "PASS",
+      "msg": "PNG dimensions 4200\u00d72975 px."
+    }
+  ]
+}

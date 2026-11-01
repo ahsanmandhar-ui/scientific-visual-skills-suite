@@ -1,0 +1,24 @@
+{
+  "template_id": "minimalist-editorial",
+  "name": "Minimalist Editorial & Concise Abstract Poster",
+  "description": "Restrained archival light-masthead editorial poster inspired by Swiss academic typography. Ideal for university symposia, methodological studies, and early-stage or abstract-only submissions where source data are concise.",
+  "reporting_standard": "General Academic / Conference Abstract",
+  "default_dimensions": "36x48",
+  "default_layout_recipe": "two_column_editorial",
+  "portrait_layout_recipe": "two_column_editorial",
+  "default_palette": "monochrome_editorial",
+  "default_font_pairing": "editorial_modern",
+  "masthead_style": "editorial_rule_light",
+  "section_numbering": false,
+  "word_budget_target": 360,
+  "recommended_charts": ["bar_chart", "scatter_plot", "statistical_table", "workflow_diagram"],
+  "section_blueprint": [
+    {"id": "background", "title": "Context & Research Question", "column_hint": 0, "style": "editorial_rule", "essential": true},
+    {"id": "methods", "title": "Study Design & Approach", "column_hint": 0, "style": "editorial_rule", "essential": true},
+    {"id": "primary_outcome", "title": "Principal Findings", "column_hint": 1, "style": "focal_callout", "essential": true},
+    {"id": "primary_figure", "title": "Empirical Summary", "column_hint": 1, "style": "figure_well", "essential": false},
+    {"id": "limitations", "title": "Scope & Open Questions", "column_hint": 0, "style": "editorial_rule", "essential": false},
+    {"id": "conclusion", "title": "Conclusions", "column_hint": 1, "style": "editorial_rule", "essential": true},
+    {"id": "references_funding", "title": "Notes & Correspondence", "column_hint": 0, "style": "colophon", "essential": false}
+  ]
+}

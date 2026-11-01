@@ -1,0 +1,9 @@
+study,n,effect,ci_low,ci_high,weight,se,subgroup
+RENAL-FLOW Synthetic 2021,3533,0.76,0.66,0.88,21.4,0.073,Dedicated Kidney Outcome Trials
+NEPHRO-GLP Synthetic 2023,4120,0.72,0.61,0.85,17.8,0.084,Dedicated Kidney Outcome Trials
+CARDIO-REN Synthetic 2020,9901,0.78,0.65,0.93,14.9,0.091,Cardiovascular Outcome Trials (CKD Strata)
+VASC-PROTECT Synthetic 2021,8416,0.84,0.69,1.02,12.6,0.1,Cardiovascular Outcome Trials (CKD Strata)
+METAB-CARE Synthetic 2022,6850,0.69,0.55,0.87,10.4,0.117,Cardiovascular Outcome Trials (CKD Strata)
+INCRETIN-HF Synthetic 2023,5290,0.88,0.68,1.14,8.2,0.132,Cardiovascular Outcome Trials (CKD Strata)
+GLP-ASIA Synthetic 2024,7410,0.66,0.51,0.85,8.5,0.13,Cardiovascular Outcome Trials (CKD Strata)
+RENAL-ADVANCE Synthetic 2025,7120,0.73,0.54,0.99,6.2,0.154,Cardiovascular Outcome Trials (CKD Strata)

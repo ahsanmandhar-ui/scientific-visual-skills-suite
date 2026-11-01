@@ -1,0 +1,556 @@
+{
+  "poster_title": "Long-Term PM2.5 Exposure, Urban Heat Islands, and Incident Adult-Onset Asthma Across 14 Metropolitan Cohorts (2016–2025)",
+  "template_id": "epidemiology",
+  "layout_recipe": "timeline_flow",
+  "masthead_style": "solid_banner",
+  "dimensions": {
+    "preset_id": "a0_landscape",
+    "label": "ISO A0 Landscape (1189 × 841 mm)",
+    "width_in": 46.811,
+    "height_in": 33.1102,
+    "bleed_in": 0.0,
+    "safe_margin_in": 1.05,
+    "target_dpi": 300,
+    "is_default_assumption": false,
+    "orientation": "landscape",
+    "width_mm": 1189.0,
+    "height_mm": 841.0,
+    "pptx_scale_factor": 1.0,
+    "pptx_width_in": 46.811,
+    "pptx_height_in": 33.1102,
+    "effective_pptx_raster_dpi": 300
+  },
+  "palette": {
+    "palette_id": "forest_cream",
+    "name": "Forest Pine & Warm Cream",
+    "canvas_bg": "#FAF9F4",
+    "surface_tint": "#EDF2EB",
+    "figure_bg": "#FFFFFF",
+    "dominant": "#173B2D",
+    "supporting": "#2D5E4A",
+    "accent": "#C25E14",
+    "masthead_fg": "#FFFFFF",
+    "masthead_sub_fg": "#DCE8E2",
+    "body_ink": "#18221D",
+    "muted_ink": "#475950",
+    "rule_border": "#CCD7D0",
+    "chart_series": [
+      "#173B2D",
+      "#C25E14",
+      "#0072B2",
+      "#009E73",
+      "#57685F",
+      "#CC79A7"
+    ]
+  },
+  "typography": {
+    "pairing_id": "classic_symposium",
+    "heading_font": {
+      "requested_name": "Source Serif 4",
+      "resolved_name": "Source Serif 4",
+      "regular_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSerif4-Regular.ttf",
+      "bold_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSerif4-Bold.ttf",
+      "italic_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSerif4-It.ttf",
+      "semibold_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSerif4-Semibold.ttf",
+      "was_substituted": false,
+      "substitution_note": ""
+    },
+    "body_font": {
+      "requested_name": "Source Sans 3",
+      "resolved_name": "Source Sans 3",
+      "regular_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSans3-Regular.ttf",
+      "bold_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSans3-Bold.ttf",
+      "italic_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSans3-It.ttf",
+      "semibold_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSans3-Semibold.ttf",
+      "was_substituted": false,
+      "substitution_note": ""
+    },
+    "scale_multiplier": 1.0,
+    "badge_pt": 20.0,
+    "title_pt": 85.0,
+    "authors_pt": 52.0,
+    "affiliations_pt": 28.0,
+    "section_heading_pt": 38.0,
+    "subheading_pt": 28.0,
+    "hero_metric_pt": 50.0,
+    "body_pt": 25.0,
+    "table_pt": 21.0,
+    "figure_label_pt": 22.0,
+    "caption_pt": 19.0,
+    "reference_pt": 18.0,
+    "min_body_pt": 24.0,
+    "min_heading_pt": 36.0,
+    "min_caption_pt": 18.0
+  },
+  "elements": [
+    {
+      "id": "canvas_background",
+      "kind": "background",
+      "x_in": 0.0,
+      "y_in": 0.0,
+      "w_in": 46.811,
+      "h_in": 33.1102,
+      "payload": {
+        "fill": "#FAF9F4"
+      }
+    },
+    {
+      "id": "masthead",
+      "kind": "masthead",
+      "x_in": 0.0,
+      "y_in": 0.0,
+      "w_in": 46.811,
+      "h_in": 6.0484,
+      "payload": {
+        "style": "solid_banner",
+        "bg_color": "#173B2D",
+        "accent_color": "#C25E14",
+        "fg_color": "#FFFFFF",
+        "sub_fg_color": "#DCE8E2",
+        "margin_x_in": 1.05,
+        "pad_top_in": 0.7140000000000001,
+        "title_max_w_in": 44.711,
+        "badge": "POPULATION SURVEILLANCE COHORT · 1.84M PERSON-YEARS · STROBE · SYNTHETIC DATA",
+        "title": "Long-Term PM2.5 Exposure, Urban Heat Islands, and Incident Adult-Onset Asthma Across 14 Metropolitan Cohorts (2016–2025)",
+        "title_lines": [
+          "Long-Term PM2.5 Exposure, Urban Heat Islands, and Incident Adult-Onset",
+          "Asthma Across 14 Metropolitan Cohorts (2016–2025)"
+        ],
+        "authors": "Mateo Alvarez, ScD¹; Amina Darwish, PhD²; Kenji Takahashi, MD, MPH¹",
+        "author_lines": [
+          "Mateo Alvarez, ScD¹; Amina Darwish, PhD²; Kenji Takahashi, MD, MPH¹"
+        ],
+        "affiliations": "¹Global Environmental Epidemiology Consortium; ²Center for Satellite Climate Exposure Modeling (Synthetic Demonstration Study)",
+        "affil_lines": [
+          "¹Global Environmental Epidemiology Consortium; ²Center for Satellite Climate Exposure Modeling (Synthetic Demonstration Study)"
+        ],
+        "institution": "",
+        "logo_path": null,
+        "qr_path": null,
+        "qr_caption": "Scan for Paper / Data"
+      }
+    },
+    {
+      "id": "timeline_upper_band",
+      "kind": "figure",
+      "x_in": 1.05,
+      "y_in": 6.6284,
+      "w_in": 44.711,
+      "h_in": 4.2,
+      "payload": {
+        "title": "",
+        "title_lines": [],
+        "title_h_in": 0.0,
+        "png_path": "/home/user/research-poster-maker/tests/case_04_epidemiology/output/figures/epi_timeline.png",
+        "svg_path": "/home/user/research-poster-maker/tests/case_04_epidemiology/output/figures/epi_timeline.svg",
+        "caption": "",
+        "caption_lines": [],
+        "caption_h_in": 0.0,
+        "bg_color": "#FFFFFF",
+        "border_color": "#CCD7D0"
+      }
+    },
+    {
+      "id": "background",
+      "kind": "section_text",
+      "x_in": 1.05,
+      "y_in": 11.3284,
+      "w_in": 13.8083,
+      "h_in": 3.2308,
+      "payload": {
+        "id": "background",
+        "column": 0,
+        "item_type": "text",
+        "style": "editorial_rule",
+        "title": "01  Public Health Context & Aim",
+        "paragraphs": [
+          "Fine particulate pollution (PM2.5) and urban heat island (UHI) warming co-concentrate in dense metropolitan neighborhoods, amplifying airway oxidative stress [1]."
+        ],
+        "bullets": [
+          "Objective: Quantify independent and joint associations of chronic PM2.5 and nocturnal UHI intensity with adult-onset asthma across 1.84 million person-years."
+        ],
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 13.68832,
+          "title_lines": [
+            "01 Public Health Context & Aim"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "hero_lines": [],
+          "hero_h_in": 0.0,
+          "para_wrapped": [
+            [
+              "Fine particulate pollution (PM2.5) and urban heat island (UHI) warming co-concentrate",
+              "in dense metropolitan neighborhoods, amplifying airway oxidative stress [1]."
+            ]
+          ],
+          "bullet_wrapped": [
+            [
+              "• Objective: Quantify independent and joint associations of chronic PM2.5 and",
+              "nocturnal UHI intensity with adult-onset asthma across 1.84 million person-years."
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "methods",
+      "kind": "section_text",
+      "x_in": 1.05,
+      "y_in": 15.5093,
+      "w_in": 13.8083,
+      "h_in": 4.225,
+      "payload": {
+        "id": "methods",
+        "column": 0,
+        "item_type": "text",
+        "style": "editorial_rule",
+        "title": "02  Exposure & Statistical Methods",
+        "bullets": [
+          "Exposures: Ensemble satellite-monitor PM2.5 (μg/m³) and warm-season nocturnal surface temperature anomaly (°C vs. rural buffer).",
+          "Models: Multivariable quasi-Poisson survival models adjusted for age, sex, smoking pack-years, BMI, greenness (NDVI), and neighborhood deprivation index.",
+          "Effect Modification: Relative Excess Risk due to Interaction (RERI) quantified departure from additivity [2]."
+        ],
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 13.68832,
+          "title_lines": [
+            "02 Exposure & Statistical Methods"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "hero_lines": [],
+          "hero_h_in": 0.0,
+          "para_wrapped": [],
+          "bullet_wrapped": [
+            [
+              "• Exposures: Ensemble satellite-monitor PM2.5 (μg/m³) and warm-season nocturnal",
+              "surface temperature anomaly (°C vs. rural buffer)."
+            ],
+            [
+              "• Models: Multivariable quasi-Poisson survival models adjusted for age, sex, smoking",
+              "pack-years, BMI, greenness (NDVI), and neighborhood deprivation index."
+            ],
+            [
+              "• Effect Modification: Relative Excess Risk due to Interaction (RERI) quantified",
+              "departure from additivity [2]."
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "risk_callout",
+      "kind": "callout",
+      "x_in": 15.6383,
+      "y_in": 11.3284,
+      "w_in": 15.5344,
+      "h_in": 4.7715,
+      "payload": {
+        "id": "risk_callout",
+        "column": 1,
+        "item_type": "callout",
+        "style": "focal_callout",
+        "title": "Synergistic Air-Heat Respiratory Risk",
+        "hero_metric": "IRR 1.38 in High-Heat Quartile (RERI = 0.21; p = 0.003)",
+        "paragraphs": [
+          "Overall incidence was 4.84 per 1,000 person-years (8,912 cases). Each +10 μg/m³ PM2.5 increased asthma risk by 24% overall (IRR 1.24, 95% CI 1.18–1.31), rising to 38% in high-UHI neighborhoods."
+        ],
+        "metrics": {
+          "pad_x": 0.4,
+          "pad_y": 0.34,
+          "inner_w": 14.734359999999997,
+          "title_lines": [
+            "Synergistic Air-Heat Respiratory Risk"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "hero_lines": [
+            "IRR 1.38 in High-Heat Quartile (RERI =",
+            "0.21; p = 0.003)"
+          ],
+          "hero_h_in": 1.7277777777777779,
+          "para_wrapped": [
+            [
+              "Overall incidence was 4.84 per 1,000 person-years (8,912 cases). Each +10 μg/m³ PM2.5",
+              "increased asthma risk by 24% overall (IRR 1.24, 95% CI 1.18–1.31), rising to 38% in high-UHI",
+              "neighborhoods."
+            ]
+          ],
+          "bullet_wrapped": []
+        }
+      }
+    },
+    {
+      "id": "exposure_curve",
+      "kind": "figure",
+      "x_in": 15.6383,
+      "y_in": 17.05,
+      "w_in": 15.5344,
+      "h_in": 12.1198,
+      "payload": {
+        "id": "exposure_curve",
+        "column": 1,
+        "item_type": "figure",
+        "title": "03  Exposure–Response Incidence by Heat Stratum",
+        "chart_spec": {
+          "id": "pm25_curve",
+          "chart_type": "scatter_plot",
+          "connect_lines": true,
+          "width_in": 15.6,
+          "height_in": 8.4,
+          "x_label": "3-Year Rolling Ambient PM2.5 (μg/m³)",
+          "y_label": "Age-Standardized Asthma Incidence / 1,000 PY",
+          "annotation": "Additive interaction RERI = 0.21 (p = 0.003)",
+          "data": {
+            "groups": [
+              {
+                "name": "High Urban Heat Island (+3.0°C Q4)",
+                "x": [
+                  5,
+                  10,
+                  15,
+                  20,
+                  25,
+                  30
+                ],
+                "y": [
+                  3.1,
+                  3.8,
+                  4.7,
+                  5.8,
+                  7.1,
+                  8.6
+                ],
+                "ci_low": [
+                  2.8,
+                  3.5,
+                  4.3,
+                  5.3,
+                  6.5,
+                  7.9
+                ],
+                "ci_high": [
+                  3.4,
+                  4.1,
+                  5.1,
+                  6.3,
+                  7.7,
+                  9.3
+                ]
+              },
+              {
+                "name": "Low Urban Heat / High Canopy (Q1)",
+                "x": [
+                  5,
+                  10,
+                  15,
+                  20,
+                  25,
+                  30
+                ],
+                "y": [
+                  2.9,
+                  3.3,
+                  3.8,
+                  4.4,
+                  5.0,
+                  5.7
+                ],
+                "ci_low": [
+                  2.6,
+                  3.0,
+                  3.5,
+                  4.0,
+                  4.6,
+                  5.2
+                ],
+                "ci_high": [
+                  3.2,
+                  3.6,
+                  4.1,
+                  4.8,
+                  5.4,
+                  6.2
+                ]
+              }
+            ]
+          }
+        },
+        "caption": "Figure 1. Standardized adult-onset asthma incidence per 1,000 person-years across chronic PM2.5 and nocturnal UHI quartiles.",
+        "png_path": "/home/user/research-poster-maker/tests/case_04_epidemiology/output/figures/exposure_curve.png",
+        "svg_path": "/home/user/research-poster-maker/tests/case_04_epidemiology/output/figures/exposure_curve.svg",
+        "aspect_ratio": 1.857,
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 15.414359999999999,
+          "title_lines": [
+            "03 Exposure–Response Incidence by Heat Stratum"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "caption_lines": [
+            "Figure 1. Standardized adult-onset asthma incidence per 1,000 person-years across chronic PM2.5 and nocturnal UHI quartiles."
+          ],
+          "caption_h_in": 0.47138888888888886,
+          "ideal_img_h": 8.171437802907915,
+          "min_img_h": 6.210292730210016,
+          "max_img_h": 10.62286914378029,
+          "img_h_in": 10.4267546365105
+        }
+      }
+    },
+    {
+      "id": "epi_table",
+      "kind": "table",
+      "x_in": 31.9527,
+      "y_in": 11.3284,
+      "w_in": 13.8083,
+      "h_in": 4.6378,
+      "payload": {
+        "id": "epi_table",
+        "column": 2,
+        "item_type": "table",
+        "title": "04  Stratified Multivariable Models",
+        "table_data": {
+          "headers": [
+            "Exposure Stratum",
+            "Cases / PY",
+            "Adjusted IRR (95% CI)",
+            "p-value"
+          ],
+          "rows": [
+            [
+              "Overall (+10 μg/m³ PM2.5)",
+              "8,912 / 1.84M",
+              "1.24 (1.18–1.31)",
+              "0.0001"
+            ],
+            [
+              "Low UHI Q1 (<+0.8°C)",
+              "1,640 / 0.46M",
+              "1.14 (1.07–1.22)",
+              "0.0004"
+            ],
+            [
+              "Moderate UHI Q2–Q3",
+              "4,192 / 0.92M",
+              "1.23 (1.16–1.30)",
+              "0.0001"
+            ],
+            [
+              "High UHI Q4 (≥+3.0°C)",
+              "3,080 / 0.46M",
+              "1.38 (1.29–1.48)",
+              "0.0001"
+            ],
+            [
+              "Never-smokers sensitivity",
+              "5,410 / 1.19M",
+              "1.26 (1.19–1.34)",
+              "0.0001"
+            ]
+          ],
+          "col_weights": [
+            1.85,
+            1.05,
+            1.35,
+            0.7
+          ]
+        },
+        "footnote": "Adjusted for age, sex, smoking, BMI, NDVI greenness, and area deprivation.",
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 13.68832,
+          "title_lines": [
+            "04 Stratified Multivariable Models"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "col_widths_in": [
+            5.115836767676767,
+            2.90358303030303,
+            3.733178181818182,
+            1.93572202020202
+          ],
+          "header_h_in": 0.5383333333333333,
+          "row_heights_in": [
+            0.5183333333333333,
+            0.5183333333333333,
+            0.5183333333333333,
+            0.5183333333333333,
+            0.5183333333333333
+          ],
+          "footnote_lines": [
+            "Adjusted for age, sex, smoking, BMI, NDVI greenness, and area deprivation."
+          ],
+          "footnote_h_in": 0.4261111111111111
+        }
+      }
+    },
+    {
+      "id": "limitations_conclusion",
+      "kind": "callout",
+      "x_in": 31.9527,
+      "y_in": 16.9162,
+      "w_in": 13.8083,
+      "h_in": 4.0344,
+      "payload": {
+        "id": "limitations_conclusion",
+        "column": 2,
+        "item_type": "callout",
+        "style": "focal_callout_subtle",
+        "title": "05  Limitations & Policy Implications",
+        "bullets": [
+          "Limitation: Residential geocoding omits workplace indoor air filtration and transit exposure.",
+          "Policy Action: Co-targeting PM2.5 emissions and urban heat mitigation in high-UHI districts could avert an estimated 19.4% of attributable adult-onset cases."
+        ],
+        "metrics": {
+          "pad_x": 0.4,
+          "pad_y": 0.34,
+          "inner_w": 13.008319999999998,
+          "title_lines": [
+            "05 Limitations & Policy Implications"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "hero_lines": [],
+          "hero_h_in": 0.0,
+          "para_wrapped": [],
+          "bullet_wrapped": [
+            [
+              "• Limitation: Residential geocoding omits workplace indoor air filtration and",
+              "transit exposure."
+            ],
+            [
+              "• Policy Action: Co-targeting PM2.5 emissions and urban heat mitigation in",
+              "high-UHI districts could avert an estimated 19.4% of attributable adult-onset",
+              "cases."
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "footer_colophon",
+      "kind": "colophon",
+      "x_in": 1.05,
+      "y_in": 31.0102,
+      "w_in": 44.711,
+      "h_in": 1.05,
+      "payload": {
+        "lines": [
+          "References: [1] Liu C et al. N Engl J Med 2019;381:705–715. [2] VanderWeele TJ, Knol MJ. Epidemiol Rev 2014;36:115–147.",
+          "Funding: Synthetic Climate-Health Program SYN-EPI-88 | Correspondence: m.alvarez@synthetic-epi.org | SYNTHETIC DATASET DISCLOSURE: Simulated surveillance cohort for poster skill verification."
+        ],
+        "raw_parts": [
+          "References:  [1] Liu C et al. N Engl J Med 2019;381:705–715.   [2] VanderWeele TJ, Knol MJ. Epidemiol Rev 2014;36:115–147.",
+          "Funding: Synthetic Climate-Health Program SYN-EPI-88  |  Correspondence: m.alvarez@synthetic-epi.org  |  SYNTHETIC DATASET DISCLOSURE: Simulated surveillance cohort for poster skill verification."
+        ],
+        "rule_color": "#CCD7D0",
+        "fg_color": "#475950"
+      }
+    }
+  ],
+  "layout_notes": [],
+  "pruned_items": []
+}

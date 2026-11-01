@@ -1,0 +1,415 @@
+{
+  "poster_title": "Point-of-Care Capillary Toe-to-Finger Lactate Gradient During Early Emergency Department Sepsis Resuscitation",
+  "template_id": "minimalist-editorial",
+  "layout_recipe": "two_column_editorial",
+  "masthead_style": "editorial_rule_light",
+  "dimensions": {
+    "preset_id": "36x48",
+    "label": "US Standard Portrait (36 × 48 in)",
+    "width_in": 36.0,
+    "height_in": 48.0,
+    "bleed_in": 0.0,
+    "safe_margin_in": 1.05,
+    "target_dpi": 300,
+    "is_default_assumption": false,
+    "orientation": "portrait",
+    "width_mm": 914.4,
+    "height_mm": 1219.2,
+    "pptx_scale_factor": 1.0,
+    "pptx_width_in": 36.0,
+    "pptx_height_in": 48.0,
+    "effective_pptx_raster_dpi": 300
+  },
+  "palette": {
+    "palette_id": "monochrome_editorial",
+    "name": "Monochromatic Scientific Editorial",
+    "canvas_bg": "#FFFFFF",
+    "surface_tint": "#F3F4F6",
+    "figure_bg": "#FFFFFF",
+    "dominant": "#111827",
+    "supporting": "#374151",
+    "accent": "#0072B2",
+    "masthead_fg": "#FFFFFF",
+    "masthead_sub_fg": "#E5E7EB",
+    "body_ink": "#111827",
+    "muted_ink": "#4B5563",
+    "rule_border": "#D1D5DB",
+    "chart_series": [
+      "#111827",
+      "#0072B2",
+      "#D55E00",
+      "#009E73",
+      "#6B7280",
+      "#CC79A7"
+    ]
+  },
+  "typography": {
+    "pairing_id": "editorial_modern",
+    "heading_font": {
+      "requested_name": "Source Sans 3",
+      "resolved_name": "Source Sans 3",
+      "regular_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSans3-Regular.ttf",
+      "bold_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSans3-Bold.ttf",
+      "italic_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSans3-It.ttf",
+      "semibold_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSans3-Semibold.ttf",
+      "was_substituted": false,
+      "substitution_note": ""
+    },
+    "body_font": {
+      "requested_name": "Source Serif 4",
+      "resolved_name": "Source Serif 4",
+      "regular_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSerif4-Regular.ttf",
+      "bold_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSerif4-Bold.ttf",
+      "italic_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSerif4-It.ttf",
+      "semibold_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSerif4-Semibold.ttf",
+      "was_substituted": false,
+      "substitution_note": ""
+    },
+    "scale_multiplier": 1.0,
+    "badge_pt": 20.0,
+    "title_pt": 85.0,
+    "authors_pt": 52.0,
+    "affiliations_pt": 28.0,
+    "section_heading_pt": 38.0,
+    "subheading_pt": 28.0,
+    "hero_metric_pt": 50.0,
+    "body_pt": 25.0,
+    "table_pt": 21.0,
+    "figure_label_pt": 22.0,
+    "caption_pt": 19.0,
+    "reference_pt": 18.0,
+    "min_body_pt": 24.0,
+    "min_heading_pt": 36.0,
+    "min_caption_pt": 18.0
+  },
+  "elements": [
+    {
+      "id": "canvas_background",
+      "kind": "background",
+      "x_in": 0.0,
+      "y_in": 0.0,
+      "w_in": 36.0,
+      "h_in": 48.0,
+      "payload": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "masthead",
+      "kind": "masthead",
+      "x_in": 1.05,
+      "y_in": 0.8925,
+      "w_in": 33.9,
+      "h_in": 5.2344,
+      "payload": {
+        "style": "editorial_rule_light",
+        "bg_color": "#FFFFFF",
+        "accent_color": "#0072B2",
+        "fg_color": "#111827",
+        "sub_fg_color": "#4B5563",
+        "margin_x_in": 0.0,
+        "pad_top_in": 0.05,
+        "title_max_w_in": 33.9,
+        "badge": "PROSPECTIVE ED PILOT COHORT · ABSTRACT SUBMISSION · SYNTHETIC DATA",
+        "title": "Point-of-Care Capillary Toe-to-Finger Lactate Gradient During Early Emergency Department Sepsis Resuscitation",
+        "title_lines": [
+          "Point-of-Care Capillary Toe-to-Finger Lactate Gradient",
+          "During Early Emergency Department Sepsis Resuscitation"
+        ],
+        "authors": "Nadia Karim, MD; Owen Brooks, RN, MSN",
+        "author_lines": [
+          "Nadia Karim, MD; Owen Brooks, RN, MSN"
+        ],
+        "affiliations": "Institutional affiliation not specified in source abstract (Synthetic Pilot Submission)",
+        "affil_lines": [
+          "Institutional affiliation not specified in source abstract (Synthetic Pilot Submission)"
+        ],
+        "institution": "",
+        "logo_path": null,
+        "qr_path": null,
+        "qr_caption": "Scan for Supplement"
+      }
+    },
+    {
+      "id": "background",
+      "kind": "section_text",
+      "x_in": 1.05,
+      "y_in": 6.6069,
+      "w_in": 13.9104,
+      "h_in": 3.2308,
+      "payload": {
+        "id": "background",
+        "column": 0,
+        "item_type": "text",
+        "style": "editorial_rule",
+        "title": "Clinical Context",
+        "paragraphs": [
+          "Macrohemodynamic stabilization during early septic shock resuscitation can mask persistent peripheral microcirculatory hypoperfusion."
+        ],
+        "bullets": [
+          "Objective: Test whether bedside capillary toe-to-finger lactate gradient (ΔLac) at 2 hours predicts 72-hour vasopressor dependency."
+        ],
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 13.7904,
+          "title_lines": [
+            "Clinical Context"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "hero_lines": [],
+          "hero_h_in": 0.0,
+          "para_wrapped": [
+            [
+              "Macrohemodynamic stabilization during early septic shock resuscitation can",
+              "mask persistent peripheral microcirculatory hypoperfusion."
+            ]
+          ],
+          "bullet_wrapped": [
+            [
+              "• Objective: Test whether bedside capillary toe-to-finger lactate gradient (ΔLac) at",
+              "2 hours predicts 72-hour vasopressor dependency."
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "methods",
+      "kind": "section_text",
+      "x_in": 1.05,
+      "y_in": 10.7878,
+      "w_in": 13.9104,
+      "h_in": 4.225,
+      "payload": {
+        "id": "methods",
+        "column": 0,
+        "item_type": "text",
+        "style": "editorial_rule",
+        "title": "Pilot Study Design (N = 164)",
+        "bullets": [
+          "Setting & Cohort: Prospective single-ED observational pilot study of N = 164 adults with suspected septic shock.",
+          "Measurement: Paired fingertip and hallux point-of-care capillary lactate sampled at baseline (0 h) and 2 hours post-crystalloid resuscitation.",
+          "Pre-specified Exposure Threshold: 2-hour ΔLac ≥ 1.2 mmol/L (n = 58, 35.4%) vs. ΔLac < 1.2 mmol/L (n = 106, 64.6%)."
+        ],
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 13.7904,
+          "title_lines": [
+            "Pilot Study Design (N = 164)"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "hero_lines": [],
+          "hero_h_in": 0.0,
+          "para_wrapped": [],
+          "bullet_wrapped": [
+            [
+              "• Setting & Cohort: Prospective single-ED observational pilot study of N = 164",
+              "adults with suspected septic shock."
+            ],
+            [
+              "• Measurement: Paired fingertip and hallux point-of-care capillary lactate",
+              "sampled at baseline (0 h) and 2 hours post-crystalloid resuscitation."
+            ],
+            [
+              "• Pre-specified Exposure Threshold: 2-hour ΔLac ≥ 1.2 mmol/L (n = 58, 35.4%) vs.",
+              "ΔLac < 1.2 mmol/L (n = 106, 64.6%)."
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "scope_note",
+      "kind": "section_text",
+      "x_in": 1.05,
+      "y_in": 15.9628,
+      "w_in": 13.9104,
+      "h_in": 2.6438,
+      "payload": {
+        "id": "scope_note",
+        "column": 0,
+        "item_type": "text",
+        "style": "editorial_rule",
+        "title": "Source Scope & Transparency Note",
+        "paragraphs": [
+          "Designed strictly from the accepted pilot abstract. Multivariable adjusted models, secondary organ-dysfunction endpoints, and formal limitation statements were not reported in the abstract and were intentionally omitted without fabrication."
+        ],
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 13.7904,
+          "title_lines": [
+            "Source Scope & Transparency Note"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "hero_lines": [],
+          "hero_h_in": 0.0,
+          "para_wrapped": [
+            [
+              "Designed strictly from the accepted pilot abstract. Multivariable adjusted models,",
+              "secondary organ-dysfunction endpoints, and formal limitation statements were",
+              "not reported in the abstract and were intentionally omitted without fabrication."
+            ]
+          ],
+          "bullet_wrapped": []
+        }
+      }
+    },
+    {
+      "id": "primary_finding",
+      "kind": "callout",
+      "x_in": 15.7404,
+      "y_in": 6.6069,
+      "w_in": 19.2096,
+      "h_in": 3.5736,
+      "payload": {
+        "id": "primary_finding",
+        "column": 1,
+        "item_type": "callout",
+        "style": "focal_callout",
+        "title": "Principal Pilot Finding",
+        "hero_metric": "RR 2.86 (95% CI 1.98–4.13; p = 0.0001)",
+        "paragraphs": [
+          "Patients with persistent 2-hour capillary ΔLac ≥ 1.2 mmol/L experienced nearly threefold higher 72-hour vasopressor dependency (62.1% vs. 21.7%)."
+        ],
+        "metrics": {
+          "pad_x": 0.4,
+          "pad_y": 0.34,
+          "inner_w": 18.409599999999998,
+          "title_lines": [
+            "Principal Pilot Finding"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "hero_lines": [
+            "RR 2.86 (95% CI 1.98–4.13; p = 0.0001)"
+          ],
+          "hero_h_in": 0.9638888888888889,
+          "para_wrapped": [
+            [
+              "Patients with persistent 2-hour capillary ΔLac ≥ 1.2 mmol/L experienced nearly threefold higher 72-hour",
+              "vasopressor dependency (62.1% vs. 21.7%)."
+            ]
+          ],
+          "bullet_wrapped": []
+        }
+      }
+    },
+    {
+      "id": "bar_fig",
+      "kind": "figure",
+      "x_in": 15.7404,
+      "y_in": 11.1306,
+      "w_in": 19.2096,
+      "h_in": 18.0217,
+      "payload": {
+        "id": "bar_fig",
+        "column": 1,
+        "item_type": "figure",
+        "title": "72-Hour Vasopressor Dependency by 2-Hour ΔLac",
+        "native_pptx_chart": false,
+        "chart_spec": {
+          "id": "lactate_bar",
+          "chart_type": "bar_chart",
+          "width_in": 16.5,
+          "height_in": 11.2,
+          "value_label": "72-Hour Vasopressor Dependency (%)",
+          "value_format": "{:.1f}%",
+          "annotation": "Unadjusted RR 2.86 (95% CI 1.98–4.13; p = 0.0001)",
+          "data": {
+            "categories": [
+              "2-Hour ΔLac ≥ 1.2 mmol/L",
+              "2-Hour ΔLac < 1.2 mmol/L"
+            ],
+            "sample_sizes": [
+              58,
+              106
+            ],
+            "values": [
+              62.1,
+              21.7
+            ]
+          }
+        },
+        "caption": "Figure 1. Observed 72-hour vasopressor dependency across 2-hour capillary lactate gradient strata (N = 164; exact binomial proportions).",
+        "png_path": "/home/user/research-poster-maker/tests/case_05_limited_abstract/output/figures/bar_fig.png",
+        "svg_path": "/home/user/research-poster-maker/tests/case_05_limited_abstract/output/figures/bar_fig.svg",
+        "aspect_ratio": 1.473,
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 19.089599999999997,
+          "title_lines": [
+            "72-Hour Vasopressor Dependency by 2-Hour ΔLac"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "caption_lines": [
+            "Figure 1. Observed 72-hour vasopressor dependency across 2-hour capillary lactate gradient strata (N = 164; exact binomial proportions)."
+          ],
+          "caption_h_in": 0.47138888888888886,
+          "ideal_img_h": 12.796741344195517,
+          "min_img_h": 9.725523421588594,
+          "max_img_h": 16.635763747454174,
+          "img_h_in": 16.328641955193483
+        }
+      }
+    },
+    {
+      "id": "conclusion",
+      "kind": "callout",
+      "x_in": 15.7404,
+      "y_in": 30.1023,
+      "w_in": 19.2096,
+      "h_in": 2.6097,
+      "payload": {
+        "id": "conclusion",
+        "column": 1,
+        "item_type": "callout",
+        "style": "focal_callout_subtle",
+        "title": "Conclusions & Next Steps",
+        "paragraphs": [
+          "Bedside 2-hour capillary toe-to-finger lactate gradient rapidly identifies occult microcirculatory failure during initial ED sepsis resuscitation and warrants prospective multicenter validation."
+        ],
+        "metrics": {
+          "pad_x": 0.4,
+          "pad_y": 0.34,
+          "inner_w": 18.409599999999998,
+          "title_lines": [
+            "Conclusions & Next Steps"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "hero_lines": [],
+          "hero_h_in": 0.0,
+          "para_wrapped": [
+            [
+              "Bedside 2-hour capillary toe-to-finger lactate gradient rapidly identifies occult microcirculatory failure during",
+              "initial ED sepsis resuscitation and warrants prospective multicenter validation."
+            ]
+          ],
+          "bullet_wrapped": []
+        }
+      }
+    },
+    {
+      "id": "footer_colophon",
+      "kind": "colophon",
+      "x_in": 1.05,
+      "y_in": 46.195,
+      "w_in": 33.9,
+      "h_in": 0.755,
+      "payload": {
+        "lines": [
+          "SYNTHETIC PILOT ABSTRACT DISCLOSURE: Created strictly to validate missing-data handling without hallucination."
+        ],
+        "raw_parts": [
+          "SYNTHETIC PILOT ABSTRACT DISCLOSURE: Created strictly to validate missing-data handling without hallucination."
+        ],
+        "rule_color": "#D1D5DB",
+        "fg_color": "#4B5563"
+      }
+    }
+  ],
+  "layout_notes": [],
+  "pruned_items": []
+}

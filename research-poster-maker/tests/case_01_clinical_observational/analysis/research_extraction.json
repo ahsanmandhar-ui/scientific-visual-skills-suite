@@ -1,0 +1,158 @@
+{
+  "source_files": [
+    "/home/user/research-poster-maker/tests/case_01_clinical_observational/inputs/clinical_manuscript.docx",
+    "/home/user/research-poster-maker/tests/case_01_clinical_observational/inputs/institute_logo.png",
+    "/home/user/research-poster-maker/tests/case_01_clinical_observational/inputs/km_survival_data.csv"
+  ],
+  "source_word_count": 298,
+  "extracted_fields": {
+    "title": "Early SGLT2 Inhibitor Initiation Within 72 Hours of Acute Decompensated Heart Failure Admission and 24-Month Cardiorenal Outcomes: A Synthetic Multicenter Cohort Study",
+    "authors_affiliations": "Elena Rostova, MD, PhD; Marcus Vance, MD; Tariq Al-Mansoor, MPH; Hannah Lindqvist, PhD | Affiliations: Department of Cardiovascular Medicine & Biostatistics Collaborative, Synthetic Academic Health Network (SYNTHETIC DEMONSTRATION DATA)",
+    "background": "Hospitalization for acute decompensated heart failure (ADHF) carries high post-discharge mortality and worsening renal function. However, real-world effectiveness of initiating sodium-glucose cotransporter-2 inhibitors (SGLT2i) within 72 hours of stabilization across broad ejection fraction phenotypes remains uncertain.",
+    "research_gap": "However, real-world effectiveness of initiating sodium-glucose cotransporter-2 inhibitors (SGLT2i) within 72 hours of stabilization across broad ejection fraction phenotypes remains uncertain.",
+    "objectives": "To evaluate whether early in-hospital SGLT2i initiation (<=72 h) versus delayed/standard post-discharge care is associated with lower 24-month cardiovascular death, HF rehospitalization, or >=40% sustained eGFR decline.",
+    "study_design": "Multicenter Cohort Study",
+    "methods": "We conducted a prospective multicenter observational cohort study across 19 tertiary hospitals (N = 4,820 adults hospitalized for ADHF; early SGLT2i n = 2,410, standard care n = 2,410 after active-comparator overlap propensity weighting). Statistical analysis used overlap-weighted Cox proportional hazards models and Fine-Gray competing-risk models.",
+    "study_population": null,
+    "sample_size": "N = 4,820; n = 2,410",
+    "statistical_methods": null,
+    "primary_outcome": "## Results\n\nPrimary outcome occurred in 21.",
+    "secondary_outcomes": null,
+    "important_findings": "Primary outcome occurred in 21.4% (516/2,410) of early SGLT2i patients versus 29.8% (718/2,410) in standard care (adjusted HR 0.68, 95% CI 0.56–0.82, p = 0.0001). Heart failure rehospitalization decreased significantly (aHR 0.65, 95% CI 0.53–0.80, p = 0.0002), and sustained >=40% eGFR decline was lower (aHR 0.71, 95% CI 0.55–0.92, p = 0.009). Ketoacidosis rates were low and comparable (0.4% vs 0.3%, p = 0.56).",
+    "tables_and_figures": {
+      "manuscript_tables": [],
+      "datasets": [
+        {
+          "file": "/home/user/research-poster-maker/tests/case_01_clinical_observational/inputs/km_survival_data.csv",
+          "format": "csv",
+          "row_count": 6,
+          "columns": [
+            "month",
+            "early_sglt2i_survival",
+            "standard_care_survival",
+            "early_at_risk",
+            "std_at_risk"
+          ],
+          "preview_rows": [
+            [
+              "0",
+              "1.0",
+              "1.0",
+              "2410",
+              "2410"
+            ],
+            [
+              "3",
+              "0.93",
+              "0.89",
+              "2241",
+              "2145"
+            ],
+            [
+              "6",
+              "0.89",
+              "0.83",
+              "2138",
+              "1998"
+            ],
+            [
+              "12",
+              "0.84",
+              "0.77",
+              "2019",
+              "1852"
+            ],
+            [
+              "18",
+              "0.81",
+              "0.73",
+              "1945",
+              "1756"
+            ],
+            [
+              "24",
+              "0.786",
+              "0.702",
+              "1894",
+              "1692"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "/home/user/research-poster-maker/tests/case_01_clinical_observational/inputs/institute_logo.png",
+          "format": "png",
+          "is_vector": false,
+          "pixel_width": 900,
+          "pixel_height": 600,
+          "color_mode": "RGBA",
+          "max_300dpi_width_in": 3.0,
+          "max_150dpi_width_in": 6.0
+        }
+      ]
+    },
+    "limitations": "Observational design cannot exclude unmeasured confounding by inpatient hemodynamic trajectory; medication adherence after 12 months relied on pharmacy dispensation records.",
+    "conclusion": "Early SGLT2i initiation within 72 hours of ADHF stabilization was associated with a 32% lower hazard of 24-month composite cardiorenal events without excess acute kidney injury.",
+    "references": null,
+    "funding_acknowledgements": "Synthetic Translational Grant SYN-2026-014. All data are synthetic for poster skill verification."
+  },
+  "verbatim_statistics": [
+    "40%",
+    "21.4%",
+    "29.8%",
+    "HR 0.68",
+    "95% CI 0.56–0.82",
+    "p = 0.0001",
+    "aHR 0.65",
+    "95% CI 0.53–0.80",
+    "p = 0.0002",
+    "aHR 0.71",
+    "95% CI 0.55–0.92",
+    "p = 0.009",
+    "0.4%",
+    "0.3%",
+    "p = 0.56",
+    "32%"
+  ],
+  "completeness": {
+    "present_count": 14,
+    "total_canonical_fields": 18,
+    "present_fields": [
+      "1. Research title",
+      "2. Authors and affiliations",
+      "3. Background",
+      "4. Research gap",
+      "5. Objectives",
+      "6. Study design",
+      "7. Methods",
+      "9. Sample size",
+      "11. Primary outcome",
+      "13. Important findings",
+      "14. Tables and figures",
+      "15. Limitations",
+      "16. Conclusion",
+      "18. Funding and acknowledgements"
+    ],
+    "missing_essential": [
+      "8. Study population"
+    ],
+    "missing_optional": [
+      "10. Statistical methods",
+      "12. Secondary outcomes",
+      "17. References"
+    ]
+  },
+  "clarification_needed": [
+    "Essential study metadata missing from source files (never fabricated): 8. Study population. Please supply these if available or confirm omission.",
+    "Confirm conference poster dimensions & orientation (e.g., 48 × 36 in landscape or ISO A0 portrait) if specified by the venue."
+  ],
+  "design_recommendation": {
+    "template_id": "clinical-research",
+    "layout_recipe": "clinical_workflow",
+    "palette": "academic_navy",
+    "font_pairing": "clinical_precision",
+    "rationale": "Detected clinical patient cohort / trial outcome structure."
+  },
+  "raw_corpus_excerpt": "# Early SGLT2 Inhibitor Initiation Within 72 Hours of Acute Decompensated Heart Failure Admission and 24-Month Cardiorenal Outcomes: A Synthetic Multicenter Cohort Study\n\nAuthors: Elena Rostova, MD, PhD; Marcus Vance, MD; Tariq Al-Mansoor, MPH; Hannah Lindqvist, PhD\n\nAffiliations: Department of Cardiovascular Medicine & Biostatistics Collaborative, Synthetic Academic Health Network (SYNTHETIC DEMONSTRATION DATA)\n\n## Background\n\nHospitalization for acute decompensated heart failure (ADHF) carries high post-discharge mortality and worsening renal function. However, real-world effectiveness of initiating sodium-glucose cotransporter-2 inhibitors (SGLT2i) within 72 hours of stabilization across broad ejection fraction phenotypes remains uncertain.\n\n## Objectives\n\nTo evaluate whether early in-hospital SGLT2i initiation (<=72 h) versus delayed/standard post-discharge care is associated with lower 24-month cardiovascular death, HF rehospitalization, or >=40% sustained eGFR decline.\n\n## Methods\n\nWe conducted a prospective multicenter observational cohort study across 19 tertiary hospitals (N = 4,820 adults hospitalized for ADHF; early SGLT2i n = 2,410, standard care n = 2,410 after active-comparator overlap propensity weighting). Statistical analysis used overlap-weighted Cox proportional hazards models and Fine-Gray competing-risk models.\n\n## Results\n\nPrimary outcome occurred in 21.4% (516/2,410) of early SGLT2i patients versus 29.8% (718/2,410) in standard care (adjusted HR 0.68, 95% CI 0.56–0.82, p = 0.0001). Heart failure rehospitalization decreased significantly (aHR 0.65, 95% CI 0.53–0.80, p = 0.0002), and sustained >=40% eGFR decline was lower (aHR 0.71, 95% CI 0.55–0.92, p = 0.009). Ketoacidosis rates were low and comparable (0.4% vs 0.3%, p = 0.56).\n\n## Limitations\n\nObservational design cannot exclude unmeasured confounding by inpatient hemodynamic trajectory; medication adherence after 12 months relied on pharmacy dispensation records.\n\n## Conclusions\n\nEarly SGLT2i initiation within 72 hours of ADHF stabilization was associated with a 32% lower hazard of 24-month composite cardiorenal events without excess acute kidney injury.\n\n## Funding\n\nSynthetic Translational Grant SYN-2026-014. All data are synthetic for poster skill verification."
+}

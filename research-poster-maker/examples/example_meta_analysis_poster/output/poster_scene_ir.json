@@ -1,0 +1,748 @@
+{
+  "poster_title": "GLP-1 Receptor Agonists and Major Adverse Kidney Events in Type 2 Diabetes: A Random-Effects Meta-Analysis of 8 Trials (N = 52,640)",
+  "template_id": "meta-analysis",
+  "layout_recipe": "systematic_review_prisma",
+  "masthead_style": "solid_banner",
+  "dimensions": {
+    "preset_id": "56x42",
+    "label": "Large Landscape (56 × 42 in)",
+    "width_in": 56.0,
+    "height_in": 42.0,
+    "bleed_in": 0.0,
+    "safe_margin_in": 1.05,
+    "target_dpi": 300,
+    "is_default_assumption": false,
+    "orientation": "landscape",
+    "width_mm": 1422.4,
+    "height_mm": 1066.8,
+    "pptx_scale_factor": 1.0,
+    "pptx_width_in": 56.0,
+    "pptx_height_in": 42.0,
+    "effective_pptx_raster_dpi": 300
+  },
+  "palette": {
+    "palette_id": "burgundy_offwhite",
+    "name": "Academic Burgundy & Alabaster",
+    "canvas_bg": "#FCFAF8",
+    "surface_tint": "#F4ECEE",
+    "figure_bg": "#FFFFFF",
+    "dominant": "#5B1627",
+    "supporting": "#7F2B40",
+    "accent": "#0072B2",
+    "masthead_fg": "#FFFFFF",
+    "masthead_sub_fg": "#F2DCE1",
+    "body_ink": "#201619",
+    "muted_ink": "#57464B",
+    "rule_border": "#DCCFD2",
+    "chart_series": [
+      "#5B1627",
+      "#0072B2",
+      "#009E73",
+      "#D55E00",
+      "#57534E",
+      "#CC79A7"
+    ]
+  },
+  "typography": {
+    "pairing_id": "editorial_modern",
+    "heading_font": {
+      "requested_name": "Source Sans 3",
+      "resolved_name": "Source Sans 3",
+      "regular_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSans3-Regular.ttf",
+      "bold_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSans3-Bold.ttf",
+      "italic_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSans3-It.ttf",
+      "semibold_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSans3-Semibold.ttf",
+      "was_substituted": false,
+      "substitution_note": ""
+    },
+    "body_font": {
+      "requested_name": "Source Serif 4",
+      "resolved_name": "Source Serif 4",
+      "regular_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSerif4-Regular.ttf",
+      "bold_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSerif4-Bold.ttf",
+      "italic_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSerif4-It.ttf",
+      "semibold_ttf": "/home/user/research-poster-maker/assets/fonts/SourceSerif4-Semibold.ttf",
+      "was_substituted": false,
+      "substitution_note": ""
+    },
+    "scale_multiplier": 1.16,
+    "badge_pt": 23.2,
+    "title_pt": 85.8,
+    "authors_pt": 60.3,
+    "affiliations_pt": 32.5,
+    "section_heading_pt": 44.1,
+    "subheading_pt": 32.5,
+    "hero_metric_pt": 58.0,
+    "body_pt": 29.0,
+    "table_pt": 24.4,
+    "figure_label_pt": 25.5,
+    "caption_pt": 22.0,
+    "reference_pt": 20.9,
+    "min_body_pt": 24.0,
+    "min_heading_pt": 36.0,
+    "min_caption_pt": 18.0
+  },
+  "elements": [
+    {
+      "id": "canvas_background",
+      "kind": "background",
+      "x_in": 0.0,
+      "y_in": 0.0,
+      "w_in": 56.0,
+      "h_in": 42.0,
+      "payload": {
+        "fill": "#FCFAF8"
+      }
+    },
+    {
+      "id": "masthead",
+      "kind": "masthead",
+      "x_in": 0.0,
+      "y_in": 0.0,
+      "w_in": 56.0,
+      "h_in": 6.3413,
+      "payload": {
+        "style": "solid_banner",
+        "bg_color": "#5B1627",
+        "accent_color": "#0072B2",
+        "fg_color": "#FFFFFF",
+        "sub_fg_color": "#F2DCE1",
+        "margin_x_in": 1.05,
+        "pad_top_in": 0.7140000000000001,
+        "title_max_w_in": 50.5,
+        "badge": "RANDOM-EFFECTS META-ANALYSIS OF 8 RCTS · PRISMA 2020 · SYNTHETIC DATA",
+        "title": "GLP-1 Receptor Agonists and Major Adverse Kidney Events in Type 2 Diabetes: A Random-Effects Meta-Analysis of 8 Trials (N = 52,640)",
+        "title_lines": [
+          "GLP-1 Receptor Agonists and Major Adverse Kidney Events in Type 2 Diabetes: A",
+          "Random-Effects Meta-Analysis of 8 Trials (N = 52,640)"
+        ],
+        "authors": "Sophia Chen, MD, PhD¹; David Okafor, PhD²; Claire Moreau, MD¹",
+        "author_lines": [
+          "Sophia Chen, MD, PhD¹; David Okafor, PhD²; Claire Moreau, MD¹"
+        ],
+        "affiliations": "¹Renal Trials Synthesis Group, Synthetic Institute of Medical Research; ²Dept. of Evidence Synthesis (Synthetic Demonstration Data)",
+        "affil_lines": [
+          "¹Renal Trials Synthesis Group, Synthetic Institute of Medical Research; ²Dept. of Evidence Synthesis (Synthetic Demonstration Data)"
+        ],
+        "institution": "",
+        "logo_path": null,
+        "qr_path": "/home/user/research-poster-maker/tests/case_03_meta_analysis/output/figures/study_qr.png",
+        "qr_caption": "Scan for Paper / Data"
+      }
+    },
+    {
+      "id": "context",
+      "kind": "section_text",
+      "x_in": 1.05,
+      "y_in": 6.9213,
+      "w_in": 15.1786,
+      "h_in": 5.1105,
+      "payload": {
+        "id": "context",
+        "column": 0,
+        "item_type": "text",
+        "style": "editorial_rule",
+        "title": "01  Clinical Rationale & Objective",
+        "paragraphs": [
+          "Diabetic kidney disease remains the leading cause of kidney failure worldwide. While albuminuria reductions with GLP-1 receptor agonists (GLP-1RA) are established, individual trials varied in power for hard renal endpoints [1]."
+        ],
+        "bullets": [
+          "Objective: Estimate the pooled effect of GLP-1RA vs. placebo on Major Adverse Kidney Events (MAKE: ≥50% sustained eGFR decline, ESKD, or renal death) across randomized trials."
+        ],
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 15.058599999999998,
+          "title_lines": [
+            "01 Clinical Rationale & Objective"
+          ],
+          "title_h_in": 0.8982500000000001,
+          "hero_lines": [],
+          "hero_h_in": 0.0,
+          "para_wrapped": [
+            [
+              "Diabetic kidney disease remains the leading cause of kidney failure",
+              "worldwide. While albuminuria reductions with GLP-1 receptor agonists",
+              "(GLP-1RA) are established, individual trials varied in power for hard renal",
+              "endpoints [1]."
+            ]
+          ],
+          "bullet_wrapped": [
+            [
+              "• Objective: Estimate the pooled effect of GLP-1RA vs. placebo on Major",
+              "Adverse Kidney Events (MAKE: ≥50% sustained eGFR decline, ESKD, or",
+              "renal death) across randomized trials."
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "methods",
+      "kind": "section_text",
+      "x_in": 1.05,
+      "y_in": 12.9817,
+      "w_in": 15.1786,
+      "h_in": 4.7349,
+      "payload": {
+        "id": "methods",
+        "column": 0,
+        "item_type": "text",
+        "style": "editorial_rule",
+        "title": "02  Data Sources & Quantitative Synthesis",
+        "bullets": [
+          "Eligibility: Double-blind placebo-controlled RCTs ≥1,000 adults with T2D reporting adjudicated MAKE outcomes (searched through Aug 2026).",
+          "Synthesis: REML random-effects inverse-variance pooling of log-HRs with 95% CI and 95% prediction interval [2].",
+          "Heterogeneity & Bias: Assessed via I², τ², Cochran's Q, pre-specified subgroup interactions, and Egger funnel regression."
+        ],
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 15.058599999999998,
+          "title_lines": [
+            "02 Data Sources & Quantitative Synthesis"
+          ],
+          "title_h_in": 0.8982500000000001,
+          "hero_lines": [],
+          "hero_h_in": 0.0,
+          "para_wrapped": [],
+          "bullet_wrapped": [
+            [
+              "• Eligibility: Double-blind placebo-controlled RCTs ≥1,000 adults with T2D",
+              "reporting adjudicated MAKE outcomes (searched through Aug 2026)."
+            ],
+            [
+              "• Synthesis: REML random-effects inverse-variance pooling of log-HRs with",
+              "95% CI and 95% prediction interval [2]."
+            ],
+            [
+              "• Heterogeneity & Bias: Assessed via I², τ², Cochran's Q, pre-specified",
+              "subgroup interactions, and Egger funnel regression."
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "subgroup_tbl",
+      "kind": "table",
+      "x_in": 1.05,
+      "y_in": 18.6666,
+      "w_in": 15.1786,
+      "h_in": 5.6845,
+      "payload": {
+        "id": "subgroup_tbl",
+        "column": 0,
+        "item_type": "table",
+        "title": "03  Pre-Specified Subgroup Analyses",
+        "table_data": {
+          "headers": [
+            "Subgroup Stratum",
+            "Trials",
+            "Pooled HR (95% CI)",
+            "I²",
+            "p-int"
+          ],
+          "rows": [
+            [
+              "Dedicated renal trials",
+              "2",
+              "0.74 (0.67–0.83)",
+              "0.0%",
+              "0.52"
+            ],
+            [
+              "CV outcome trials",
+              "6",
+              "0.77 (0.69–0.87)",
+              "34.1%",
+              "—"
+            ],
+            [
+              "Baseline eGFR <60",
+              "8",
+              "0.75 (0.68–0.83)",
+              "19.5%",
+              "0.68"
+            ],
+            [
+              "Baseline eGFR ≥60",
+              "6",
+              "0.78 (0.69–0.88)",
+              "22.0%",
+              "—"
+            ],
+            [
+              "With background SGLT2i",
+              "4",
+              "0.77 (0.66–0.90)",
+              "11.2%",
+              "0.81"
+            ],
+            [
+              "Without SGLT2i",
+              "8",
+              "0.75 (0.68–0.83)",
+              "26.8%",
+              "—"
+            ]
+          ],
+          "col_weights": [
+            1.85,
+            0.65,
+            1.35,
+            0.65,
+            0.65
+          ]
+        },
+        "footnote": "No statistically significant heterogeneity across baseline eGFR or background SGLT2i strata.",
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 15.058599999999998,
+          "title_lines": [
+            "03 Pre-Specified Subgroup Analyses"
+          ],
+          "title_h_in": 0.8982500000000001,
+          "col_widths_in": [
+            5.4094,
+            1.9005999999999998,
+            3.9473999999999996,
+            1.9005999999999998,
+            1.9005999999999998
+          ],
+          "header_h_in": 0.593111111111111,
+          "row_heights_in": [
+            0.573111111111111,
+            0.573111111111111,
+            0.573111111111111,
+            0.573111111111111,
+            0.573111111111111,
+            0.573111111111111
+          ],
+          "footnote_lines": [
+            "No statistically significant heterogeneity across baseline eGFR or background SGLT2i strata."
+          ],
+          "footnote_h_in": 0.47444444444444445
+        }
+      }
+    },
+    {
+      "id": "pooled_callout",
+      "kind": "callout",
+      "x_in": 17.0086,
+      "y_in": 6.9213,
+      "w_in": 22.5062,
+      "h_in": 3.9313,
+      "payload": {
+        "id": "pooled_callout",
+        "column": 1,
+        "item_type": "callout",
+        "style": "focal_callout",
+        "title": "Pooled Random-Effects Synthesis (8 RCTs, N = 52,640)",
+        "hero_metric": "HR 0.76 (95% CI 0.69–0.84; p = 0.0001)",
+        "paragraphs": [
+          "GLP-1RA therapy conferred a consistent 24% relative hazard reduction in Major Adverse Kidney Events with low heterogeneity (I² = 28.4%, τ² = 0.006, 95% prediction interval 0.61–0.95)."
+        ],
+        "metrics": {
+          "pad_x": 0.4,
+          "pad_y": 0.34,
+          "inner_w": 21.7062,
+          "title_lines": [
+            "Pooled Random-Effects Synthesis (8 RCTs, N = 52,640)"
+          ],
+          "title_h_in": 0.8982500000000001,
+          "hero_lines": [
+            "HR 0.76 (95% CI 0.69–0.84; p = 0.0001)"
+          ],
+          "hero_h_in": 1.0861111111111112,
+          "para_wrapped": [
+            [
+              "GLP-1RA therapy conferred a consistent 24% relative hazard reduction in Major Adverse Kidney Events with",
+              "low heterogeneity (I² = 28.4%, τ² = 0.006, 95% prediction interval 0.61–0.95)."
+            ]
+          ],
+          "bullet_wrapped": []
+        }
+      }
+    },
+    {
+      "id": "forest_fig",
+      "kind": "figure",
+      "x_in": 17.0086,
+      "y_in": 11.8026,
+      "w_in": 22.5062,
+      "h_in": 20.3371,
+      "payload": {
+        "id": "forest_fig",
+        "column": 1,
+        "item_type": "figure",
+        "title": "04  Trial-Level & Pooled Random-Effects Forest Plot",
+        "chart_spec": {
+          "id": "glp1_forest",
+          "chart_type": "forest_plot",
+          "width_in": 21.5,
+          "height_in": 13.8,
+          "data": {
+            "effect_measure": "HR",
+            "null_value": 1.0,
+            "log_scale": true,
+            "favors_left": "Favors GLP-1RA",
+            "favors_right": "Favors Placebo",
+            "studies": [
+              {
+                "study": "RENAL-FLOW Synthetic 2021",
+                "n": 3533,
+                "effect": 0.76,
+                "ci_low": 0.66,
+                "ci_high": 0.88,
+                "weight": 21.4,
+                "se": 0.073,
+                "subgroup": "Dedicated Kidney Outcome Trials"
+              },
+              {
+                "study": "NEPHRO-GLP Synthetic 2023",
+                "n": 4120,
+                "effect": 0.72,
+                "ci_low": 0.61,
+                "ci_high": 0.85,
+                "weight": 17.8,
+                "se": 0.084,
+                "subgroup": "Dedicated Kidney Outcome Trials"
+              },
+              {
+                "study": "CARDIO-REN Synthetic 2020",
+                "n": 9901,
+                "effect": 0.78,
+                "ci_low": 0.65,
+                "ci_high": 0.93,
+                "weight": 14.9,
+                "se": 0.091,
+                "subgroup": "Cardiovascular Outcome Trials (CKD Strata)"
+              },
+              {
+                "study": "VASC-PROTECT Synthetic 2021",
+                "n": 8416,
+                "effect": 0.84,
+                "ci_low": 0.69,
+                "ci_high": 1.02,
+                "weight": 12.6,
+                "se": 0.1,
+                "subgroup": "Cardiovascular Outcome Trials (CKD Strata)"
+              },
+              {
+                "study": "METAB-CARE Synthetic 2022",
+                "n": 6850,
+                "effect": 0.69,
+                "ci_low": 0.55,
+                "ci_high": 0.87,
+                "weight": 10.4,
+                "se": 0.117,
+                "subgroup": "Cardiovascular Outcome Trials (CKD Strata)"
+              },
+              {
+                "study": "INCRETIN-HF Synthetic 2023",
+                "n": 5290,
+                "effect": 0.88,
+                "ci_low": 0.68,
+                "ci_high": 1.14,
+                "weight": 8.2,
+                "se": 0.132,
+                "subgroup": "Cardiovascular Outcome Trials (CKD Strata)"
+              },
+              {
+                "study": "GLP-ASIA Synthetic 2024",
+                "n": 7410,
+                "effect": 0.66,
+                "ci_low": 0.51,
+                "ci_high": 0.85,
+                "weight": 8.5,
+                "se": 0.13,
+                "subgroup": "Cardiovascular Outcome Trials (CKD Strata)"
+              },
+              {
+                "study": "RENAL-ADVANCE Synthetic 2025",
+                "n": 7120,
+                "effect": 0.73,
+                "ci_low": 0.54,
+                "ci_high": 0.99,
+                "weight": 6.2,
+                "se": 0.154,
+                "subgroup": "Cardiovascular Outcome Trials (CKD Strata)"
+              }
+            ],
+            "pooled": {
+              "label": "REML Pooled Random-Effects (8 Trials)",
+              "effect": 0.76,
+              "ci_low": 0.69,
+              "ci_high": 0.84,
+              "pi_low": 0.61,
+              "pi_high": 0.95
+            },
+            "heterogeneity": {
+              "I2": 28.4,
+              "tau2": 0.006,
+              "Q": 9.78,
+              "p_heterogeneity": 0.2,
+              "p_overall": 0.0001
+            }
+          }
+        },
+        "caption": "Figure 1. REML random-effects forest plot for Major Adverse Kidney Events (N = 52,640). Dashed whiskers on diamond denote 95% prediction interval [0.61, 0.95].",
+        "png_path": "/home/user/research-poster-maker/tests/case_03_meta_analysis/output/figures/forest_fig.png",
+        "svg_path": "/home/user/research-poster-maker/tests/case_03_meta_analysis/output/figures/forest_fig.svg",
+        "aspect_ratio": 1.558,
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 22.3862,
+          "title_lines": [
+            "04 Trial-Level & Pooled Random-Effects Forest Plot"
+          ],
+          "title_h_in": 0.8982500000000001,
+          "caption_lines": [
+            "Figure 1. REML random-effects forest plot for Major Adverse Kidney Events (N = 52,640). Dashed whiskers on diamond denote 95% prediction interval",
+            "[0.61, 0.95]."
+          ],
+          "caption_h_in": 0.8811111111111111,
+          "ideal_img_h": 14.214505776636713,
+          "min_img_h": 10.803024390243902,
+          "max_img_h": 18.478857509627726,
+          "img_h_in": 18.137709370988446
+        }
+      }
+    },
+    {
+      "id": "funnel_fig",
+      "kind": "figure",
+      "x_in": 40.2948,
+      "y_in": 6.9213,
+      "w_in": 14.6552,
+      "h_in": 15.0359,
+      "payload": {
+        "id": "funnel_fig",
+        "column": 2,
+        "item_type": "figure",
+        "title": "05  Small-Study Effects Funnel Plot",
+        "chart_spec": {
+          "id": "glp1_funnel",
+          "chart_type": "funnel_plot",
+          "width_in": 13.5,
+          "height_in": 9.5,
+          "x_label": "Hazard Ratio (Log Scale)",
+          "y_label": "Standard Error of Log(HR)",
+          "data": {
+            "log_scale": true,
+            "pooled_effect": 0.76,
+            "egger_p": 0.41,
+            "studies": [
+              {
+                "study": "RENAL-FLOW Synthetic 2021",
+                "n": 3533,
+                "effect": 0.76,
+                "ci_low": 0.66,
+                "ci_high": 0.88,
+                "weight": 21.4,
+                "se": 0.073,
+                "subgroup": "Dedicated Kidney Outcome Trials"
+              },
+              {
+                "study": "NEPHRO-GLP Synthetic 2023",
+                "n": 4120,
+                "effect": 0.72,
+                "ci_low": 0.61,
+                "ci_high": 0.85,
+                "weight": 17.8,
+                "se": 0.084,
+                "subgroup": "Dedicated Kidney Outcome Trials"
+              },
+              {
+                "study": "CARDIO-REN Synthetic 2020",
+                "n": 9901,
+                "effect": 0.78,
+                "ci_low": 0.65,
+                "ci_high": 0.93,
+                "weight": 14.9,
+                "se": 0.091,
+                "subgroup": "Cardiovascular Outcome Trials (CKD Strata)"
+              },
+              {
+                "study": "VASC-PROTECT Synthetic 2021",
+                "n": 8416,
+                "effect": 0.84,
+                "ci_low": 0.69,
+                "ci_high": 1.02,
+                "weight": 12.6,
+                "se": 0.1,
+                "subgroup": "Cardiovascular Outcome Trials (CKD Strata)"
+              },
+              {
+                "study": "METAB-CARE Synthetic 2022",
+                "n": 6850,
+                "effect": 0.69,
+                "ci_low": 0.55,
+                "ci_high": 0.87,
+                "weight": 10.4,
+                "se": 0.117,
+                "subgroup": "Cardiovascular Outcome Trials (CKD Strata)"
+              },
+              {
+                "study": "INCRETIN-HF Synthetic 2023",
+                "n": 5290,
+                "effect": 0.88,
+                "ci_low": 0.68,
+                "ci_high": 1.14,
+                "weight": 8.2,
+                "se": 0.132,
+                "subgroup": "Cardiovascular Outcome Trials (CKD Strata)"
+              },
+              {
+                "study": "GLP-ASIA Synthetic 2024",
+                "n": 7410,
+                "effect": 0.66,
+                "ci_low": 0.51,
+                "ci_high": 0.85,
+                "weight": 8.5,
+                "se": 0.13,
+                "subgroup": "Cardiovascular Outcome Trials (CKD Strata)"
+              },
+              {
+                "study": "RENAL-ADVANCE Synthetic 2025",
+                "n": 7120,
+                "effect": 0.73,
+                "ci_low": 0.54,
+                "ci_high": 0.99,
+                "weight": 6.2,
+                "se": 0.154,
+                "subgroup": "Cardiovascular Outcome Trials (CKD Strata)"
+              }
+            ]
+          }
+        },
+        "caption": "Figure 2. Funnel plot of log(HR) against standard error across k = 8 trials; symmetric distribution (Egger p = 0.41).",
+        "png_path": "/home/user/research-poster-maker/tests/case_03_meta_analysis/output/figures/funnel_fig.png",
+        "svg_path": "/home/user/research-poster-maker/tests/case_03_meta_analysis/output/figures/funnel_fig.svg",
+        "aspect_ratio": 1.421,
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 14.535200000000001,
+          "title_lines": [
+            "05 Small-Study Effects Funnel Plot"
+          ],
+          "title_h_in": 0.8982500000000001,
+          "caption_lines": [
+            "Figure 2. Funnel plot of log(HR) against standard error across k = 8 trials; symmetric distribution",
+            "(Egger p = 0.41)."
+          ],
+          "caption_h_in": 0.8811111111111111,
+          "ideal_img_h": 10.059957776213935,
+          "min_img_h": 7.64556790992259,
+          "max_img_h": 13.077945109078115,
+          "img_h_in": 12.83650612244898
+        }
+      }
+    },
+    {
+      "id": "limitations",
+      "kind": "section_text",
+      "x_in": 40.2948,
+      "y_in": 22.9071,
+      "w_in": 14.6552,
+      "h_in": 3.576,
+      "payload": {
+        "id": "limitations",
+        "column": 2,
+        "item_type": "text",
+        "style": "editorial_rule",
+        "title": "06  Methodological Limitations",
+        "bullets": [
+          "Aggregate trial-level synthesis precluded patient-level continuous eGFR slope spline modeling.",
+          "Composite kidney definitions varied modestly between ≥40% and ≥50% sustained eGFR thresholds in two earlier CVOTs."
+        ],
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 14.535200000000001,
+          "title_lines": [
+            "06 Methodological Limitations"
+          ],
+          "title_h_in": 0.8982500000000001,
+          "hero_lines": [],
+          "hero_h_in": 0.0,
+          "para_wrapped": [],
+          "bullet_wrapped": [
+            [
+              "• Aggregate trial-level synthesis precluded patient-level continuous eGFR",
+              "slope spline modeling."
+            ],
+            [
+              "• Composite kidney definitions varied modestly between ≥40% and ≥50%",
+              "sustained eGFR thresholds in two earlier CVOTs."
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "conclusion",
+      "kind": "callout",
+      "x_in": 40.2948,
+      "y_in": 27.4331,
+      "w_in": 14.6552,
+      "h_in": 3.8521,
+      "payload": {
+        "id": "conclusion",
+        "column": 2,
+        "item_type": "callout",
+        "style": "focal_callout_subtle",
+        "title": "07  Conclusions",
+        "paragraphs": [
+          "Across 52,640 randomized participants, GLP-1 receptor agonists significantly reduced major adverse kidney events by 24%, with a 95% prediction interval wholly below unity and additive protection independent of baseline SGLT2i therapy."
+        ],
+        "metrics": {
+          "pad_x": 0.4,
+          "pad_y": 0.34,
+          "inner_w": 13.8552,
+          "title_lines": [
+            "07 Conclusions"
+          ],
+          "title_h_in": 0.8982500000000001,
+          "hero_lines": [],
+          "hero_h_in": 0.0,
+          "para_wrapped": [
+            [
+              "Across 52,640 randomized participants, GLP-1 receptor agonists",
+              "significantly reduced major adverse kidney events by 24%, with a 95%",
+              "prediction interval wholly below unity and additive protection",
+              "independent of baseline SGLT2i therapy."
+            ]
+          ],
+          "bullet_wrapped": []
+        }
+      }
+    },
+    {
+      "id": "footer_colophon",
+      "kind": "colophon",
+      "x_in": 1.05,
+      "y_in": 39.8049,
+      "w_in": 53.9,
+      "h_in": 1.1451,
+      "payload": {
+        "lines": [
+          "References: [1] Perkovic V et al. N Engl J Med 2024;391:109–121. [2] IntHout J, Ioannidis JPA, Borm GF. BMJ Open 2016;6:e010247.",
+          "Registration: PROSPERO CRD42026001122-SYN (Synthetic) | Correspondence: s.chen@synthetic-imr.org | SYNTHETIC DATASET DISCLOSURE: Simulated trial estimates generated strictly for poster engine validation."
+        ],
+        "raw_parts": [
+          "References:  [1] Perkovic V et al. N Engl J Med 2024;391:109–121.   [2] IntHout J, Ioannidis JPA, Borm GF. BMJ Open 2016;6:e010247.",
+          "Registration: PROSPERO CRD42026001122-SYN (Synthetic)  |  Correspondence: s.chen@synthetic-imr.org  |  SYNTHETIC DATASET DISCLOSURE: Simulated trial estimates generated strictly for poster engine validation."
+        ],
+        "rule_color": "#DCCFD2",
+        "fg_color": "#57464B"
+      }
+    }
+  ],
+  "layout_notes": [],
+  "pruned_items": []
+}

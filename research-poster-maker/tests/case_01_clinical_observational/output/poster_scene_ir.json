@@ -1,0 +1,679 @@
+{
+  "poster_title": "Early SGLT2 Inhibitor Initiation Within 72 Hours of Acute Heart Failure Admission and 24-Month Cardiorenal Outcomes",
+  "template_id": "clinical-research",
+  "layout_recipe": "clinical_workflow",
+  "masthead_style": "solid_banner",
+  "dimensions": {
+    "preset_id": "48x36",
+    "label": "US Standard Landscape (48 × 36 in)",
+    "width_in": 48.0,
+    "height_in": 36.0,
+    "bleed_in": 0.0,
+    "safe_margin_in": 1.05,
+    "target_dpi": 300,
+    "is_default_assumption": false,
+    "orientation": "landscape",
+    "width_mm": 1219.2,
+    "height_mm": 914.4,
+    "pptx_scale_factor": 1.0,
+    "pptx_width_in": 48.0,
+    "pptx_height_in": 36.0,
+    "effective_pptx_raster_dpi": 300
+  },
+  "palette": {
+    "palette_id": "academic_navy",
+    "name": "Oxford Navy & Crisp White",
+    "canvas_bg": "#FFFFFF",
+    "surface_tint": "#F2F6FA",
+    "figure_bg": "#FFFFFF",
+    "dominant": "#0F2742",
+    "supporting": "#2B4C7E",
+    "accent": "#D55E00",
+    "masthead_fg": "#FFFFFF",
+    "masthead_sub_fg": "#DCE6F2",
+    "body_ink": "#15202B",
+    "muted_ink": "#475569",
+    "rule_border": "#CBD5E1",
+    "chart_series": [
+      "#0F2742",
+      "#0072B2",
+      "#D55E00",
+      "#009E73",
+      "#64748B",
+      "#CC79A7"
+    ]
+  },
+  "typography": {
+    "pairing_id": "clinical_precision",
+    "heading_font": {
+      "requested_name": "IBM Plex Sans",
+      "resolved_name": "IBM Plex Sans",
+      "regular_ttf": "/home/user/research-poster-maker/assets/fonts/IBMPlexSans-Regular.ttf",
+      "bold_ttf": "/home/user/research-poster-maker/assets/fonts/IBMPlexSans-Bold.ttf",
+      "italic_ttf": "/home/user/research-poster-maker/assets/fonts/IBMPlexSans-Italic.ttf",
+      "semibold_ttf": "/home/user/research-poster-maker/assets/fonts/IBMPlexSans-SemiBold.ttf",
+      "was_substituted": false,
+      "substitution_note": ""
+    },
+    "body_font": {
+      "requested_name": "IBM Plex Sans",
+      "resolved_name": "IBM Plex Sans",
+      "regular_ttf": "/home/user/research-poster-maker/assets/fonts/IBMPlexSans-Regular.ttf",
+      "bold_ttf": "/home/user/research-poster-maker/assets/fonts/IBMPlexSans-Bold.ttf",
+      "italic_ttf": "/home/user/research-poster-maker/assets/fonts/IBMPlexSans-Italic.ttf",
+      "semibold_ttf": "/home/user/research-poster-maker/assets/fonts/IBMPlexSans-SemiBold.ttf",
+      "was_substituted": false,
+      "substitution_note": ""
+    },
+    "scale_multiplier": 1.0,
+    "badge_pt": 20.0,
+    "title_pt": 85.0,
+    "authors_pt": 52.0,
+    "affiliations_pt": 28.0,
+    "section_heading_pt": 38.0,
+    "subheading_pt": 28.0,
+    "hero_metric_pt": 50.0,
+    "body_pt": 25.0,
+    "table_pt": 21.0,
+    "figure_label_pt": 22.0,
+    "caption_pt": 19.0,
+    "reference_pt": 18.0,
+    "min_body_pt": 24.0,
+    "min_heading_pt": 36.0,
+    "min_caption_pt": 18.0
+  },
+  "elements": [
+    {
+      "id": "canvas_background",
+      "kind": "background",
+      "x_in": 0.0,
+      "y_in": 0.0,
+      "w_in": 48.0,
+      "h_in": 36.0,
+      "payload": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "masthead",
+      "kind": "masthead",
+      "x_in": 0.0,
+      "y_in": 0.0,
+      "w_in": 48.0,
+      "h_in": 6.0484,
+      "payload": {
+        "style": "solid_banner",
+        "bg_color": "#0F2742",
+        "accent_color": "#D55E00",
+        "fg_color": "#FFFFFF",
+        "sub_fg_color": "#DCE6F2",
+        "margin_x_in": 1.05,
+        "pad_top_in": 0.7140000000000001,
+        "title_max_w_in": 39.3,
+        "badge": "MULTICENTER OBSERVATIONAL COHORT · STROBE · SYNTHETIC DEMO DATA",
+        "title": "Early SGLT2 Inhibitor Initiation Within 72 Hours of Acute Heart Failure Admission and 24-Month Cardiorenal Outcomes",
+        "title_lines": [
+          "Early SGLT2 Inhibitor Initiation Within 72 Hours of Acute Heart",
+          "Failure Admission and 24-Month Cardiorenal Outcomes"
+        ],
+        "authors": "Elena Rostova, MD, PhD¹; Marcus Vance, MD¹; Tariq Al-Mansoor, MPH²; Hannah Lindqvist, PhD²",
+        "author_lines": [
+          "Elena Rostova, MD, PhD¹; Marcus Vance, MD¹; Tariq Al-Mansoor, MPH²; Hannah Lindqvist, PhD²"
+        ],
+        "affiliations": "¹Dept. of Cardiovascular Medicine, Synthetic Academic Health Network; ²Center for Clinical Biostatistics (Synthetic Demonstration Study)",
+        "affil_lines": [
+          "¹Dept. of Cardiovascular Medicine, Synthetic Academic Health Network; ²Center for Clinical Biostatistics (Synthetic Demonstration Study)"
+        ],
+        "institution": "",
+        "logo_path": "/home/user/research-poster-maker/tests/case_01_clinical_observational/inputs/institute_logo.png",
+        "qr_path": "/home/user/research-poster-maker/tests/case_01_clinical_observational/output/figures/study_qr.png",
+        "qr_caption": "Scan for Paper / Data"
+      }
+    },
+    {
+      "id": "background",
+      "kind": "section_text",
+      "x_in": 1.05,
+      "y_in": 6.6284,
+      "w_in": 13.302,
+      "h_in": 4.9635,
+      "payload": {
+        "id": "background",
+        "column": 0,
+        "item_type": "text",
+        "style": "editorial_rule",
+        "title": "01  Clinical Background & Objective",
+        "paragraphs": [
+          "Acute decompensated heart failure (ADHF) hospitalization marks high vulnerability for recurrent congestion and progressive kidney decline [1]. Whether initiating SGLT2 inhibitors within 72 hours of inpatient stabilization improves 24-month cardiorenal survival across ejection fraction strata remains uncertain."
+        ],
+        "bullets": [
+          "Primary Objective: Compare 24-month composite cardiovascular death, HF rehospitalization, or ≥40% sustained eGFR decline between early inpatient SGLT2i (≤72 h) vs. standard post-discharge care."
+        ],
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 13.181999999999999,
+          "title_lines": [
+            "01 Clinical Background & Objective"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "hero_lines": [],
+          "hero_h_in": 0.0,
+          "para_wrapped": [
+            [
+              "Acute decompensated heart failure (ADHF) hospitalization marks high",
+              "vulnerability for recurrent congestion and progressive kidney decline [1].",
+              "Whether initiating SGLT2 inhibitors within 72 hours of inpatient stabilization",
+              "improves 24-month cardiorenal survival across ejection fraction strata",
+              "remains uncertain."
+            ]
+          ],
+          "bullet_wrapped": [
+            [
+              "• Primary Objective: Compare 24-month composite cardiovascular death, HF",
+              "rehospitalization, or ≥40% sustained eGFR decline between early inpatient",
+              "SGLT2i (≤72 h) vs. standard post-discharge care."
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "methods_flow",
+      "kind": "figure",
+      "x_in": 1.05,
+      "y_in": 12.5419,
+      "w_in": 13.302,
+      "h_in": 13.3802,
+      "payload": {
+        "id": "methods_flow",
+        "column": 0,
+        "item_type": "figure",
+        "title": "02  Cohort Derivation & Propensity Weighting",
+        "chart_spec": {
+          "id": "cohort_flow",
+          "chart_type": "flow_diagram",
+          "width_in": 13.0,
+          "height_in": 9.2,
+          "data": {
+            "steps": [
+              {
+                "title": "Adults Hospitalized With ADHF (19 Centers)",
+                "detail": "Screened index admissions (N = 6,140)",
+                "excluded_title": "Excluded (n = 1,320)",
+                "excluded_detail": "eGFR <20 mL/min (n=510)\nType 1 diabetes (n=190)\nPrior SGLT2i use (n=620)"
+              },
+              {
+                "title": "Eligible Analytic Cohort",
+                "detail": "Hemodynamically stabilized ≤72 h (N = 4,820)"
+              },
+              {
+                "title": "Overlap Propensity-Weighted Comparison",
+                "detail": "Early SGLT2i ≤72 h (n = 2,410) vs. Standard Care (n = 2,410)\nCovariate standardized mean differences all <0.03"
+              }
+            ]
+          }
+        },
+        "caption": "Figure 1. STROBE cohort selection across 19 hospitals (N = 4,820; synthetic cohort).",
+        "png_path": "/home/user/research-poster-maker/tests/case_01_clinical_observational/output/figures/methods_flow.png",
+        "svg_path": "/home/user/research-poster-maker/tests/case_01_clinical_observational/output/figures/methods_flow.svg",
+        "aspect_ratio": 1.413,
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 13.181999999999999,
+          "title_lines": [
+            "02 Cohort Derivation & Propensity Weighting"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "caption_lines": [
+            "Figure 1. STROBE cohort selection across 19 hospitals (N = 4,820; synthetic cohort)."
+          ],
+          "caption_h_in": 0.47138888888888886,
+          "ideal_img_h": 9.159235668789808,
+          "min_img_h": 6.961019108280254,
+          "max_img_h": 11.907006369426751,
+          "img_h_in": 11.687184713375796
+        }
+      }
+    },
+    {
+      "id": "methods_text",
+      "kind": "section_text",
+      "x_in": 1.05,
+      "y_in": 26.8722,
+      "w_in": 13.302,
+      "h_in": 3.6344,
+      "payload": {
+        "id": "methods_text",
+        "column": 0,
+        "item_type": "text",
+        "style": "editorial_rule",
+        "title": "03  Statistical Architecture",
+        "bullets": [
+          "Exposure: Empagliflozin or dapagliflozin started ≤72 h of IV loop diuretic stabilization.",
+          "Models: Overlap propensity-weighted Cox models & Fine-Gray competing-risk regression adjusted for age, LVEF, NT-proBNP, baseline eGFR, and background GDMT [2]."
+        ],
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 13.181999999999999,
+          "title_lines": [
+            "03 Statistical Architecture"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "hero_lines": [],
+          "hero_h_in": 0.0,
+          "para_wrapped": [],
+          "bullet_wrapped": [
+            [
+              "• Exposure: Empagliflozin or dapagliflozin started ≤72 h of IV loop diuretic",
+              "stabilization."
+            ],
+            [
+              "• Models: Overlap propensity-weighted Cox models & Fine-Gray",
+              "competing-risk regression adjusted for age, LVEF, NT-proBNP, baseline eGFR,",
+              "and background GDMT [2]."
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "primary_callout",
+      "kind": "callout",
+      "x_in": 15.132,
+      "y_in": 6.6284,
+      "w_in": 18.1794,
+      "h_in": 3.5736,
+      "payload": {
+        "id": "primary_callout",
+        "column": 1,
+        "item_type": "callout",
+        "style": "focal_callout",
+        "title": "Primary 24-Month Cardiorenal Composite",
+        "hero_metric": "aHR 0.68 (95% CI 0.56–0.82; p = 0.0001)",
+        "paragraphs": [
+          "Early SGLT2i initiation reduced cumulative 24-month event incidence from 29.8% (718/2,410) to 21.4% (516/2,410), corresponding to an absolute risk reduction of 8.4% (NNT = 12)."
+        ],
+        "metrics": {
+          "pad_x": 0.4,
+          "pad_y": 0.34,
+          "inner_w": 17.379399999999997,
+          "title_lines": [
+            "Primary 24-Month Cardiorenal Composite"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "hero_lines": [
+            "aHR 0.68 (95% CI 0.56–0.82; p = 0.0001)"
+          ],
+          "hero_h_in": 0.9638888888888889,
+          "para_wrapped": [
+            [
+              "Early SGLT2i initiation reduced cumulative 24-month event incidence from 29.8% (718/2,410) to",
+              "21.4% (516/2,410), corresponding to an absolute risk reduction of 8.4% (NNT = 12)."
+            ]
+          ],
+          "bullet_wrapped": []
+        }
+      }
+    },
+    {
+      "id": "km_figure",
+      "kind": "figure",
+      "x_in": 15.132,
+      "y_in": 11.1521,
+      "w_in": 18.1794,
+      "h_in": 14.9434,
+      "payload": {
+        "id": "km_figure",
+        "column": 1,
+        "item_type": "figure",
+        "title": "04  24-Month Event-Free Survival",
+        "chart_spec": {
+          "id": "km_primary",
+          "chart_type": "kaplan_meier",
+          "width_in": 17.5,
+          "height_in": 10.2,
+          "zoom_y": true,
+          "x_label": "Months Since Index ADHF Stabilization",
+          "y_label": "Cardiorenal Event-Free Survival",
+          "data": {
+            "risk_times": [
+              0,
+              6,
+              12,
+              18,
+              24
+            ],
+            "stat_summary": "Adjusted HR 0.68 (95% CI 0.56–0.82)\nLog-rank p = 0.0001",
+            "groups": [
+              {
+                "name": "Early Inpatient SGLT2i ≤72 h (n = 2,410)",
+                "short_name": "Early SGLT2i",
+                "times": [
+                  0,
+                  3,
+                  6,
+                  12,
+                  18,
+                  24
+                ],
+                "survival": [
+                  1.0,
+                  0.93,
+                  0.89,
+                  0.84,
+                  0.81,
+                  0.786
+                ],
+                "ci_low": [
+                  1.0,
+                  0.915,
+                  0.872,
+                  0.82,
+                  0.788,
+                  0.764
+                ],
+                "ci_high": [
+                  1.0,
+                  0.944,
+                  0.906,
+                  0.858,
+                  0.83,
+                  0.806
+                ],
+                "at_risk": [
+                  2410,
+                  2138,
+                  2019,
+                  1945,
+                  1894
+                ]
+              },
+              {
+                "name": "Standard Post-Discharge Care (n = 2,410)",
+                "short_name": "Standard Care",
+                "times": [
+                  0,
+                  3,
+                  6,
+                  12,
+                  18,
+                  24
+                ],
+                "survival": [
+                  1.0,
+                  0.89,
+                  0.83,
+                  0.77,
+                  0.73,
+                  0.702
+                ],
+                "ci_low": [
+                  1.0,
+                  0.873,
+                  0.81,
+                  0.748,
+                  0.707,
+                  0.678
+                ],
+                "ci_high": [
+                  1.0,
+                  0.906,
+                  0.848,
+                  0.791,
+                  0.752,
+                  0.725
+                ],
+                "at_risk": [
+                  2410,
+                  1998,
+                  1852,
+                  1756,
+                  1692
+                ]
+              }
+            ]
+          }
+        },
+        "caption": "Figure 2. Overlap-weighted Kaplan-Meier cardiorenal event-free survival with shaded 95% CIs and aligned number at risk (N = 4,820).",
+        "png_path": "/home/user/research-poster-maker/tests/case_01_clinical_observational/output/figures/km_figure.png",
+        "svg_path": "/home/user/research-poster-maker/tests/case_01_clinical_observational/output/figures/km_figure.svg",
+        "aspect_ratio": 1.716,
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 18.059399999999997,
+          "title_lines": [
+            "04 24-Month Event-Free Survival"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "caption_lines": [
+            "Figure 2. Overlap-weighted Kaplan-Meier cardiorenal event-free survival with shaded 95% CIs and aligned number at risk (N = 4,820)."
+          ],
+          "caption_h_in": 0.47138888888888886,
+          "ideal_img_h": 10.384265734265734,
+          "min_img_h": 7.892041958041958,
+          "max_img_h": 13.499545454545455,
+          "img_h_in": 13.250323076923078
+        }
+      }
+    },
+    {
+      "id": "outcomes_table",
+      "kind": "table",
+      "x_in": 34.0914,
+      "y_in": 6.6284,
+      "w_in": 12.8586,
+      "h_in": 5.9806,
+      "payload": {
+        "id": "outcomes_table",
+        "column": 2,
+        "item_type": "table",
+        "title": "05  Component & Safety Endpoints",
+        "table_data": {
+          "headers": [
+            "Outcome (24 Months)",
+            "Early SGLT2i",
+            "Standard",
+            "aHR (95% CI)",
+            "p-value"
+          ],
+          "rows": [
+            [
+              "Primary composite",
+              "21.4%",
+              "29.8%",
+              "0.68 (0.56–0.82)",
+              "0.0001"
+            ],
+            [
+              "HF rehospitalization",
+              "14.8%",
+              "21.9%",
+              "0.65 (0.53–0.80)",
+              "0.0002"
+            ],
+            [
+              "CV mortality",
+              "6.9%",
+              "8.8%",
+              "0.78 (0.61–0.99)",
+              "0.041"
+            ],
+            [
+              "≥40% eGFR decline",
+              "5.2%",
+              "7.3%",
+              "0.71 (0.55–0.92)",
+              "0.009"
+            ],
+            [
+              "HFrEF (<40%) stratum",
+              "22.1%",
+              "31.0%",
+              "0.67 (0.54–0.83)",
+              "0.0003"
+            ],
+            [
+              "HFpEF (≥50%) stratum",
+              "20.3%",
+              "28.1%",
+              "0.70 (0.55–0.89)",
+              "0.004"
+            ],
+            [
+              "Euglycemic DKA (safety)",
+              "0.4%",
+              "0.3%",
+              "1.31 (0.52–3.30)",
+              "0.56"
+            ]
+          ],
+          "col_weights": [
+            1.85,
+            0.95,
+            0.9,
+            1.35,
+            0.75
+          ]
+        },
+        "footnote": "Subgroup p-interaction by LVEF phenotype = 0.64. Euglycemic DKA was exploratory safety outcome.",
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 12.738599999999998,
+          "title_lines": [
+            "05 Component & Safety Endpoints"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "col_widths_in": [
+            4.063174137931035,
+            2.0864948275862063,
+            1.9766793103448275,
+            2.9650189655172414,
+            1.6472327586206896
+          ],
+          "header_h_in": 0.5383333333333333,
+          "row_heights_in": [
+            0.5183333333333333,
+            0.5183333333333333,
+            0.5183333333333333,
+            0.5183333333333333,
+            0.5183333333333333,
+            0.5183333333333333,
+            0.5183333333333333
+          ],
+          "footnote_lines": [
+            "Subgroup p-interaction by LVEF phenotype = 0.64. Euglycemic DKA was exploratory safety",
+            "outcome."
+          ],
+          "footnote_h_in": 0.7322222222222223
+        }
+      }
+    },
+    {
+      "id": "limitations",
+      "kind": "section_text",
+      "x_in": 34.0914,
+      "y_in": 13.559,
+      "w_in": 12.8586,
+      "h_in": 3.6344,
+      "payload": {
+        "id": "limitations",
+        "column": 2,
+        "item_type": "text",
+        "style": "editorial_rule",
+        "title": "06  Strengths & Limitations",
+        "bullets": [
+          "Strengths: Active-comparator new-user design across 19 centers with adjudicated renal laboratory trajectories.",
+          "Limitations: Residual confounding by unmeasured inpatient diuretic responsiveness cannot be excluded; post-12-month adherence relied on dispensation claims."
+        ],
+        "metrics": {
+          "pad_x": 0.06,
+          "pad_y": 0.14,
+          "inner_w": 12.738599999999998,
+          "title_lines": [
+            "06 Strengths & Limitations"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "hero_lines": [],
+          "hero_h_in": 0.0,
+          "para_wrapped": [],
+          "bullet_wrapped": [
+            [
+              "• Strengths: Active-comparator new-user design across 19 centers with",
+              "adjudicated renal laboratory trajectories."
+            ],
+            [
+              "• Limitations: Residual confounding by unmeasured inpatient diuretic",
+              "responsiveness cannot be excluded; post-12-month adherence relied on",
+              "dispensation claims."
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "conclusion",
+      "kind": "callout",
+      "x_in": 34.0914,
+      "y_in": 18.1434,
+      "w_in": 12.8586,
+      "h_in": 3.4778,
+      "payload": {
+        "id": "conclusion",
+        "column": 2,
+        "item_type": "callout",
+        "style": "focal_callout_subtle",
+        "title": "Clinical Conclusions",
+        "paragraphs": [
+          "Initiating SGLT2 therapy within 72 hours of inpatient ADHF stabilization was associated with a 32% relative hazard reduction in 24-month cardiorenal events across HFrEF and HFpEF phenotypes, without excess ketoacidosis or acute renal injury."
+        ],
+        "metrics": {
+          "pad_x": 0.4,
+          "pad_y": 0.34,
+          "inner_w": 12.058599999999997,
+          "title_lines": [
+            "Clinical Conclusions"
+          ],
+          "title_h_in": 0.8016666666666666,
+          "hero_lines": [],
+          "hero_h_in": 0.0,
+          "para_wrapped": [
+            [
+              "Initiating SGLT2 therapy within 72 hours of inpatient ADHF stabilization",
+              "was associated with a 32% relative hazard reduction in 24-month",
+              "cardiorenal events across HFrEF and HFpEF phenotypes, without",
+              "excess ketoacidosis or acute renal injury."
+            ]
+          ],
+          "bullet_wrapped": []
+        }
+      }
+    },
+    {
+      "id": "footer_colophon",
+      "kind": "colophon",
+      "x_in": 1.05,
+      "y_in": 33.9,
+      "w_in": 45.9,
+      "h_in": 1.05,
+      "payload": {
+        "lines": [
+          "References: [1] Voors AA et al. Nat Med 2022;28:568–574. [2] Li F, Morgan KL, Zaslavsky AM. JASA 2018;113:390–400.",
+          "Funding: Synthetic Translational Grant SYN-2026-014 | Correspondence: e.rostova@synthetic-ahn.org | SYNTHETIC DATASET DISCLOSURE: Simulated cohort created strictly for poster skill testing."
+        ],
+        "raw_parts": [
+          "References:  [1] Voors AA et al. Nat Med 2022;28:568–574.   [2] Li F, Morgan KL, Zaslavsky AM. JASA 2018;113:390–400.",
+          "Funding: Synthetic Translational Grant SYN-2026-014  |  Correspondence: e.rostova@synthetic-ahn.org  |  SYNTHETIC DATASET DISCLOSURE: Simulated cohort created strictly for poster skill testing."
+        ],
+        "rule_color": "#CBD5E1",
+        "fg_color": "#475569"
+      }
+    }
+  ],
+  "layout_notes": [],
+  "pruned_items": []
+}

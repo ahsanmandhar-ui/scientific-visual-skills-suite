@@ -1,0 +1,143 @@
+{
+  "overall_status": "PASS",
+  "summary_counts": {
+    "PASS": 15,
+    "WARN": 0,
+    "FAIL": 0
+  },
+  "checks": [
+    {
+      "category": "technical",
+      "check_id": "MANDATORY_OUTPUT_FILES",
+      "status": "PASS",
+      "message": "All 5 mandatory deliverables exist and are non-empty."
+    },
+    {
+      "category": "technical",
+      "check_id": "PPTX_DIMENSIONS_AND_ORIENTATION",
+      "status": "PASS",
+      "message": "PPTX single slide verified at effective 46.811 \u00d7 33.11 in (scale=1.0x, landscape)."
+    },
+    {
+      "category": "technical",
+      "check_id": "BOUNDARY_CONTAINMENT",
+      "status": "PASS",
+      "message": "Zero shapes extend outside poster boundaries."
+    },
+    {
+      "category": "technical",
+      "check_id": "OBJECT_OVERLAP_CHECK",
+      "status": "PASS",
+      "message": "Zero unintended shape overlaps detected."
+    },
+    {
+      "category": "technical",
+      "check_id": "TYPOGRAPHY_FLOOR_AND_FONTS",
+      "status": "PASS",
+      "message": "Minimum effective text size is 18.0 pt (floor 18.0 pt). Exact requested TrueType fonts resolved."
+    },
+    {
+      "category": "technical",
+      "check_id": "IMAGE_RESOLUTION_PPI",
+      "status": "PASS",
+      "message": "Inspected 2 embedded image(s); all meet >=250\u2013300 PPI print target.",
+      "details": [
+        {
+          "shape": "figure:timeline_upper_band",
+          "pixels": [
+            13413,
+            1260
+          ],
+          "printed_size_in": [
+            44.63,
+            4.19
+          ],
+          "effective_ppi": 300.5
+        },
+        {
+          "shape": "figure:exposure_curve",
+          "pixels": [
+            4680,
+            2520
+          ],
+          "printed_size_in": [
+            15.45,
+            8.32
+          ],
+          "effective_ppi": 302.8
+        }
+      ]
+    },
+    {
+      "category": "technical",
+      "check_id": "CHART_INTEGRITY",
+      "status": "PASS",
+      "message": "All embedded chart references intact."
+    },
+    {
+      "category": "technical",
+      "check_id": "PDF_DIMENSIONS_AND_EMBEDDED_FONTS",
+      "status": "PASS",
+      "message": "PDF verified: 1 page, 46.811 \u00d7 33.11 in (1189.0 \u00d7 841.0 mm), 6 embedded font resource(s)."
+    },
+    {
+      "category": "scientific",
+      "check_id": "TITLE_AND_AUTHOR_CONSISTENCY",
+      "status": "PASS",
+      "message": "Poster title and author block match source specification."
+    },
+    {
+      "category": "scientific",
+      "check_id": "REFERENCE_CONSISTENCY",
+      "status": "PASS",
+      "message": "Verified 2 reference entry/entries."
+    },
+    {
+      "category": "scientific",
+      "check_id": "NUMERICAL_PROVENANCE_CHECK",
+      "status": "PASS",
+      "message": "All 24 decimal statistical value(s) on poster trace directly to supplied source data."
+    },
+    {
+      "category": "scientific",
+      "check_id": "FIGURE_CAPTION_CONSISTENCY",
+      "status": "PASS",
+      "message": "All 1 primary/secondary figure(s) carry analytical captions."
+    },
+    {
+      "category": "scientific",
+      "check_id": "CONCLUSION_STATISTICAL_CALIBRATION",
+      "status": "PASS",
+      "message": "Conclusions and statistical significance language are appropriately calibrated."
+    },
+    {
+      "category": "accessibility",
+      "check_id": "WCAG_COLOR_CONTRAST",
+      "status": "PASS",
+      "message": "WCAG 2.1 contrast verified \u2014 Body/Canvas: 15.5:1, Callout: 14.39:1, Masthead: 12.35:1 (minimum 4.5:1 AA; 7.0:1 AAA)."
+    },
+    {
+      "category": "visual",
+      "check_id": "RENDERED_VISUAL_COMPOSITION",
+      "status": "PASS",
+      "message": "Rendered preview (2528\u00d71788 px): body ink density=7.8%, whitespace=92.2%, lateral balance \u0394=0.4%, safe-margin perimeter clean=True.",
+      "details": {
+        "pixel_size": [
+          2528,
+          1788
+        ],
+        "body_ink_density": 0.078,
+        "whitespace_fraction": 0.922,
+        "left_half_density": 0.0802,
+        "right_half_density": 0.0758,
+        "lateral_balance_diff": 0.0044,
+        "margin_edge_ink": {
+          "left": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      }
+    }
+  ],
+  "revision_actions": []
+}

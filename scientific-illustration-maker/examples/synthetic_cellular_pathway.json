@@ -1,0 +1,32 @@
+{
+  "mode": "cellular_signaling",
+  "width_in": 11.5,
+  "height_in": 7.5,
+  "dpi": 350,
+  "title": "Synthetic Schematic: Dual JAK1/STAT3 & PI3K/AKT Receptor Signaling With Small-Molecule Blockade",
+  "subtitle": "2D Vector Cellular Mechanism Diagram (Extracellular Ligand Binding, Phospholipid Bilayer, Cytosolic Kinase Cascade, Nuclear Transcription)",
+  "nodes": [
+    {"id": "il6", "label": "IL-6 Cytokine", "role": "ligand", "x": 28, "y": 82.5, "w": 14.0, "h": 5.8},
+    {"id": "gf", "label": "EGF Ligand", "role": "ligand", "x": 66, "y": 82.5, "w": 13.5, "h": 5.8},
+    {"id": "gp130", "label": "IL-6R / gp130", "role": "receptor", "x": 28, "y": 71.2, "w": 14.5, "h": 9.6},
+    {"id": "egfr", "label": "EGFR Dimer", "role": "receptor", "x": 66, "y": 71.2, "w": 14.5, "h": 9.6},
+    {"id": "drug", "label": "SYN-402 Inhibitor", "role": "drug", "x": 11, "y": 54.5, "w": 15.0, "h": 6.4},
+    {"id": "jak1", "label": "JAK1 / JAK2", "role": "kinase", "x": 31, "y": 54.5, "w": 14.0, "h": 6.4, "phospho": true},
+    {"id": "pi3k", "label": "PI3K p110α", "role": "kinase", "x": 66, "y": 54.5, "w": 14.0, "h": 6.4, "phospho": true},
+    {"id": "stat3", "label": "STAT3 Dimer", "role": "kinase", "x": 34, "y": 38.5, "w": 14.5, "h": 6.4, "phospho": true},
+    {"id": "akt", "label": "AKT1 / mTORC1", "role": "kinase", "x": 66, "y": 38.5, "w": 15.5, "h": 6.4, "phospho": true},
+    {"id": "promoter", "label": "MYC / BCL2L1 Locus", "role": "tf", "x": 50, "y": 18.5, "w": 20.0, "h": 6.4}
+  ],
+  "edges": [
+    {"from": "il6", "to": "gp130", "type": "activate"},
+    {"from": "gf", "to": "egfr", "type": "activate"},
+    {"from": "gp130", "to": "jak1", "type": "activate"},
+    {"from": "egfr", "to": "pi3k", "type": "activate"},
+    {"from": "drug", "to": "jak1", "type": "inhibit", "label": "ATP-pocket"},
+    {"from": "jak1", "to": "stat3", "type": "activate", "label": "Tyr705"},
+    {"from": "pi3k", "to": "akt", "type": "activate", "label": "PIP3"},
+    {"from": "stat3", "to": "promoter", "type": "transcribe", "label": "Nuclear import"},
+    {"from": "akt", "to": "promoter", "type": "transcribe", "label": "FOXO/mTOR"}
+  ],
+  "legend_footer": "SYNTHETIC MECHANISM EXAMPLE · Solid arrow (→) = catalytic activation | Flat T-bar [-|] = competitive inhibition | Dashed arrow = nuclear transcriptional drive | (P) = phosphorylation"
+}

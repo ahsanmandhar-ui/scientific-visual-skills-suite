@@ -1,0 +1,17 @@
+{
+  "palettes": {
+    "cell_editorial": {
+      "extracellular": "#F4F7FA",
+      "membrane_head": "#C26D2D",
+      "membrane_tail": "#E6B88A",
+      "cytoplasm": "#FBF9F5",
+      "nucleus": "#ECE8F4",
+      "receptor": "#1D6F72",
+      "kinase": "#2B4C7E",
+      "inhibitor": "#B8332A",
+      "tf": "#5B3E8C",
+      "ink": "#182026",
+      "muted": "#5C6B73"
+    }
+  }
+}

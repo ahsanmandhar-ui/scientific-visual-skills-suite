@@ -1,0 +1,25 @@
+{
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "id": "OUTPUT_FILES",
+      "status": "PASS",
+      "msg": "All SVG/PDF/PNG/PPTX teaching poster files present."
+    },
+    {
+      "id": "PDF_PRINT_DIMENSIONS_AND_FONTS",
+      "status": "PASS",
+      "msg": "PDF 16.54\u00d723.39 in with 2 embedded TrueType font(s)."
+    },
+    {
+      "id": "RASTER_PRINT_DPI",
+      "status": "PASS",
+      "msg": "PNG 3638\u00d75145 px (220 DPI)."
+    },
+    {
+      "id": "PEDAGOGICAL_COMPLETENESS",
+      "status": "PASS",
+      "msg": "Diagnostic algorithm, classification matrix, and OSCE checklist verified."
+    }
+  ]
+}

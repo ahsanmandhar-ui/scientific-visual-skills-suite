@@ -1,0 +1,20 @@
+{
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "id": "DUAL_DELIVERABLE_STANDARD",
+      "status": "PASS",
+      "msg": "Both clean unlettered production files and masthead safe-zone mockup verified."
+    },
+    {
+      "id": "CLEAN_UNLETTERED_BLEED_GEOMETRY",
+      "status": "PASS",
+      "msg": "Unlettered PDF 216.0\u00d7282.0 mm (trim+bleed) contains 0 stray text characters."
+    },
+    {
+      "id": "COVER_PRINT_DPI",
+      "status": "PASS",
+      "msg": "Full-bleed raster 2551\u00d73330 px (300 DPI)."
+    }
+  ]
+}

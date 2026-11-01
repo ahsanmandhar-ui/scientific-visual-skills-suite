@@ -1,0 +1,25 @@
+{
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "id": "VECTOR_AND_RASTER_FILES",
+      "status": "PASS",
+      "msg": "SVG, PDF, and PNG present."
+    },
+    {
+      "id": "EDITABLE_SVG_TEXT",
+      "status": "PASS",
+      "msg": "SVG preserves editable <text> elements for Inkscape/Illustrator."
+    },
+    {
+      "id": "NODE_SPATIAL_SEPARATION",
+      "status": "PASS",
+      "msg": "Zero overlapping pathway nodes."
+    },
+    {
+      "id": "RASTER_DPI",
+      "status": "PASS",
+      "msg": "PNG 4025\u00d72625 px (350 DPI)."
+    }
+  ]
+}

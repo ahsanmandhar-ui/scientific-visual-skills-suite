@@ -1,0 +1,12 @@
+{
+  "archetypes": {
+    "conference-oral-10min": {"aspect": "16:9", "target_minutes": 10, "recommended_slides": [7, 11]},
+    "journal-club-appraisal": {"aspect": "16:9", "target_minutes": 15, "recommended_slides": [8, 14]},
+    "thesis-defense": {"aspect": "16:9", "target_minutes": 30, "recommended_slides": [15, 28]},
+    "methodology-seminar": {"aspect": "16:9", "target_minutes": 20, "recommended_slides": [10, 18]}
+  },
+  "palettes": {
+    "oxford_academic": {"dominant": "#162B48", "secondary": "#1D6A7A", "accent": "#C85A17", "canvas": "#FFFFFF", "tint": "#F3F6FA", "ink": "#111827", "muted": "#4B5563", "border": "#CBD5E1"},
+    "forest_editorial": {"dominant": "#183D32", "secondary": "#2A6F5B", "accent": "#B85318", "canvas": "#FCFDFB", "tint": "#EFF5F2", "ink": "#14221D", "muted": "#4E615A", "border": "#CBE0D7"}
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "input_dataset": "/home/user/research-data-visualization-designer/examples/synthetic_cardiac_cohort.csv",
+  "dataset_sha256": "cf88257c92c043dc2950f58585b27a646536e4fe9d70df617af2ca5192c52960",
+  "python_version": "3.13.16",
+  "matplotlib_version": "3.10.9",
+  "numpy_version": "2.3.5",
+  "computed_statistics": {
+    "n_rows": 108,
+    "kruskal_p": 3.100219672718116e-14,
+    "pearson_r": -0.324,
+    "regression_p": 0.0006235751160818337
+  },
+  "outputs": {
+    "svg": "/home/user/research-data-visualization-designer/examples/output/dataviz_figure.svg",
+    "pdf": "/home/user/research-data-visualization-designer/examples/output/dataviz_figure.pdf",
+    "png": "/home/user/research-data-visualization-designer/examples/output/dataviz_figure.png",
+    "reproduce_py": "/home/user/research-data-visualization-designer/examples/output/reproduce_figure.py"
+  }
+}

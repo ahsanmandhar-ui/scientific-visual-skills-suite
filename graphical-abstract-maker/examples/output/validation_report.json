@@ -1,0 +1,25 @@
+{
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "id": "OUTPUT_FILES",
+      "status": "PASS",
+      "msg": "All SVG/PDF/PNG/PPTX files present."
+    },
+    {
+      "id": "WORD_BUDGET_CONCISENESS",
+      "status": "PASS",
+      "msg": "Total body words = 77 (recommended <= 95 words for rapid 15s scan)."
+    },
+    {
+      "id": "PDF_VECTOR_AND_FONTS",
+      "status": "PASS",
+      "msg": "PDF 16.0\u00d79.0 in with 2 embedded TrueType font(s)."
+    },
+    {
+      "id": "PNG_PRINT_DPI",
+      "status": "PASS",
+      "msg": "PNG 4800\u00d72700 px (~300 DPI at 16.0\u00d79.0 in)."
+    }
+  ]
+}

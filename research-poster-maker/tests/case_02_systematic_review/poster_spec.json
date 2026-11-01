@@ -1,0 +1,269 @@
+{
+  "template_id": "systematic-review",
+  "dimensions_preset": "a0_portrait",
+  "layout_recipe": "systematic_review_prisma",
+  "palette": "deep_teal",
+  "font_pairing": "editorial_modern",
+  "study_badge": "PRISMA 2020 SYSTEMATIC REVIEW · SYNTHETIC DEMONSTRATION DATA",
+  "title": "Machine-Learning Sepsis Early Warning Systems in Adult Intensive Care Units: A PRISMA 2020 Systematic Review",
+  "authors_line": "Priya Nair, MD¹; Lukas Meyer, PhD²; Mei-Ling Zhou, MSc¹",
+  "affiliations_line": "¹Institute of Critical Care Informatics; ²Dept. of Health Data Science, Synthetic University Hospital",
+  "study_url": "https://example.org/synthetic-prisma-sepsis-review",
+  "items": [
+    {
+      "id": "rationale",
+      "column": 0,
+      "item_type": "text",
+      "style": "editorial_rule",
+      "title": "01  Clinical Question & PICOS",
+      "bullets": [
+        "Population: Adult medical/surgical ICU admissions (Sepsis-3 criteria).",
+        "Intervention: Real-time prospective ML sepsis early warning systems.",
+        "Comparator: Standard clinical surveillance or MEWS/SOFA rules.",
+        "Outcomes: Diagnostic discrimination (AUROC), time-to-antimicrobials, and 28-day ICU mortality."
+      ]
+    },
+    {
+      "id": "methods",
+      "column": 0,
+      "item_type": "text",
+      "style": "editorial_rule",
+      "title": "02  Search & Appraisal Methods",
+      "bullets": [
+        "Databases: MEDLINE, Embase, CENTRAL, IEEE Xplore (Jan 2018 – Jun 2026).",
+        "Dual independent screening (κ = 0.86); bias appraised via RoB 2 (RCTs) and ROBINS-I (non-randomized studies); certainty graded with GRADE [1]."
+      ]
+    },
+    {
+      "id": "prisma_fig",
+      "column": 0,
+      "item_type": "figure",
+      "title": "03  PRISMA 2020 Study Selection",
+      "chart_spec": {
+        "id": "prisma_sepsis",
+        "chart_type": "prisma_diagram",
+        "width_in": 13.0,
+        "height_in": 15.2,
+        "data": {
+          "records_identified": 3420,
+          "records_removed_before_screening": 610,
+          "identification_detail": "4 databases & registries\n(n = 3,420)",
+          "removed_detail": "Duplicates removed\n(n = 610)",
+          "records_screened": 2810,
+          "records_excluded_screening": 2664,
+          "reports_sought": 146,
+          "reports_not_retrieved": 0,
+          "reports_assessed": 146,
+          "reports_excluded_fulltext": 128,
+          "exclusion_reasons": {
+            "Retrospective silent-mode only": 74,
+            "Pediatric / ED setting": 31,
+            "No Sepsis-3 clinical endpoint": 23
+          },
+          "studies_included_review": 18
+        }
+      },
+      "caption": "Figure 1. PRISMA 2020 flow diagram verifying arithmetic count closure across 3,420 records to 18 prospective ICU studies."
+    },
+    {
+      "id": "limitations",
+      "column": 0,
+      "item_type": "text",
+      "style": "editorial_rule",
+      "title": "06  GRADE Certainty & Limitations",
+      "bullets": [
+        "Moderate GRADE certainty for faster antibiotic administration; low-to-moderate certainty for mortality due to workflow co-interventions.",
+        "Unstandardized positive-predictive-value reporting limited quantitative pooling across alert thresholds."
+      ]
+    },
+    {
+      "id": "synthesis_callout",
+      "column": 1,
+      "item_type": "callout",
+      "style": "focal_callout",
+      "title": "Synthesis Across 18 Prospective Studies (N = 94,300)",
+      "hero_metric": "−1.8 h Time-to-Antibiotics  |  AUROC 0.87",
+      "paragraphs": [
+        "Across 6 RCTs and 12 prospective interventional cohorts, multimodal EHR + waveform models achieved median AUROC 0.87 (IQR 0.84–0.90) and shortened antimicrobial initiation by 1.8 hours overall (−2.1 h in huddles-integrated ICUs)."
+      ]
+    },
+    {
+      "id": "roc_fig",
+      "column": 1,
+      "item_type": "figure",
+      "title": "04  Prospective Model Discrimination by Architecture",
+      "chart_spec": {
+        "id": "sepsis_roc",
+        "chart_type": "roc_curve",
+        "width_in": 16.5,
+        "height_in": 10.5,
+        "data": {
+          "curves": [
+            {
+              "name": "Multimodal EHR + Waveform (k=7)",
+              "fpr": [
+                0.0,
+                0.04,
+                0.1,
+                0.18,
+                0.3,
+                0.5,
+                0.75,
+                1.0
+              ],
+              "tpr": [
+                0.0,
+                0.52,
+                0.74,
+                0.84,
+                0.91,
+                0.96,
+                0.99,
+                1.0
+              ],
+              "auc": 0.87,
+              "ci_low": 0.84,
+              "ci_high": 0.9,
+              "optimal_point": {
+                "fpr": 0.18,
+                "tpr": 0.84,
+                "label": "Sens 0.84 / Spec 0.82"
+              }
+            },
+            {
+              "name": "Gradient-Boosted EHR Labs/Vitals (k=6)",
+              "fpr": [
+                0.0,
+                0.06,
+                0.14,
+                0.24,
+                0.38,
+                0.58,
+                0.8,
+                1.0
+              ],
+              "tpr": [
+                0.0,
+                0.44,
+                0.66,
+                0.79,
+                0.87,
+                0.94,
+                0.98,
+                1.0
+              ],
+              "auc": 0.83,
+              "ci_low": 0.8,
+              "ci_high": 0.86
+            },
+            {
+              "name": "Logistic / Vitals-Only Alerts (k=5)",
+              "fpr": [
+                0.0,
+                0.09,
+                0.2,
+                0.32,
+                0.48,
+                0.68,
+                0.85,
+                1.0
+              ],
+              "tpr": [
+                0.0,
+                0.36,
+                0.57,
+                0.71,
+                0.82,
+                0.9,
+                0.96,
+                1.0
+              ],
+              "auc": 0.78,
+              "ci_low": 0.74,
+              "ci_high": 0.81
+            }
+          ]
+        }
+      },
+      "caption": "Figure 2. Summary prospective ROC profiles across model architecture tiers (18 ICU studies, N = 94,300)."
+    },
+    {
+      "id": "char_table",
+      "column": 1,
+      "item_type": "table",
+      "title": "05  Evidence Summary by Implementation Tier",
+      "table_data": {
+        "headers": [
+          "Architecture Tier",
+          "Studies",
+          "Admissions",
+          "Median AUROC",
+          "Abx Δ (h)",
+          "Low/Mod RoB"
+        ],
+        "rows": [
+          [
+            "Multimodal EHR + Waveform",
+            "7 (3 RCT)",
+            "41,200",
+            "0.87 (0.84–0.90)",
+            "−2.1 h",
+            "6 / 7 (86%)"
+          ],
+          [
+            "Boosted EHR Labs + Vitals",
+            "6 (2 RCT)",
+            "34,600",
+            "0.83 (0.80–0.86)",
+            "−1.7 h",
+            "4 / 6 (67%)"
+          ],
+          [
+            "Vitals-Only Rule / Logistic",
+            "5 (1 RCT)",
+            "18,500",
+            "0.78 (0.74–0.81)",
+            "−0.9 h",
+            "2 / 5 (40%)"
+          ],
+          [
+            "Overall Synthesis",
+            "18 (6 RCT)",
+            "94,300",
+            "0.84 (0.78–0.89)",
+            "−1.8 h",
+            "12 / 18 (67%)"
+          ]
+        ],
+        "col_weights": [
+          1.9,
+          0.85,
+          0.9,
+          1.25,
+          0.8,
+          0.95
+        ]
+      },
+      "footnote": "RoB 2 applied to randomized trials; ROBINS-I applied to prospective interventional cohorts."
+    },
+    {
+      "id": "conclusion",
+      "column": 1,
+      "item_type": "callout",
+      "style": "focal_callout_subtle",
+      "title": "07  Conclusions & Implementation Guidance",
+      "paragraphs": [
+        "Prospective ML sepsis alerts reliably accelerate antibiotic administration only when paired with structured nurse-physician escalation workflows and precision-calibrated alert thresholds (PPV ≥0.30) to prevent alarm fatigue [2]."
+      ]
+    }
+  ],
+  "colophon": {
+    "references": [
+      "[1] Page MJ et al. PRISMA 2020 statement. BMJ 2021;372:n71.",
+      "[2] Adams R et al. Nat Med 2022;28:1455–1460."
+    ],
+    "funding": "Protocol: PROSPERO CRD42026000999-SYN (Synthetic)",
+    "correspondence": "Correspondence: p.nair@synthetic-icu.org",
+    "disclosure": "SYNTHETIC DATASET DISCLOSURE: Simulated review data for skill validation."
+  }
+}

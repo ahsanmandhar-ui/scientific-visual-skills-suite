@@ -1,0 +1,39 @@
+{
+  "preset": "bmj-visual-abstract",
+  "palette": "oxford_clinical",
+  "study_badge": "SYNTHETIC RANDOMIZED CLINICAL TRIAL · N = 640",
+  "headline": "ctDNA-Guided Dual Checkpoint Blockade Reduces 12-Month Recurrence in Stage III Melanoma",
+  "citation_footer": "SYNTHETIC EXAMPLE DATA FOR SKILL VALIDATION · Primary Endpoint HR 0.58 (95% CI 0.43–0.79; P = 0.0004)",
+  "stages": [
+    {
+      "title": "Population & Screening",
+      "hero_stat": "N = 640 Adults",
+      "bullets": [
+        "Resected stage IIIB–IIIC melanoma",
+        "Post-op ctDNA positive within 6 weeks",
+        "18 academic oncology centers"
+      ]
+    },
+    {
+      "title": "Randomized Regimen",
+      "hero_stat": "1:1 Allocation (12 Cycles)",
+      "bullets": [
+        "Dual PD-1 + LAG-3 blockade (n = 320)",
+        "Standard PD-1 monotherapy (n = 320)",
+        "Serial ctDNA surveillance every 6 weeks"
+      ]
+    },
+    {
+      "title": "12-Month Outcomes",
+      "hero_stat": "HR 0.58 (95% CI 0.43–0.79)",
+      "bullets": [
+        "Week-12 ctDNA clearance: 68% vs 44%",
+        "Grade >=3 irAEs: 21.8% vs 14.6%"
+      ],
+      "mini_bars": [
+        {"label": "Dual Arm", "value": 84.2, "display": "84.2% RFS"},
+        {"label": "PD-1 Mono", "value": 71.5, "display": "71.5% RFS"}
+      ]
+    }
+  ]
+}

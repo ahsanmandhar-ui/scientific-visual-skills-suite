@@ -1,0 +1,143 @@
+{
+  "overall_status": "WARN",
+  "summary_counts": {
+    "PASS": 14,
+    "WARN": 1,
+    "FAIL": 0
+  },
+  "checks": [
+    {
+      "category": "technical",
+      "check_id": "MANDATORY_OUTPUT_FILES",
+      "status": "PASS",
+      "message": "All 5 mandatory deliverables exist and are non-empty."
+    },
+    {
+      "category": "technical",
+      "check_id": "PPTX_DIMENSIONS_AND_ORIENTATION",
+      "status": "PASS",
+      "message": "PPTX single slide verified at effective 64.0 \u00d7 36.0 in (scale=0.5x, landscape)."
+    },
+    {
+      "category": "technical",
+      "check_id": "BOUNDARY_CONTAINMENT",
+      "status": "PASS",
+      "message": "Zero shapes extend outside poster boundaries."
+    },
+    {
+      "category": "technical",
+      "check_id": "OBJECT_OVERLAP_CHECK",
+      "status": "PASS",
+      "message": "Zero unintended shape overlaps detected."
+    },
+    {
+      "category": "technical",
+      "check_id": "TYPOGRAPHY_FLOOR_AND_FONTS",
+      "status": "WARN",
+      "message": "Minimum effective text size is 20.9 pt (floor 18.0 pt). Font fallback logged: Requested font 'Helvetica' is not installed locally; resolved to metrically verified 'IBM Plex Sans' for layout, charts, and PDF embedding.; Requested font 'Georgia' is not installed locally; resolved to metrically verified 'Source Serif 4' for layout, charts, and PDF embedding."
+    },
+    {
+      "category": "technical",
+      "check_id": "IMAGE_RESOLUTION_PPI",
+      "status": "PASS",
+      "message": "Inspected 2 embedded image(s); all meet >=250\u2013300 PPI print target.",
+      "details": [
+        {
+          "shape": "figure:violin_fig",
+          "pixels": [
+            14400,
+            6720
+          ],
+          "printed_size_in": [
+            27.68,
+            12.92
+          ],
+          "effective_ppi": 520.3
+        },
+        {
+          "shape": "figure:cm_fig",
+          "pixels": [
+            8400,
+            5880
+          ],
+          "printed_size_in": [
+            16.21,
+            11.35
+          ],
+          "effective_ppi": 518.1
+        }
+      ]
+    },
+    {
+      "category": "technical",
+      "check_id": "CHART_INTEGRITY",
+      "status": "PASS",
+      "message": "All embedded chart references intact."
+    },
+    {
+      "category": "technical",
+      "check_id": "PDF_DIMENSIONS_AND_EMBEDDED_FONTS",
+      "status": "PASS",
+      "message": "PDF verified: 1 page, 64.0 \u00d7 36.0 in (1625.6 \u00d7 914.4 mm), 5 embedded font resource(s)."
+    },
+    {
+      "category": "scientific",
+      "check_id": "TITLE_AND_AUTHOR_CONSISTENCY",
+      "status": "PASS",
+      "message": "Poster title and author block match source specification."
+    },
+    {
+      "category": "scientific",
+      "check_id": "REFERENCE_CONSISTENCY",
+      "status": "PASS",
+      "message": "Verified 0 reference entry/entries."
+    },
+    {
+      "category": "scientific",
+      "check_id": "NUMERICAL_PROVENANCE_CHECK",
+      "status": "PASS",
+      "message": "All 2 decimal statistical value(s) on poster trace directly to supplied source data."
+    },
+    {
+      "category": "scientific",
+      "check_id": "FIGURE_CAPTION_CONSISTENCY",
+      "status": "PASS",
+      "message": "All 2 primary/secondary figure(s) carry analytical captions."
+    },
+    {
+      "category": "scientific",
+      "check_id": "CONCLUSION_STATISTICAL_CALIBRATION",
+      "status": "PASS",
+      "message": "Conclusions and statistical significance language are appropriately calibrated."
+    },
+    {
+      "category": "accessibility",
+      "check_id": "WCAG_COLOR_CONTRAST",
+      "status": "PASS",
+      "message": "WCAG 2.1 contrast verified \u2014 Body/Canvas: 15.99:1, Callout: 14.5:1, Masthead: 14.99:1 (minimum 4.5:1 AA; 7.0:1 AAA)."
+    },
+    {
+      "category": "visual",
+      "check_id": "RENDERED_VISUAL_COMPOSITION",
+      "status": "PASS",
+      "message": "Rendered preview (3456\u00d71944 px): body ink density=10.3%, whitespace=89.7%, lateral balance \u0394=10.1%, safe-margin perimeter clean=True.",
+      "details": {
+        "pixel_size": [
+          3456,
+          1944
+        ],
+        "body_ink_density": 0.1028,
+        "whitespace_fraction": 0.8972,
+        "left_half_density": 0.0524,
+        "right_half_density": 0.1532,
+        "lateral_balance_diff": 0.1008,
+        "margin_edge_ink": {
+          "left": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      }
+    }
+  ],
+  "revision_actions": []
+}

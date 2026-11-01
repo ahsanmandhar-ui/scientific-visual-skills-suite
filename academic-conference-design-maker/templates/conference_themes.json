@@ -1,0 +1,6 @@
+{
+  "palettes": {
+    "geneva_symposium": {"primary": "#14284B", "secondary": "#1F6E78", "accent": "#D46A1F", "gold": "#B68D40", "canvas": "#FAFBFD", "ink": "#0F172A", "muted": "#475569"},
+    "kyoto_biomed": {"primary": "#3D1628", "secondary": "#7A284B", "accent": "#C26D1F", "gold": "#A67C37", "canvas": "#FCFAFA", "ink": "#1F1218", "muted": "#5E4952"}
+  }
+}

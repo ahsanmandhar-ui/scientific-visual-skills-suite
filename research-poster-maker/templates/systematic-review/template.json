@@ -1,0 +1,26 @@
+{
+  "template_id": "systematic-review",
+  "name": "PRISMA 2020 Systematic Review Poster",
+  "description": "Structured evidence-synthesis poster adhering to PRISMA 2020 reporting items. Pairs PICOS eligibility and verified PRISMA 2020 study selection flow with structured study characteristics, Risk of Bias synthesis, and GRADE-calibrated conclusions.",
+  "reporting_standard": "PRISMA 2020",
+  "default_dimensions": "a0_portrait",
+  "default_layout_recipe": "systematic_review_prisma",
+  "portrait_layout_recipe": "systematic_review_prisma",
+  "default_palette": "deep_teal",
+  "default_font_pairing": "editorial_modern",
+  "masthead_style": "solid_banner",
+  "section_numbering": true,
+  "word_budget_target": 550,
+  "recommended_charts": ["prisma_diagram", "characteristics_table", "bar_chart", "statistical_table"],
+  "section_blueprint": [
+    {"id": "background", "title": "Rationale & Review Question (PICOS)", "column_hint": 0, "style": "editorial_rule", "essential": true},
+    {"id": "methods", "title": "Search Strategy, Eligibility & Quality Appraisal", "column_hint": 0, "style": "editorial_rule", "essential": true},
+    {"id": "prisma_flow", "title": "PRISMA 2020 Study Selection", "column_hint": 0, "style": "figure_well", "essential": true},
+    {"id": "primary_outcome", "title": "Evidence Synthesis Highlights", "column_hint": 1, "style": "focal_callout", "essential": true},
+    {"id": "characteristics_table", "title": "Characteristics of Included Studies", "column_hint": 1, "style": "booktabs_table", "essential": true},
+    {"id": "secondary_figure", "title": "Risk of Bias & Outcome Directionality", "column_hint": 1, "style": "figure_well", "essential": false},
+    {"id": "limitations", "title": "Certainty of Evidence & Review Limitations", "column_hint": 2, "style": "editorial_rule", "essential": true},
+    {"id": "conclusion", "title": "Conclusions & Research Priorities", "column_hint": 2, "style": "focal_callout_subtle", "essential": true},
+    {"id": "references_funding", "title": "Registration (PROSPERO), Funding & References", "column_hint": 2, "style": "colophon", "essential": false}
+  ]
+}

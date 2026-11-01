@@ -1,0 +1,111 @@
+{
+  "template_id": "minimalist-editorial",
+  "dimensions_preset": "36x48",
+  "layout_recipe": "two_column_editorial",
+  "palette": "monochrome_editorial",
+  "font_pairing": "editorial_modern",
+  "masthead_style": "editorial_rule_light",
+  "study_badge": "PROSPECTIVE ED PILOT COHORT · ABSTRACT SUBMISSION · SYNTHETIC DATA",
+  "title": "Point-of-Care Capillary Toe-to-Finger Lactate Gradient During Early Emergency Department Sepsis Resuscitation",
+  "authors_line": "Nadia Karim, MD; Owen Brooks, RN, MSN",
+  "affiliations_line": "Institutional affiliation not specified in source abstract (Synthetic Pilot Submission)",
+  "items": [
+    {
+      "id": "background",
+      "column": 0,
+      "item_type": "text",
+      "style": "editorial_rule",
+      "title": "Clinical Context",
+      "paragraphs": [
+        "Macrohemodynamic stabilization during early septic shock resuscitation can mask persistent peripheral microcirculatory hypoperfusion."
+      ],
+      "bullets": [
+        "Objective: Test whether bedside capillary toe-to-finger lactate gradient (ΔLac) at 2 hours predicts 72-hour vasopressor dependency."
+      ]
+    },
+    {
+      "id": "methods",
+      "column": 0,
+      "item_type": "text",
+      "style": "editorial_rule",
+      "title": "Pilot Study Design (N = 164)",
+      "bullets": [
+        "Setting & Cohort: Prospective single-ED observational pilot study of N = 164 adults with suspected septic shock.",
+        "Measurement: Paired fingertip and hallux point-of-care capillary lactate sampled at baseline (0 h) and 2 hours post-crystalloid resuscitation.",
+        "Pre-specified Exposure Threshold: 2-hour ΔLac ≥ 1.2 mmol/L (n = 58, 35.4%) vs. ΔLac < 1.2 mmol/L (n = 106, 64.6%)."
+      ]
+    },
+    {
+      "id": "scope_note",
+      "column": 0,
+      "item_type": "text",
+      "style": "editorial_rule",
+      "title": "Source Scope & Transparency Note",
+      "paragraphs": [
+        "Designed strictly from the accepted pilot abstract. Multivariable adjusted models, secondary organ-dysfunction endpoints, and formal limitation statements were not reported in the abstract and were intentionally omitted without fabrication."
+      ]
+    },
+    {
+      "id": "primary_finding",
+      "column": 1,
+      "item_type": "callout",
+      "style": "focal_callout",
+      "title": "Principal Pilot Finding",
+      "hero_metric": "RR 2.86 (95% CI 1.98–4.13; p = 0.0001)",
+      "paragraphs": [
+        "Patients with persistent 2-hour capillary ΔLac ≥ 1.2 mmol/L experienced nearly threefold higher 72-hour vasopressor dependency (62.1% vs. 21.7%)."
+      ]
+    },
+    {
+      "id": "bar_fig",
+      "column": 1,
+      "item_type": "figure",
+      "title": "72-Hour Vasopressor Dependency by 2-Hour ΔLac",
+      "native_pptx_chart": false,
+      "chart_spec": {
+        "id": "lactate_bar",
+        "chart_type": "bar_chart",
+        "width_in": 16.5,
+        "height_in": 11.2,
+        "value_label": "72-Hour Vasopressor Dependency (%)",
+        "value_format": "{:.1f}%",
+        "annotation": "Unadjusted RR 2.86 (95% CI 1.98–4.13; p = 0.0001)",
+        "data": {
+          "categories": [
+            "2-Hour ΔLac ≥ 1.2 mmol/L",
+            "2-Hour ΔLac < 1.2 mmol/L"
+          ],
+          "sample_sizes": [
+            58,
+            106
+          ],
+          "values": [
+            62.1,
+            21.7
+          ]
+        }
+      },
+      "caption": "Figure 1. Observed 72-hour vasopressor dependency across 2-hour capillary lactate gradient strata (N = 164; exact binomial proportions)."
+    },
+    {
+      "id": "conclusion",
+      "column": 1,
+      "item_type": "callout",
+      "style": "focal_callout_subtle",
+      "title": "Conclusions & Next Steps",
+      "paragraphs": [
+        "Bedside 2-hour capillary toe-to-finger lactate gradient rapidly identifies occult microcirculatory failure during initial ED sepsis resuscitation and warrants prospective multicenter validation."
+      ]
+    }
+  ],
+  "colophon": {
+    "references": [],
+    "funding": "",
+    "correspondence": "SYNTHETIC PILOT ABSTRACT DISCLOSURE: Created strictly to validate missing-data handling without hallucination."
+  },
+  "missing_information_notes": [
+    "Author institutional affiliations were absent from source abstract; marked explicitly rather than invented.",
+    "Secondary outcomes, multivariable covariates, funding grant IDs, and bibliography were absent from source abstract and omitted cleanly.",
+    "Poster dimensions defaulted to 36 × 48 in portrait (minimalist-editorial) as an explicit design assumption."
+  ]
+}

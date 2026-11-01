@@ -1,0 +1,49 @@
+{
+  "profiles": {
+    "nature-portfolio": {
+      "label": "Nature Portfolio (89 / 120 / 183 mm)",
+      "widths_mm": {"single": 89.0, "one_half": 120.0, "double": 183.0},
+      "max_height_mm": 247.0,
+      "panel_case": "lower",
+      "panel_pt": 8.5,
+      "label_pt": 7.0,
+      "tick_pt": 6.2,
+      "min_pt": 5.0,
+      "dpi": 600
+    },
+    "cell-science": {
+      "label": "Cell Press & Science (85 / 114 / 174 mm)",
+      "widths_mm": {"single": 85.0, "one_half": 114.0, "double": 174.0},
+      "max_height_mm": 230.0,
+      "panel_case": "upper",
+      "panel_pt": 9.0,
+      "label_pt": 7.0,
+      "tick_pt": 6.2,
+      "min_pt": 5.5,
+      "dpi": 600
+    },
+    "nejm-lancet": {
+      "label": "NEJM / Lancet Clinical (85 / 130 / 175 mm)",
+      "widths_mm": {"single": 85.0, "one_half": 130.0, "double": 175.0},
+      "max_height_mm": 225.0,
+      "panel_case": "upper",
+      "panel_pt": 8.5,
+      "label_pt": 7.5,
+      "tick_pt": 6.5,
+      "min_pt": 6.0,
+      "dpi": 600
+    },
+    "jama-bmj": {
+      "label": "JAMA / BMJ Medical (84 / 128 / 178 mm)",
+      "widths_mm": {"single": 84.0, "one_half": 128.0, "double": 178.0},
+      "max_height_mm": 230.0,
+      "panel_case": "upper",
+      "panel_pt": 8.5,
+      "label_pt": 7.2,
+      "tick_pt": 6.5,
+      "min_pt": 6.0,
+      "dpi": 600
+    }
+  },
+  "okabe_ito": ["#0072B2", "#D55E00", "#009E73", "#334155", "#CC79A7", "#E69F00", "#56B4E9"]
+}

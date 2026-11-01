@@ -1,0 +1,180 @@
+{
+  "source_files": [
+    "/home/user/research-poster-maker/tests/case_03_meta_analysis/inputs/meta_manuscript.md",
+    "/home/user/research-poster-maker/tests/case_03_meta_analysis/inputs/meta_trials.csv"
+  ],
+  "source_word_count": 205,
+  "extracted_fields": {
+    "title": "GLP-1 Receptor Agonists and Major Adverse Kidney Events in Type 2 Diabetes: A Synthetic Meta-Analysis of 8 Randomized Trials",
+    "authors_affiliations": "Sophia Chen, MD, PhD; David Okafor, PhD; Claire Moreau, MD | Affiliations: Renal Trials Synthesis Group, Synthetic Institute of Medical Research (SYNTHETIC DATA)",
+    "background": "Individual cardiovascular outcome trials suggest renoprotective effects of GLP-1 receptor agonists (GLP-1RA), but precision for sustained kidney failure and renal death across CKD stages warranted pooled synthesis.",
+    "research_gap": null,
+    "objectives": "Quantify pooled random-effects hazard ratios for Major Adverse Kidney Events (MAKE: >=50% eGFR decline, kidney failure, or renal death) across placebo-controlled RCTs.",
+    "study_design": "Meta-Analysis",
+    "methods": "Restricted maximum likelihood (REML) random-effects meta-analysis with Hartung-Knapp adjustment across 8 RCTs (N = 52,640 participants). Heterogeneity was quantified via I² = 28.4%, τ² = 0.006, Cochran Q = 9.78 (p_het = 0.20), and 95% prediction interval.",
+    "study_population": null,
+    "sample_size": "N = 52,640",
+    "statistical_methods": null,
+    "primary_outcome": null,
+    "secondary_outcomes": null,
+    "important_findings": "Pooled random-effects HR was 0.76 (95% CI 0.69–0.84, p = 0.0001; 95% prediction interval 0.61–0.95). Egger regression showed no small-study asymmetry (p = 0.41).",
+    "tables_and_figures": {
+      "manuscript_tables": [],
+      "datasets": [
+        {
+          "file": "/home/user/research-poster-maker/tests/case_03_meta_analysis/inputs/meta_trials.csv",
+          "format": "csv",
+          "row_count": 8,
+          "columns": [
+            "study",
+            "n",
+            "effect",
+            "ci_low",
+            "ci_high",
+            "weight",
+            "se",
+            "subgroup"
+          ],
+          "preview_rows": [
+            [
+              "RENAL-FLOW Synthetic 2021",
+              "3533",
+              "0.76",
+              "0.66",
+              "0.88",
+              "21.4",
+              "0.073",
+              "Dedicated Kidney Outcome Trials"
+            ],
+            [
+              "NEPHRO-GLP Synthetic 2023",
+              "4120",
+              "0.72",
+              "0.61",
+              "0.85",
+              "17.8",
+              "0.084",
+              "Dedicated Kidney Outcome Trials"
+            ],
+            [
+              "CARDIO-REN Synthetic 2020",
+              "9901",
+              "0.78",
+              "0.65",
+              "0.93",
+              "14.9",
+              "0.091",
+              "Cardiovascular Outcome Trials (CKD Strata)"
+            ],
+            [
+              "VASC-PROTECT Synthetic 2021",
+              "8416",
+              "0.84",
+              "0.69",
+              "1.02",
+              "12.6",
+              "0.1",
+              "Cardiovascular Outcome Trials (CKD Strata)"
+            ],
+            [
+              "METAB-CARE Synthetic 2022",
+              "6850",
+              "0.69",
+              "0.55",
+              "0.87",
+              "10.4",
+              "0.117",
+              "Cardiovascular Outcome Trials (CKD Strata)"
+            ],
+            [
+              "INCRETIN-HF Synthetic 2023",
+              "5290",
+              "0.88",
+              "0.68",
+              "1.14",
+              "8.2",
+              "0.132",
+              "Cardiovascular Outcome Trials (CKD Strata)"
+            ],
+            [
+              "GLP-ASIA Synthetic 2024",
+              "7410",
+              "0.66",
+              "0.51",
+              "0.85",
+              "8.5",
+              "0.13",
+              "Cardiovascular Outcome Trials (CKD Strata)"
+            ],
+            [
+              "RENAL-ADVANCE Synthetic 2025",
+              "7120",
+              "0.73",
+              "0.54",
+              "0.99",
+              "6.2",
+              "0.154",
+              "Cardiovascular Outcome Trials (CKD Strata)"
+            ]
+          ]
+        }
+      ],
+      "images": []
+    },
+    "limitations": "Trial-level aggregate data precluded continuous eGFR slope modeling at individual patient level; background SGLT2i use ranged from 0% to 18.2%.",
+    "conclusion": "GLP-1 receptor agonists reduce major adverse kidney events by 24% with low between-trial heterogeneity across dedicated renal and cardiovascular trials.",
+    "references": null,
+    "funding_acknowledgements": null
+  },
+  "verbatim_statistics": [
+    "50%",
+    "I² = 28.4%",
+    "95%",
+    "95% CI 0.69–0.84",
+    "p = 0.0001",
+    "p = 0.41",
+    "0%",
+    "18.2%",
+    "24%"
+  ],
+  "completeness": {
+    "present_count": 11,
+    "total_canonical_fields": 18,
+    "present_fields": [
+      "1. Research title",
+      "2. Authors and affiliations",
+      "3. Background",
+      "5. Objectives",
+      "6. Study design",
+      "7. Methods",
+      "9. Sample size",
+      "13. Important findings",
+      "14. Tables and figures",
+      "15. Limitations",
+      "16. Conclusion"
+    ],
+    "missing_essential": [
+      "8. Study population",
+      "11. Primary outcome"
+    ],
+    "missing_optional": [
+      "4. Research gap",
+      "10. Statistical methods",
+      "12. Secondary outcomes",
+      "17. References",
+      "18. Funding and acknowledgements"
+    ]
+  },
+  "clarification_needed": [
+    "Essential study metadata missing from source files (never fabricated): 8. Study population, 11. Primary outcome. Please supply these if available or confirm omission.",
+    "Confirm conference poster dimensions & orientation (e.g., 48 × 36 in landscape or ISO A0 portrait) if specified by the venue."
+  ],
+  "design_recommendation": {
+    "template_id": "meta-analysis",
+    "layout_recipe": "systematic_review_prisma",
+    "palette": "burgundy_offwhite",
+    "font_pairing": "editorial_modern",
+    "rationale": "Detected quantitative synthesis / heterogeneity / pooled effect terminology."
+  },
+  "raw_corpus_excerpt": "# GLP-1 Receptor Agonists and Major Adverse Kidney Events in Type 2 Diabetes: A Synthetic Meta-Analysis of 8 Randomized Trials\n\nAuthors: Sophia Chen, MD, PhD; David Okafor, PhD; Claire Moreau, MD\nAffiliations: Renal Trials Synthesis Group, Synthetic Institute of Medical Research (SYNTHETIC DATA)\n\n## Background\nIndividual cardiovascular outcome trials suggest renoprotective effects of GLP-1 receptor agonists (GLP-1RA), but precision for sustained kidney failure and renal death across CKD stages warranted pooled synthesis.\n\n## Objectives\nQuantify pooled random-effects hazard ratios for Major Adverse Kidney Events (MAKE: >=50% eGFR decline, kidney failure, or renal death) across placebo-controlled RCTs.\n\n## Methods\nRestricted maximum likelihood (REML) random-effects meta-analysis with Hartung-Knapp adjustment across 8 RCTs (N = 52,640 participants). Heterogeneity was quantified via I² = 28.4%, τ² = 0.006, Cochran Q = 9.78 (p_het = 0.20), and 95% prediction interval.\n\n## Results\nPooled random-effects HR was 0.76 (95% CI 0.69–0.84, p = 0.0001; 95% prediction interval 0.61–0.95). Egger regression showed no small-study asymmetry (p = 0.41).\n\n## Limitations\nTrial-level aggregate data precluded continuous eGFR slope modeling at individual patient level; background SGLT2i use ranged from 0% to 18.2%.\n\n## Conclusions\nGLP-1 receptor agonists reduce major adverse kidney events by 24% with low between-trial heterogeneity across dedicated renal and cardiovascular trials."
+}

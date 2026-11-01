@@ -1,0 +1,45 @@
+{
+  "size": "iso-a2-portrait",
+  "palette": "sage_pharmacology",
+  "curriculum_level": "UNDERGRADUATE & RESIDENCY CLINICAL SKILLS TEACHING POSTER · CARDIORENAL MODULE",
+  "title": "Acute Decompensated Heart Failure: Pathophysiology, Pharmacology & OSCE Guide",
+  "learning_objective": "Integrate Frank-Starling hemodynamics, bedside Forrester perfusion-congestion profiling, diuretic pharmacology, and structured cardiovascular OSCE examination.",
+  "physiology_points": [
+    {"concept": "Neurohormonal Activation", "explanation": "Falling cardiac output triggers sympathetic surge + RAAS + AVP release, elevating preload and systemic vascular resistance."},
+    {"concept": "Venous Congestion & Starling Forces", "explanation": "LVEDP > 18 mmHg transmits backward to pulmonary capillaries, driving interstitial and alveolar transudation."},
+    {"concept": "Cardiorenal Venous Hypertension", "explanation": "Elevated central venous pressure reduces transrenal perfusion gradient, lowering eGFR independent of forward output."},
+    {"concept": "Frank-Starling Plateau", "explanation": "Overstretched sarcomeres operate on flat ventricular curve where vasodilator afterload reduction restores stroke volume."}
+  ],
+  "diagnostic_algorithm": {
+    "entry": "Acute Dyspnea + Orthopnea + Elevated JVP",
+    "pivot_test": "Bedside Perfusion & Congestion Profile + BNP + Lung POCUS",
+    "branches": [
+      {"condition": "Warm & Wet (90%)", "action": "IV loop diuretic + vasodilator if SBP > 110 mmHg; monitor urine output"},
+      {"condition": "Cold & Wet (<10%)", "action": "Assess cardiogenic shock; cautious inotrope/vasopressor + ICU invasive monitoring"}
+    ]
+  },
+  "matrix": {
+    "title": "3. HIGH-YIELD HEART FAILURE PHARMACOLOGY MATRIX",
+    "headers": ["Drug Class", "Site & Mechanism", "Clinical Role", "Key Adverse Effect / Monitoring"],
+    "rows": [
+      ["Loop Diuretics (Furosemide)", "Inhibits thick ascending limb NKCC2 cotransporter", "Rapid decongestion in volume overload", "Hypokalemia, hypomagnesemia, ototoxicity, Cr rise"],
+      ["Vasodilators (IV Nitroglycerin)", "Endothelial NO -> cGMP venodilation & afterload drop", "Hypertensive acute pulmonary edema", "Hypotension; contraindicated with PDE5 inhibitors"],
+      ["ARNI (Sacubitril/Valsartan)", "Neprilysin + AT1 blockade (raises natriuretic peptides)", "GDMT mortality reduction post-stabilization", "36h washout from ACEi mandatory (angioedema risk)"],
+      ["SGLT2 Inhibitors (Empagliflozin)", "Proximal tubule natriuresis + myocardial energetics", "All-EF HF hospitalization & CV death reduction", "Euglycemic ketoacidosis; genital mycotic infection"]
+    ]
+  },
+  "osce_checklist": [
+    "Position patient at 45 degrees; inspect respiratory rate, accessory muscle use, and peripheral cyanosis.",
+    "Measure Jugular Venous Pressure (JVP) height above sternal angle with tangential illumination.",
+    "Palpate apex beat (5th ICS MCL vs laterally displaced/thrusting) and parasternal RV heave.",
+    "Auscultate S3 gallop (bell at apex in left lateral decubitus) and bibasilar inspiratory crackles.",
+    "Assess dependent sacral/pretibial pitting edema and tender congestive hepatomegaly."
+  ],
+  "red_flags": [
+    "SBP < 90 mmHg with cool mottled extremities, oliguria (<0.5 mL/kg/h), or rising lactate (cardiogenic shock).",
+    "SpO2 < 90% refractory to supplemental O2 requiring immediate CPAP/BiPAP ventilatory support.",
+    "Never initiate beta-blockers acutely during uncompensated pulmonary edema or low-output shock.",
+    "STEMI / acute mechanical valve or papillary muscle rupture on urgent 12-lead ECG & echo."
+  ],
+  "footer_note": "MEDICAL EDUCATION TEACHING POSTER EXAMPLE FOR SKILL VALIDATION · Verify institutional formulary protocols prior to clinical use."
+}

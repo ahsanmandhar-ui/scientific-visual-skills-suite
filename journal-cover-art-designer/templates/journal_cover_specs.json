@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "nature-family": {"trim_w_mm": 210.0, "trim_h_mm": 276.0, "bleed_mm": 3.0, "masthead_mm": 68.0, "bottom_safe_mm": 24.0, "dpi": 300},
+    "cell-press": {"trim_w_mm": 206.0, "trim_h_mm": 276.0, "bleed_mm": 3.175, "masthead_mm": 64.0, "bottom_safe_mm": 22.0, "dpi": 300},
+    "science-aaas": {"trim_w_mm": 206.0, "trim_h_mm": 273.0, "bleed_mm": 3.175, "masthead_mm": 65.0, "bottom_safe_mm": 22.0, "dpi": 300},
+    "acs-wiley": {"trim_w_mm": 210.0, "trim_h_mm": 280.0, "bleed_mm": 3.0, "masthead_mm": 70.0, "bottom_safe_mm": 24.0, "dpi": 300}
+  },
+  "palettes": {
+    "obsidian_gold_teal": {"bg_top": "#091322", "bg_bot": "#10283B", "strand_a": "#38BDF8", "strand_b": "#F59E0B", "node_hi": "#FDE68A", "field": "#1E4E68"},
+    "crimson_chromatin": {"bg_top": "#1A0B18", "bg_bot": "#2D142C", "strand_a": "#F472B6", "strand_b": "#FBBF24", "node_hi": "#FDE047", "field": "#6B2146"},
+    "emerald_lattice": {"bg_top": "#071A17", "bg_bot": "#0F332C", "strand_a": "#34D399", "strand_b": "#F59E0B", "node_hi": "#A7F3D0", "field": "#1D5B4E"}
+  }
+}

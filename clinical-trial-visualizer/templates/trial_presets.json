@@ -1,0 +1,15 @@
+{
+  "palettes": {
+    "consort_editorial": {
+      "header": "#1B365D",
+      "arm_active": "#0072B2",
+      "arm_control": "#475569",
+      "accent": "#C85A17",
+      "phase_badge": "#EEF3F8",
+      "border": "#94A3B8",
+      "ink": "#0F172A",
+      "muted": "#475569",
+      "canvas": "#FFFFFF"
+    }
+  }
+}

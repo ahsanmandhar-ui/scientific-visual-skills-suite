@@ -1,0 +1,103 @@
+{
+  "deck_title": "Synthetic Conference Oral Deck — Adaptive Closed-Loop Insulin Delivery in Inpatient Corticosteroid Hyperglycemia",
+  "archetype": "conference-oral-10min",
+  "palette": "oxford_academic",
+  "aspect": "16:9",
+  "venue_tag": "SYNTHETIC CONFERENCE ORAL PRESENTATION · 10-MINUTE TALK",
+  "authors": "Synthetic Study Investigators · Department of Endocrinology & Biomedical Engineering",
+  "slides": [
+    {
+      "layout": "title",
+      "headline": "Closed-Loop Automated Insulin Delivery Doubles Time-in-Range During Inpatient Corticosteroid Therapy",
+      "subtitle": "A Synthetic Multicenter Randomized Controlled Trial (N = 280)",
+      "seconds_budget": 45,
+      "speaker_notes": "Welcome colleagues. Today I share synthetic benchmark results evaluating automated closed-loop insulin delivery in hospitalized non-ICU adults receiving high-dose systemic glucocorticoids."
+    },
+    {
+      "layout": "split_evidence",
+      "headline": "High-Dose Glucocorticoids Trigger Severe Afternoon Hyperglycemia Missed by Sliding-Scale Insulin",
+      "bullets": [
+        "Prednisolone >= 30 mg/day induces acute postprandial hepatic & peripheral insulin resistance",
+        "Conventional basal-bolus regimens achieve < 45% glucose time-in-range (70–180 mg/dL)",
+        "Reactive correction boluses increase nocturnal hypoglycemia (< 70 mg/dL)"
+      ],
+      "chart": {
+        "type": "line_series",
+        "title": "Synthetic 24h Glycemic Excursion Profile",
+        "x_label": "Clock Hour",
+        "y_label": "Mean Glucose (mg/dL)",
+        "series": [
+          {"name": "Standard Basal-Bolus", "x": [8, 12, 16, 20, 24], "y": [138, 195, 248, 224, 152]},
+          {"name": "Closed-Loop Target", "x": [8, 12, 16, 20, 24], "y": [132, 154, 168, 158, 126]}
+        ]
+      },
+      "seconds_budget": 75,
+      "footnote": "SYNTHETIC EXAMPLE DATA · Glycemic target range 70–180 mg/dL",
+      "speaker_notes": "Highlight the characteristic afternoon surge between 12:00 and 20:00 driven by morning prednisolone dosing, where standard weight-based regimens lag physiological insulin demand."
+    },
+    {
+      "layout": "methodology_flow",
+      "headline": "280 Medical Ward Patients Were Randomized 1:1 to CGM-Guided Closed-Loop vs Basal-Bolus Care",
+      "stages": [
+        {"step": "1. Eligibility", "detail": "Adults on >= 30 mg prednisolone-eq with 2 BG > 180 mg/dL across 6 hospitals."},
+        {"step": "2. 1:1 Randomize", "detail": "Stratified by prior T2D diagnosis and steroid dose tier (n=140 per arm)."},
+        {"step": "3. 10-Day Intervention", "detail": "MPC closed-loop pump + CGM q5m vs masked-CGM standard basal-bolus."},
+        {"step": "4. Primary Endpoint", "detail": "% Time-in-Range (70–180 mg/dL) over days 1–10 with safety hypoglycemia audit."}
+      ],
+      "seconds_budget": 80,
+      "footnote": "SYNTHETIC TRIAL PROTOCOL · Intention-to-Treat Population",
+      "speaker_notes": "Walk left-to-right: masked CGM in the control arm ensured unbiased sensor capture of both hyperglycemia and asymptomatic nocturnal hypoglycemia."
+    },
+    {
+      "layout": "split_evidence",
+      "headline": "Closed-Loop Delivery Increased Time-in-Range From 41.8% to 72.4% Without Raising Hypoglycemia",
+      "bullets": [
+        "Mean difference +30.6 percentage points (95% CI +26.4 to +34.8; P < 0.0001)",
+        "Mean sensor glucose fell from 204 mg/dL to 156 mg/dL",
+        "Time < 70 mg/dL remained low in both arms (0.6% vs 1.4%; P = 0.03)"
+      ],
+      "chart": {
+        "type": "bar_ci",
+        "title": "Primary Endpoint: Time-in-Range (70–180 mg/dL)",
+        "labels": ["Basal-Bolus\n(n=140)", "Closed-Loop\n(n=140)"],
+        "values": [41.8, 72.4],
+        "ci_low": [38.9, 69.5],
+        "ci_high": [44.7, 75.3],
+        "unit": "%",
+        "y_label": "% Time in 70–180 mg/dL"
+      },
+      "seconds_budget": 95,
+      "footnote": "SYNTHETIC PRIMARY ENDPOINT · Error bars denote 95% CIs",
+      "speaker_notes": "Emphasize the +30.6% absolute gain in time-in-range—roughly 7.3 additional hours per day in euglycemia—achieved alongside lower hypoglycemia."
+    },
+    {
+      "layout": "table_summary",
+      "headline": "Glycemic Control Improved Consistently Across Secondary Safety and Nursing Workload Metrics",
+      "table": {
+        "headers": ["Outcome Metric (Days 1–10)", "Closed-Loop (n=140)", "Basal-Bolus (n=140)", "Difference / Effect", "P-Value"],
+        "rows": [
+          ["Time > 250 mg/dL (%)", "5.4 ± 4.1%", "24.8 ± 9.6%", "-19.4% (-21.1 to -17.7)", "< 0.0001"],
+          ["Time < 70 mg/dL (%)", "0.6% (IQR 0.0–1.1)", "1.4% (IQR 0.3–2.6)", "-0.8% (-1.2 to -0.3)", "0.03"],
+          ["Severe Hypoglycemia (<54 mg/dL)", "0 / 140 (0.0%)", "2 / 140 (1.4%)", "RD -1.4%", "0.50"],
+          ["Fingerstick Checks / Patient-Day", "1.2 ± 0.4", "4.3 ± 0.8", "-3.1 checks/day", "< 0.0001"]
+        ]
+      },
+      "seconds_budget": 80,
+      "footnote": "SYNTHETIC SECONDARY OUTCOMES TABLE",
+      "speaker_notes": "Point out row 1 and row 4: severe hyperglycemia above 250 mg/dL dropped nearly five-fold while ward point-of-care capillary checks dropped by 3.1 per day."
+    },
+    {
+      "layout": "conclusion_takeaways",
+      "headline": "Conclusions & Honest Study Limitations",
+      "bullets": [
+        "Automated closed-loop insulin safely adapts to dynamic corticosteroid-induced insulin resistance on general wards",
+        "Achieved +30.6% higher Time-in-Range while cutting capillary fingerstick burden by 72%",
+        "LIMITATION: Open-label device wear; excluded ICU vasopressor patients and end-stage dialysis",
+        "NEXT STEP: Cost-effectiveness & hospital length-of-stay powered pragmatic rollout"
+      ],
+      "seconds_budget": 75,
+      "footnote": "SYNTHETIC EXAMPLE DECK FOR SKILL VALIDATION ONLY",
+      "speaker_notes": "Close transparently by noting open-label device constraints and inviting questions on ward nursing implementation."
+    }
+  ]
+}

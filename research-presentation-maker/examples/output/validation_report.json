@@ -1,0 +1,25 @@
+{
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "id": "OUTPUT_FILES",
+      "status": "PASS",
+      "msg": "PPTX, PDF handout, overview sheet, and speaker script present."
+    },
+    {
+      "id": "PPTX_SLIDES_AND_SPEAKER_NOTES",
+      "status": "PASS",
+      "msg": "6/6 editable slides verified with embedded speaker notes on 100% of slides."
+    },
+    {
+      "id": "ASSERTION_EVIDENCE_CONCISENESS",
+      "status": "PASS",
+      "msg": "All slides obey <= 60 body-word conciseness ceiling."
+    },
+    {
+      "id": "PDF_PAGE_PARITY",
+      "status": "PASS",
+      "msg": "PDF handout matches 6 slides."
+    }
+  ]
+}

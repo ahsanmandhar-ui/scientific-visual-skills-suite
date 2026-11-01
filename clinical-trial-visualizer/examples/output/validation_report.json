@@ -1,0 +1,20 @@
+{
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "id": "OUTPUT_FILES",
+      "status": "PASS",
+      "msg": "All SVG/PDF/PNG/PPTX files verified."
+    },
+    {
+      "id": "CONSORT_COUNT_CLOSURE",
+      "status": "PASS",
+      "msg": "CONSORT arithmetic exact: 1420 assessed - 580 excluded = 840 randomized = 840 allocated."
+    },
+    {
+      "id": "PRINT_RESOLUTION",
+      "status": "PASS",
+      "msg": "PNG 4500\u00d73000 px (300 DPI)."
+    }
+  ]
+}

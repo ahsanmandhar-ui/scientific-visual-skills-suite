@@ -1,0 +1,20 @@
+{
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "id": "MANDATORY_FILES",
+      "status": "PASS",
+      "msg": "SVG, PDF, PNG, and legend Markdown present."
+    },
+    {
+      "id": "PHYSICAL_JOURNAL_MM_AND_FONTS",
+      "status": "PASS",
+      "msg": "PDF exact size 183.0\u00d7132.0 mm with 2 embedded TrueType font(s)."
+    },
+    {
+      "id": "HIGH_RESOLUTION_DPI",
+      "status": "PASS",
+      "msg": "Raster 3242\u00d72338 px (450 DPI at 183.0 mm width)."
+    }
+  ]
+}

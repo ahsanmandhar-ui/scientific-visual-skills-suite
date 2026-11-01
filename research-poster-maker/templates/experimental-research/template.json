@@ -1,0 +1,26 @@
+{
+  "template_id": "experimental-research",
+  "name": "Experimental, Translational & Basic Science Poster",
+  "description": "Engineered for laboratory, preclinical, omics, and engineering research (Nature Conferences / Cell Symposia aesthetic). Emphasizes experimental workflow, multi-panel quantitative distributions (box/violin/scatter/ROC), and mechanistic conclusions.",
+  "reporting_standard": "ARRIVE / Nature Reporting Summary",
+  "default_dimensions": "a0_landscape",
+  "default_layout_recipe": "asymmetric_grid",
+  "portrait_layout_recipe": "two_column_editorial",
+  "default_palette": "charcoal_ivory",
+  "default_font_pairing": "swiss_scientific",
+  "masthead_style": "split_accent_header",
+  "section_numbering": true,
+  "word_budget_target": 480,
+  "recommended_charts": ["workflow_diagram", "violin_plot", "box_plot", "scatter_plot", "roc_curve", "confusion_matrix", "bar_chart"],
+  "section_blueprint": [
+    {"id": "background", "title": "Biological Rationale & Hypothesis", "column_hint": 0, "style": "editorial_rule", "essential": true},
+    {"id": "methods", "title": "Experimental Architecture & Assays", "column_hint": 0, "style": "editorial_rule", "essential": true},
+    {"id": "workflow", "title": "Experimental Pipeline", "column_hint": 0, "style": "figure_well", "essential": false},
+    {"id": "primary_outcome", "title": "Key Experimental Finding", "column_hint": 1, "style": "focal_callout", "essential": true},
+    {"id": "primary_figure", "title": "Quantitative Assay Results", "column_hint": 1, "style": "figure_well", "essential": true},
+    {"id": "secondary_figure", "title": "Validation & Dose/Model Performance", "column_hint": 1, "style": "figure_well", "essential": false},
+    {"id": "limitations", "title": "Reproducibility Controls & Limitations", "column_hint": 2, "style": "editorial_rule", "essential": true},
+    {"id": "conclusion", "title": "Mechanistic & Translational Conclusions", "column_hint": 2, "style": "focal_callout_subtle", "essential": true},
+    {"id": "references_funding", "title": "Data Availability, Grants & References", "column_hint": 2, "style": "colophon", "essential": false}
+  ]
+}

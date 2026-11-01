@@ -1,0 +1,15 @@
+{
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "id": "COMPLETE_6_ASSET_SUITE",
+      "status": "PASS",
+      "msg": "All 14 print/vector/digital/PPTX conference files verified."
+    },
+    {
+      "id": "SOCIAL_PIXEL_DIMENSIONS",
+      "status": "PASS",
+      "msg": "Speaker card 1200\u00d71200 px (1:1); Social card 1600\u00d7900 px (16:9)."
+    }
+  ]
+}
