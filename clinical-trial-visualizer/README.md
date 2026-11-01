@@ -18,16 +18,16 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  A[clinical-trial-visualizer] --> B[Capabilities]
-  C0[CONSORT 4-phase flow]
-  C1[SPIRIT timelines]
-  C2[Efficacy cards]
-  C3[CTCAE butterfly plots]
+  A["clinical-trial-visualizer"] --> B[Capabilities]
+  C0["CONSORT 4-phase flow"]
   B --> C0
+  C1["SPIRIT timelines"]
   B --> C1
+  C2["Efficacy cards"]
   B --> C2
+  C3["CTCAE butterfly plots"]
   B --> C3
-  B --> D[Generated Outputs]
-  D --> E[Preflight Validator]
-  E --> F[validation_report.json]
+  B --> D["Generated Outputs"]
+  D --> E["Preflight Validator"]
+  E --> F["validation_report.json"]
 ```

@@ -34,18 +34,18 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  A[graphical-abstract-maker] --> B[Capabilities]
-  C0[Elsevier]
-  C1[Cell Press]
-  C2[BMJ]
-  C3[Springer Nature]
-  C4[SVG/PDF/PNG/PPTX]
+  A["graphical-abstract-maker"] --> B[Capabilities]
+  C0["Elsevier"]
   B --> C0
+  C1["Cell Press"]
   B --> C1
+  C2["BMJ"]
   B --> C2
+  C3["Springer Nature"]
   B --> C3
+  C4["SVG/PDF/PNG/PPTX"]
   B --> C4
-  B --> D[Generated Outputs]
-  D --> E[Preflight Validator]
-  E --> F[validation_report.json]
+  B --> D["Generated Outputs"]
+  D --> E["Preflight Validator"]
+  E --> F["validation_report.json"]
 ```

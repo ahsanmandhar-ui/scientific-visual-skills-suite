@@ -18,16 +18,16 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  A[research-presentation-maker] --> B[Capabilities]
-  C0[Assertion-Evidence slides]
-  C1[Speaker notes]
-  C2[Handout PDF]
-  C3[Overview PNG]
+  A["research-presentation-maker"] --> B[Capabilities]
+  C0["Assertion-Evidence slides"]
   B --> C0
+  C1["Speaker notes"]
   B --> C1
+  C2["Handout PDF"]
   B --> C2
+  C3["Overview PNG"]
   B --> C3
-  B --> D[Generated Outputs]
-  D --> E[Preflight Validator]
-  E --> F[validation_report.json]
+  B --> D["Generated Outputs"]
+  D --> E["Preflight Validator"]
+  E --> F["validation_report.json"]
 ```

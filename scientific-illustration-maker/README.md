@@ -18,16 +18,16 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  A[scientific-illustration-maker] --> B[Capabilities]
-  C0[Cellular signaling]
-  C1[Molecular pathways]
-  C2[Organ pathophysiology]
-  C3[Device cross-sections]
+  A["scientific-illustration-maker"] --> B[Capabilities]
+  C0["Cellular signaling"]
   B --> C0
+  C1["Molecular pathways"]
   B --> C1
+  C2["Organ pathophysiology"]
   B --> C2
+  C3["Device cross-sections"]
   B --> C3
-  B --> D[Generated Outputs]
-  D --> E[Preflight Validator]
-  E --> F[validation_report.json]
+  B --> D["Generated Outputs"]
+  D --> E["Preflight Validator"]
+  E --> F["validation_report.json"]
 ```

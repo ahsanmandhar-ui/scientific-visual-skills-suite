@@ -18,20 +18,20 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  A[academic-conference-design-maker] --> B[Capabilities]
-  C0[Stage banner]
-  C1[Abstract-book cover]
-  C2[CFP poster + QR]
-  C3[Certificate]
-  C4[Speaker card]
-  C5[Social card]
+  A["academic-conference-design-maker"] --> B[Capabilities]
+  C0["Stage banner"]
   B --> C0
+  C1["Abstract-book cover"]
   B --> C1
+  C2["CFP poster + QR"]
   B --> C2
+  C3["Certificate"]
   B --> C3
+  C4["Speaker card"]
   B --> C4
+  C5["Social card"]
   B --> C5
-  B --> D[Generated Outputs]
-  D --> E[Preflight Validator]
-  E --> F[validation_report.json]
+  B --> D["Generated Outputs"]
+  D --> E["Preflight Validator"]
+  E --> F["validation_report.json"]
 ```

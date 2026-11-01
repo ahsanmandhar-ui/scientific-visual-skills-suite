@@ -18,16 +18,16 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  A[research-data-visualization-designer] --> B[Capabilities]
-  C0[CSV/Excel profiler]
-  C1[Multivariable viz]
-  C2[reproduce_figure.py]
-  C3[SHA-256 manifest]
+  A["research-data-visualization-designer"] --> B[Capabilities]
+  C0["CSV/Excel profiler"]
   B --> C0
+  C1["Multivariable viz"]
   B --> C1
+  C2["reproduce_figure.py"]
   B --> C2
+  C3["SHA-256 manifest"]
   B --> C3
-  B --> D[Generated Outputs]
-  D --> E[Preflight Validator]
-  E --> F[validation_report.json]
+  B --> D["Generated Outputs"]
+  D --> E["Preflight Validator"]
+  E --> F["validation_report.json"]
 ```

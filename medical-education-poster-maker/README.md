@@ -18,16 +18,16 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  A[medical-education-poster-maker] --> B[Capabilities]
-  C0[Teaching posters A1/A2/24x36]
-  C1[Diagnostic algorithms]
-  C2[Pharmacology matrices]
-  C3[OSCE/OSPE checklists]
+  A["medical-education-poster-maker"] --> B[Capabilities]
+  C0["Teaching posters A1/A2/24x36"]
   B --> C0
+  C1["Diagnostic algorithms"]
   B --> C1
+  C2["Pharmacology matrices"]
   B --> C2
+  C3["OSCE/OSPE checklists"]
   B --> C3
-  B --> D[Generated Outputs]
-  D --> E[Preflight Validator]
-  E --> F[validation_report.json]
+  B --> D["Generated Outputs"]
+  D --> E["Preflight Validator"]
+  E --> F["validation_report.json"]
 ```

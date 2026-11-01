@@ -31,16 +31,16 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  A[publication-figure-designer] --> B[Capabilities]
-  C0[Single-panel figures]
-  C1[Multi-panel (a,b,c,d)]
-  C2[Journal widths 84-183mm]
-  C3[Nature/Cell/Science/NEJM/Lancet/JAMA/BMJ]
+  A["publication-figure-designer"] --> B[Capabilities]
+  C0["Single-panel figures"]
   B --> C0
+  C1["Multi-panel (a,b,c,d)"]
   B --> C1
+  C2["Journal widths 84-183mm"]
   B --> C2
+  C3["Nature/Cell/Science/NEJM/Lancet/JAMA/BMJ"]
   B --> C3
-  B --> D[Generated Outputs]
-  D --> E[Preflight Validator]
-  E --> F[validation_report.json]
+  B --> D["Generated Outputs"]
+  D --> E["Preflight Validator"]
+  E --> F["validation_report.json"]
 ```

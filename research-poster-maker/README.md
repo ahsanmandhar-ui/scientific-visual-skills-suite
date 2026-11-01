@@ -221,20 +221,20 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  A[research-poster-maker] --> B[Capabilities]
-  C0[Conference posters (A0/A1/48x36/>56in)]
-  C1[Editable PPTX]
-  C2[Vector PDF]
-  C3[PRISMA/CONSORT/STROBE]
-  C4[KM/Forest/ROC charts]
-  C5[15-check validator]
+  A["research-poster-maker"] --> B[Capabilities]
+  C0["Conference posters (A0/A1/48x36/>56in)"]
   B --> C0
+  C1["Editable PPTX"]
   B --> C1
+  C2["Vector PDF"]
   B --> C2
+  C3["PRISMA/CONSORT/STROBE"]
   B --> C3
+  C4["KM/Forest/ROC charts"]
   B --> C4
+  C5["15-check validator"]
   B --> C5
-  B --> D[Generated Outputs]
-  D --> E[Preflight Validator]
-  E --> F[validation_report.json]
+  B --> D["Generated Outputs"]
+  D --> E["Preflight Validator"]
+  E --> F["validation_report.json"]
 ```

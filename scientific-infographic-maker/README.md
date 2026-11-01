@@ -24,18 +24,18 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  A[scientific-infographic-maker] --> B[Capabilities]
-  C0[Epidemiology KPIs]
-  C1[Pathophysiology cascade]
-  C2[Clinical pathway]
-  C3[Outcome charts]
-  C4[Clinical pearls]
+  A["scientific-infographic-maker"] --> B[Capabilities]
+  C0["Epidemiology KPIs"]
   B --> C0
+  C1["Pathophysiology cascade"]
   B --> C1
+  C2["Clinical pathway"]
   B --> C2
+  C3["Outcome charts"]
   B --> C3
+  C4["Clinical pearls"]
   B --> C4
-  B --> D[Generated Outputs]
-  D --> E[Preflight Validator]
-  E --> F[validation_report.json]
+  B --> D["Generated Outputs"]
+  D --> E["Preflight Validator"]
+  E --> F["validation_report.json"]
 ```

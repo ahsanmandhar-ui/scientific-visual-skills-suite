@@ -18,16 +18,16 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  A[journal-cover-art-designer] --> B[Capabilities]
-  C0[Trim + bleed art]
-  C1[Nature/Cell/Science/ACS/Wiley]
-  C2[Clean full-bleed]
-  C3[Masthead mockup]
+  A["journal-cover-art-designer"] --> B[Capabilities]
+  C0["Trim + bleed art"]
   B --> C0
+  C1["Nature/Cell/Science/ACS/Wiley"]
   B --> C1
+  C2["Clean full-bleed"]
   B --> C2
+  C3["Masthead mockup"]
   B --> C3
-  B --> D[Generated Outputs]
-  D --> E[Preflight Validator]
-  E --> F[validation_report.json]
+  B --> D["Generated Outputs"]
+  D --> E["Preflight Validator"]
+  E --> F["validation_report.json"]
 ```
