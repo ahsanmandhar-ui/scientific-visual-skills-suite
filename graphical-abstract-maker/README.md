@@ -1,6 +1,5 @@
 # `graphical-abstract-maker`
 
-![graphical-abstract-maker](https://img.shields.io/badge/Agent%20Skill-graphical--abstract--maker-blue)
 
 
 Portable Agent Skill for **Claude Code** and **Cline** that converts research papers and clinical trial results into journal-compliant **Graphical Abstracts** and **Visual Abstracts** (`SVG`, `PDF`, `300-DPI PNG`, and editable `PPTX`).

@@ -1,6 +1,5 @@
 # `research-poster-maker` — Scientific Research Poster Maker Skill
 
-![research-poster-maker](https://img.shields.io/badge/Agent%20Skill-research--poster--maker-blue)
 
 
 A portable, production-grade **Agent Skill** (compatible with **Claude Code**, **Cline**, and any client implementing the [Agent Skills Open Specification](https://agentskills.io/specification)) that transforms scientific research manuscripts, conference abstracts, tabular datasets, statistical outputs, and figures into **art-directed, scientifically accurate, conference-ready research posters**.
