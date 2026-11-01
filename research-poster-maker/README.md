@@ -1,5 +1,7 @@
 # `research-poster-maker` — Scientific Research Poster Maker Skill
 
+![research-poster-maker](https://img.shields.io/badge/Agent%20Skill-research-poster-maker-blue)
+
 A portable, production-grade **Agent Skill** (compatible with **Claude Code**, **Cline**, and any client implementing the [Agent Skills Open Specification](https://agentskills.io/specification)) that transforms scientific research manuscripts, conference abstracts, tabular datasets, statistical outputs, and figures into **art-directed, scientifically accurate, conference-ready research posters**.
 
 Designed to produce posters with the restrained editorial craft of *Nature* conferences, *BMJ* meetings, ACC, ASN, European medical congresses, and university research symposia—never generic AI infographics.
@@ -204,3 +206,13 @@ Every generated poster runs through four automated validation layers in `scripts
    - The skill never upscales a low-resolution user image to fake 300 DPI. If `validate_poster.py` emits an `IMAGE_RESOLUTION_PPI` warning (`<150 PPI`), replace the source figure with a vector export or higher-resolution original, or reduce its physical display width on the poster.
 5. **Font Availability Across Machines:**
    - Bundled SIL OFL fonts (`Source Sans 3`, `Source Serif 4`, `IBM Plex Sans`) render identically everywhere for PDFs, charts, and previews. When opening `poster.pptx` in desktop PowerPoint on a machine lacking those fonts, install the `.ttf` files from `assets/fonts/` or select system-universal fonts (`Arial` / `Georgia`).
+
+## Workflow
+
+```mermaid
+flowchart LR
+  A[Synthetic Input JSON] --> B[Python Generator]
+  B --> C[Vector / Raster Outputs]
+  C --> D[Preflight Validator]
+  D --> E[validation_report.json]
+```

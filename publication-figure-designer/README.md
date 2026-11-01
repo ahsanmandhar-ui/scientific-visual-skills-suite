@@ -1,5 +1,7 @@
 # `publication-figure-designer`
 
+![publication-figure-designer](https://img.shields.io/badge/Agent%20Skill-publication-figure-designer-blue)
+
 Portable Agent Skill for **Claude Code** and **Cline** that generates single-panel and multi-panel composite research figures (`a, b, c, d` or `A, B, C, D`) formatted to exact physical journal column widths (`Nature`, `Cell`, `Science`, `NEJM`, `Lancet`, `JAMA`, `BMJ`) in vector `SVG`/`PDF` and `600-DPI PNG`.
 
 ## Supported Panel Types
@@ -14,3 +16,13 @@ Portable Agent Skill for **Claude Code** and **Cline** that generates single-pan
 ## Installation
 - **Claude Code:** `.claude/skills/publication-figure-designer/`
 - **Cline:** `.cline/skills/publication-figure-designer/`
+
+## Workflow
+
+```mermaid
+flowchart LR
+  A[Synthetic Input JSON] --> B[Python Generator]
+  B --> C[Vector / Raster Outputs]
+  C --> D[Preflight Validator]
+  D --> E[validation_report.json]
+```

@@ -1,5 +1,7 @@
 # `graphical-abstract-maker`
 
+![graphical-abstract-maker](https://img.shields.io/badge/Agent%20Skill-graphical-abstract-maker-blue)
+
 Portable Agent Skill for **Claude Code** and **Cline** that converts research papers and clinical trial results into journal-compliant **Graphical Abstracts** and **Visual Abstracts** (`SVG`, `PDF`, `300-DPI PNG`, and editable `PPTX`).
 
 ## Supported Journal Presets
@@ -16,4 +18,14 @@ Portable Agent Skill for **Claude Code** and **Cline** that converts research pa
 ```bash
 python scripts/generate_graphical_abstract.py --spec examples/fenofibrate_t1d_ga_spec.json --output-dir examples/output
 python scripts/validate_graphical_abstract.py --output-dir examples/output --spec examples/fenofibrate_t1d_ga_spec.json
+```
+
+## Workflow
+
+```mermaid
+flowchart LR
+  A[Synthetic Input JSON] --> B[Python Generator]
+  B --> C[Vector / Raster Outputs]
+  C --> D[Preflight Validator]
+  D --> E[validation_report.json]
 ```
