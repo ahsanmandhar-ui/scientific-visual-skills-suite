@@ -1,6 +1,7 @@
 # `research-poster-maker` — Scientific Research Poster Maker Skill
 
-![research-poster-maker](https://img.shields.io/badge/Agent%20Skill-research-poster-maker-blue)
+![research-poster-maker](https://img.shields.io/badge/Agent%20Skill-research--poster--maker-blue)
+
 
 A portable, production-grade **Agent Skill** (compatible with **Claude Code**, **Cline**, and any client implementing the [Agent Skills Open Specification](https://agentskills.io/specification)) that transforms scientific research manuscripts, conference abstracts, tabular datasets, statistical outputs, and figures into **art-directed, scientifically accurate, conference-ready research posters**.
 
@@ -215,4 +216,26 @@ flowchart LR
   B --> C[Vector / Raster Outputs]
   C --> D[Preflight Validator]
   D --> E[validation_report.json]
+```
+
+## Skill Aspects
+
+```mermaid
+flowchart TD
+  A[research-poster-maker] --> B[Capabilities]
+  C0[Conference posters (A0/A1/48x36/>56in)]
+  C1[Editable PPTX]
+  C2[Vector PDF]
+  C3[PRISMA/CONSORT/STROBE]
+  C4[KM/Forest/ROC charts]
+  C5[15-check validator]
+  B --> C0
+  B --> C1
+  B --> C2
+  B --> C3
+  B --> C4
+  B --> C5
+  B --> D[Generated Outputs]
+  D --> E[Preflight Validator]
+  E --> F[validation_report.json]
 ```

@@ -1,6 +1,7 @@
 # `graphical-abstract-maker`
 
-![graphical-abstract-maker](https://img.shields.io/badge/Agent%20Skill-graphical-abstract-maker-blue)
+![graphical-abstract-maker](https://img.shields.io/badge/Agent%20Skill-graphical--abstract--maker-blue)
+
 
 Portable Agent Skill for **Claude Code** and **Cline** that converts research papers and clinical trial results into journal-compliant **Graphical Abstracts** and **Visual Abstracts** (`SVG`, `PDF`, `300-DPI PNG`, and editable `PPTX`).
 
@@ -28,4 +29,24 @@ flowchart LR
   B --> C[Vector / Raster Outputs]
   C --> D[Preflight Validator]
   D --> E[validation_report.json]
+```
+
+## Skill Aspects
+
+```mermaid
+flowchart TD
+  A[graphical-abstract-maker] --> B[Capabilities]
+  C0[Elsevier]
+  C1[Cell Press]
+  C2[BMJ]
+  C3[Springer Nature]
+  C4[SVG/PDF/PNG/PPTX]
+  B --> C0
+  B --> C1
+  B --> C2
+  B --> C3
+  B --> C4
+  B --> D[Generated Outputs]
+  D --> E[Preflight Validator]
+  E --> F[validation_report.json]
 ```

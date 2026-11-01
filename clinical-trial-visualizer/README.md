@@ -1,6 +1,7 @@
 # `clinical-trial-visualizer`
 
-![clinical-trial-visualizer](https://img.shields.io/badge/Agent%20Skill-clinical-trial-visualizer-blue)
+![clinical-trial-visualizer](https://img.shields.io/badge/Agent%20Skill-clinical--trial--visualizer-blue)
+
 
 Portable Agent Skill for **Claude Code** and **Cline** that produces EQUATOR/CONSORT-compliant clinical trial participant flow diagrams, SPIRIT protocol timelines, endpoint summary panels, and CTCAE adverse-event butterfly plots with strict arithmetic count-closure validation.
 
@@ -12,4 +13,22 @@ flowchart LR
   B --> C[Vector / Raster Outputs]
   C --> D[Preflight Validator]
   D --> E[validation_report.json]
+```
+
+## Skill Aspects
+
+```mermaid
+flowchart TD
+  A[clinical-trial-visualizer] --> B[Capabilities]
+  C0[CONSORT 4-phase flow]
+  C1[SPIRIT timelines]
+  C2[Efficacy cards]
+  C3[CTCAE butterfly plots]
+  B --> C0
+  B --> C1
+  B --> C2
+  B --> C3
+  B --> D[Generated Outputs]
+  D --> E[Preflight Validator]
+  E --> F[validation_report.json]
 ```
